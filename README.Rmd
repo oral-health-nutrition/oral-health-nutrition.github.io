@@ -5,12 +5,39 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+options(tidyverse.quiet = TRUE) 
+```
+
+# About this space
+
+We are developing a blog to highlight the relationship between 
+nutrition and oral heath.
+
+More to too come...
+```{r echo=FALSE, warning=FALSE, fig.height=10, fig.width=12}
+library(ggplot2)
+library(tidyverse)
+df <- readRDS("~/Dropbox (Dublin Dental Hosp)/dentalVarGroupsRatios.RDS")
+
+dentalFreqTB <- df %>% filter(str_detect(variable , 'dental_freqtoothbrush_w2')) %>% filter(value != "(Wave dropouts)")
+
+ggplot(dentalFreqTB) + 
+  geom_bar(aes(x=gender, y=n, fill=value), stat = "identity") +
+  facet_wrap(~sociodem_famsocial) +
+  ggtitle("Tooth brush fequency for wave 2 GUI")
+
+
 ```
 
 # Resources 
 
+## Dashboard 
+
+- [Exploratory data analysis of aggregated surveys](https://dduh.shinyapps.io/dduh/) includes Infant GUI, Child GUI and NCFS 2.
 
 ## Growing up in Ireland mapping files 
 
-TBA
+- TBA
+
+
 
