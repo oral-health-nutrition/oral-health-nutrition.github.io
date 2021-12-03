@@ -17,7 +17,7 @@ More to too come...
 ```{r echo=FALSE, warning=FALSE, fig.height=10, fig.width=12}
 library(ggplot2)
 library(tidyverse)
-df <- readRDS("~/Dropbox (Dublin Dental Hosp)/dentalVarGroupsRatios.RDS")
+df <- readRDS("~/Dropbox (Dublin Dental Hosp)/iuna-gui/derived_data/dentalVarGroupsRatiosExtraVars.RDS")
 
 dentalFreqTB <- df %>% filter(str_detect(variable , 'dental_freqtoothbrush_w2')) %>% filter(value != "(Wave dropouts)")
 
