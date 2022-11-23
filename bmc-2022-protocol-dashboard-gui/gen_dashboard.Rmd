@@ -1,0 +1,578 @@
+---
+title: "GUI 13 17 descriptive"
+author: "Oscar Cassetti"
+date: "5/11/2021"
+output:
+  html_document:
+    theme: paper
+    keep_md: yes
+    toc: yes
+    number_section: yes
+  word_document:
+    toc: yes
+  pdf_document:
+    keep_tex: yes
+    number_sections: yes
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(tidyverse)
+library(forcats)
+library(broom)
+library(magrittr)
+library(Hmisc)
+library(reshape2)
+library(skimr)
+library(ggthemes)
+library(grid)
+library(alluvial)
+library(finalfit)
+library(BayesFactor)
+
+library(dduh.ds)
+library(tidybayes)
+
+```
+
+```{r conf}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, tidy = TRUE)
+
+conf <- load_config("../../configs/gui_data.yaml")
+```
+# Data conversion 
+
+We convert the data from SPPS to R using our `convertGUI` package.
+
+```{r echo=TRUE, include=TRUE}
+
+xguiDF9 <- convertGUI(conf$data_repositories$gui_9_yo, "9-yo-cols.csv", version = 2)
+xguiDF13 <- convertGUI(conf$data_repositories$gui_13_yo, "13-yo-cols.csv", version = 2)
+xguiDF17 <- convertGUI(conf$data_repositories$gui_17_yo, "17-yo-cols.csv", version = 2)
+
+```
+
+In wave 1 BMI was not computed directly, computation done here:
+
+## IOTF and BMI calculation for 9 years old (wave 1)
+
+```{r}
+
+iotfCutOff <- function(bmi, gender) {
+  if (gender == "male") {
+    #male
+    bmiCutOff <-
+      c(12.54, 13.27, 14.36, 17.62, 19.07, 20.52, 22.71, 26.4)
+  } else{
+    #female
+    bmiCutOff <-
+      c(12.44, 13.16, 14.26, 17.53, 18.99, 20.46, 22.66, 26.39)
+  }
+  iotfCategory <-
+    c(
+      'Non-overweight',
+      'Non-overweight',
+      'Non-overweight',
+      'Non-overweight',
+      'Overweight',
+      'Overweight',
+      'Obese',
+      'Obese'
+    )
+  retVal <- sapply(bmi, function(x) {
+    if (is.na(x)) {
+      return('Missing Response')
+    }
+    if (x < bmiCutOff[1]) {
+      return(iotfCategory[1])
+    }
+    id <- max(which(bmiCutOff <= x))
+    return(iotfCategory[id])
+  })
+  factor(retVal,
+         levels = c('Missing Response', 'Non-overweight', 'Overweight', 'Obese'))
+}
+
+
+iotfClass <- function(gender, bmi){
+  gender <- as.character(gender)
+  if_else( gender == "male", iotfCutOff(bmi, "male"), iotfCutOff(bmi, "female"))
+}
+
+```
+
+```{r}
+xguiDF9 <- xguiDF9 %>%
+  mutate(Child_weight = as.integer(as.character(Child_weight)),
+         Child_height = as.integer(as.character(Child_height))) %>%
+  mutate(BMI = as.numeric(Child_weight) /
+           ((as.numeric(Child_height) / 100) ^ 2)) %>%
+  mutate(BMI_class_IOTF = iotfClass(Gender_yp, BMI))
+
+
+xguiDF13 <- xguiDF13 %>% mutate(Equiv_hh_income =
+                                  as.integer(as.character(Equiv_hh_income)))
+
+xguiDF17 <- xguiDF17 %>% mutate(Equiv_hh_income =
+                                  as.integer(as.character(Equiv_hh_income)))
+```
+
+```{r, echo=FALSE, warning=FALSE}
+# # Joining the data 
+#'
+#' @param sourceDf source data frame
+#' @param variableDefinitionFile csv file with "Rname"
+#'     column for variable to be imported
+#' @return data.frame which is a subset of the initial one
+subset.selected.vars <-
+  function(sourceDf,
+           variableDefinitionFile,
+           colnameSuffix) {
+    variablesDefinition <-
+      read.csv(variableDefinitionFile, stringsAsFactors = FALSE)
+    variableSelection <-
+      variablesDefinition[variablesDefinition$Rname != "" & !is.na(variablesDefinition$Rname), "Rname"]
+    retval <- sourceDf[, variableSelection]
+    colnames(retval) <-
+      paste(colnames(retval), colnameSuffix, sep = "")
+    retval
+  }
+
+```
+
+```{r}
+
+xguiDF9Subset <- subset.selected.vars(xguiDF9, "9-yo-cols.csv", "_9")
+
+xguiDF13Subset <- subset.selected.vars(xguiDF13, "13-yo-cols.csv", "_13")
+
+xguiDF17Subset <- subset.selected.vars(xguiDF17, "17-yo-cols.csv", "_17")
+
+
+xguiLong9To17 <- xguiDF9Subset %>% inner_join(xguiDF13Subset,  by = c("id_9" ="id_13")) %>% inner_join(xguiDF17Subset, by = c("id_9" ="id_17"))
+
+
+```
+
+
+# Survey Overiew
+
+```{r}
+countsByWave <- 
+  xguiDF9 %>% group_by(Gender_yp) %>% tally()  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_1') %>%
+  union(
+  xguiDF13 %>% group_by(Gender_yp) %>% tally()  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_2') 
+  )%>%
+union(
+xguiDF17 %>% group_by(Gender_yp) %>% tally()  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_3')
+)
+
+totalsByWave <- countsByWave %>% group_by(wave) %>% summarise(total=sum(n))
+
+kable(totalsByWave, caption = "Total count by wave")
+kable(countsByWave, caption = "Split by gender")
+
+diffTotal <- totalsByWave %>% mutate(diff= lag(total) - total, 
+                                     prop_diff = (lag(total) - total)/lag(total))
+
+diffByGender <- countsByWave %>% group_by(Gender_yp) %>% 
+  summarise(diff = lag(n) - n, prop_diff = (lag(n) - n)/lag(n) ) %>% 
+   as.data.frame()  %>%  filter(!is.na(diff)) %>%
+  mutate(prop=diff/sum(diff))
+
+kable(diffTotal)
+kable(diffByGender)
+```
+
+# Weighted
+
+```{r}
+countsByWaveWt <- 
+  xguiDF9 %>% group_by(Gender_yp) %>% 
+  summarise(n=sum(weighting_factor))  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_1') %>%
+  union(xguiDF13 %>% group_by(Gender_yp) %>% 
+  summarise(n=sum(weighting_factor_full))  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_2') )%>%
+union(
+xguiDF17 %>% group_by(Gender_yp) %>% 
+  summarise(n=sum(weighting_factor_full))  %>% 
+  mutate(prop=round(n/sum(n), 2), wave='wave_3')
+)
+
+totalsByWaveWt <- countsByWaveWt %>% group_by(wave) %>% summarise(total=sum(n))
+
+kable(totalsByWaveWt, caption = "Total count by wave")
+kable(countsByWaveWt, caption = "Split by gender")
+
+diffTotalWt <- totalsByWaveWt %>% mutate(diff= lag(total) - total, 
+                                     prop_diff = (lag(total) - total)/lag(total))
+
+diffByGenderWt <- countsByWaveWt %>% group_by(Gender_yp) %>% 
+  summarise(diff = lag(n) - n, prop_diff = (lag(n) - n)/lag(n) ) %>% 
+   as.data.frame()  %>%  filter(!is.na(diff)) %>%
+  mutate(prop=diff/sum(diff))
+
+kable(diffTotalWt, caption = "Drop off ")
+kable(diffByGenderWt, caption ="Drop off by gender")
+
+```
+
+
+
+## Descriptive longitudinal
+
+```{r}
+toTable <- function(x){
+  vals <- factor(x$values$value)
+  freqs <- as.numeric(x$values$frequency)
+  props <- round(freqs / sum(freqs),3)
+  var <- rep(x$descr, length(freqs))
+  data.frame(var=var, vals=vals, frqs=freqs, props)
+}
+
+descriptiveToDf <- function(x){
+  df <- do.call("rbind", lapply(x, toTable))
+  rownames(df) <- c()
+  df
+}
+
+summaryFrequency <- function(df, ...) {
+  df %>% group_by(...) %>%
+    summarise(frequency = n()) %>%
+    mutate(rel.frequency = round(frequency / sum(frequency), 3),
+           cum.frequency = round(cumsum(frequency / sum(frequency)),3))
+  
+  
+}
+
+summaryFrequency_ <- function(df, ...) {
+  df %>% group_by(!!sym(...)) %>%
+    summarise(frequency = n()) %>%
+    mutate(rel.frequency = round(frequency / sum(frequency), 3),
+           cum.frequency = round(cumsum(frequency / sum(frequency)),3))
+  
+}
+
+```
+
+```{r, fig.width=12, fig.height=8}
+
+dentvars <-
+  xguiLong9To17 %>% select(
+    Tbrush_freq_9,
+    Tbrush_freq_13,
+    Tbrush_freq_17,
+    Exos_PCG_report_13,
+    Exos_PCG_report_17,
+    Dent_visit_freq_9,
+    Dent_visit_freq_13,
+    Dent_visit_freq_17,
+    weighting_factor=weighting_factor_full_17,
+    Gender_yp=Gender_yp_9, 
+    BMI_class_IOTF_9,
+    BMI_9,
+    BMI_13,
+    BMI_class_IOTF_13,
+    BMI_17,
+    BMI_class_IOTF_17,
+    Braces_worn_ever_17,
+    Oral_health_self_rated_17,
+    Dentist_care_not_accessible_13,
+    Dentist_needed_didnt_avail_9,
+    Dentist_needed_didnt_avail_13,
+    Fills_PCG_report_13,
+    Fills_PCG_report_17,
+    Child_global_health_9,
+    Child_global_health_13,
+    Child_global_health_17,
+    Illness_disability_9, 
+    Illness_disability_13,
+    Illness_disability_17,
+    Soft_drinks_not_diet_9,
+    Soft_drinks_not_diet_13,
+    Soft_drinks_not_diet_17,
+    Fruit_juice_9,
+    Fruit_juice_17,
+    Biscs_donut_cake_chocolate_9,
+    Biscs_donut_cake_chocolate_13,
+    Biscs_donut_cake_chocolate_17,
+    Family_social_class_9,
+    Family_social_class_13,
+    Family_social_class_17,
+    Equiv_hh_income_9,
+    Equiv_hh_income_13,
+    Equiv_hh_income_17,
+    Ortho_treatment_ever_17,
+    Braces_worn_ever_17,
+    Ethnicity_13,
+    Sweets_13,
+    BMI_class_PCG_13,
+    BMI_class_PCG_17,
+    BMI_class_PCG_9,
+    )
+
+
+dentalDescriptiveStats <- dentvars %>% describe()
+
+
+summaryTable <- descriptiveToDf(dentalDescriptiveStats)
+
+#knitr::kable(summaryTable, caption = "Frequency table of key dental variables")
+
+plot(dentalDescriptiveStats)
+```
+
+### Summaries
+```{r fig.width=12, fig.height=8}
+html(dentalDescriptiveStats)
+```
+
+
+# Before remapping 
+```{r fig.width=12, fig.height=8, results='asis'}
+
+dentvarsFactors <- setdiff(colnames(dentvars %>% select_if(is.factor)), "Gender_yp")
+
+dentvarsPivot <- dentvars %>% 
+  select(all_of(dentvarsFactors), weighting_factor, Gender_yp ) %>% 
+pivot_longer(cols = dentvarsFactors, names_to = "variable") %>%
+mutate(variable_group = str_remove(variable, '_[0-9]*$'),
+       age_group = as.integer(str_extract(variable, '[0-9]*$'))) %>%
+      mutate(wave = as.factor(case_when(
+        age_group == 9 ~ 1,
+        age_group == 13 ~ 2,
+        age_group == 17 ~ 3,
+        TRUE ~ as.numeric(NA)
+      )))
+
+countFactors <- dentvarsPivot %>% 
+  group_by( wave, variable_group, value) %>%
+  summarise(n=sum(weighting_factor)) %>% arrange(variable_group, wave, value)
+
+for (groupVar in unique(countFactors$variable_group)){
+  p <- ggplot(countFactors %>% filter(variable_group == groupVar)) + 
+  geom_bar(aes(x=wave, y=n, fill=value), stat = "identity") +
+  ggtitle(paste("Weighted ", str_replace_all(groupVar, "_", " ")))
+  plot(p)
+ 
+  tmp <- dentvarsPivot %>% filter(variable_group == groupVar) %>% 
+    select(value, wave, weighting_factor) %>% mutate(value=as.character(value))
+  
+  groupTab <- round(xtabs(weighting_factor ~., tmp), 0)
+  print(kable(groupTab))
+  # groupTabCTBF <- contingencyTableBF(groupTab, 
+  #                                 sampleType = "jointMulti")
+  # print(groupTabCTBF)
+  # chains <- posterior(dropOffCTBF, iterations = 10000)
+  # plot(chains)
+}
+
+countFactorsBefore <- countFactors
+```
+
+
+# Remapping 
+
+```{r}
+remapDf <- read_csv("dental-vars-factors.csv")
+```
+```{r}
+library(hash) 
+tmp <- dentvars
+
+for (targetCol in unique(remapDf$name)){
+  
+  kvRemap <- remapDf %>% filter(name == targetCol) %>% select(value, remap, levels_ordered)
+  if(nrow(kvRemap) == 0){
+    stop(cat("Error", targetCol))
+  }
+  remapLevels <- unique(kvRemap$remap[order(kvRemap$levels_ordered)])
+  kvValues <- hash(kvRemap$value, kvRemap$remap)
+  originalVal <- tmp %>% pull(targetCol) 
+  remapVal <- as.character(hash::values(kvValues)[as.character(originalVal)])
+  targetVal <- factor(remapVal, levels = remapLevels)
+  attr(targetVal, 'label') <- attr(originalVal, 'label')
+  tmp[, targetCol] <- targetVal
+}
+
+dentvarsRecoded <- tmp
+```
+
+
+
+```{r fig.width=12, fig.height=8}
+
+dentalVisitDf <- dentvarsRecoded %>% 
+  select(wave_1=Dent_visit_freq_9,
+    wave_2=Dent_visit_freq_13,
+    wave_3=Dent_visit_freq_17, 
+    weighting_factor) %>%
+  pivot_longer(cols = c(wave_1, wave_2, wave_3)) %>% 
+  filter(!is.na(value)) %>% 
+  group_by(name, value) %>% 
+  summarise(weighted=sum(weighting_factor)) %>%
+  pivot_longer(cols=c(weighted), 
+               names_to = "stat", values_to = "stat_val") %>%
+  mutate(name=factor(name, levels = c("wave_1", "wave_2", "wave_3")))
+
+# ggplot(dentalVisitDf) + 
+#   geom_bar(aes(x = as.integer(name), 
+#                y = stat_val,
+#                fill = value), stat = "identity") + 
+#   labs(y = "Count", x = "Wave", 
+#        fill = "Wave") +
+#   theme(text = element_text(size = 16))+
+#   ggtitle("Longitudinal weighted dental visit frequency")
+```
+```{r fig.width=12, fig.height=8, results='asis'}
+
+dentvarsFactors <- setdiff(colnames(dentvarsRecoded %>% select_if(is.factor)), "Gender_yp")
+
+dentvarsPivot <- dentvarsRecoded %>% 
+  select(all_of(dentvarsFactors), weighting_factor, Gender_yp ) %>% 
+pivot_longer(cols = dentvarsFactors, names_to = "variable") %>%
+mutate(variable_group = str_remove(variable, '_[0-9]*$'),
+       age_group = as.integer(str_extract(variable, '[0-9]*$'))) %>%
+      mutate(wave = as.factor(case_when(
+        age_group == 9 ~ 1,
+        age_group == 13 ~ 2,
+        age_group == 17 ~ 3,
+        TRUE ~ as.numeric(NA)
+      )))
+
+countFactors <- dentvarsPivot %>% 
+  group_by( wave, variable_group, value) %>%
+  summarise(n=sum(weighting_factor)) %>% arrange(variable_group, wave, value)
+
+for (groupVar in unique(countFactors$variable_group)){
+  p <- ggplot(countFactors %>% filter(variable_group == groupVar)) + 
+  geom_bar(aes(x=wave, y=n, fill=value), stat = "identity") +
+  ggtitle(paste("Weighted ", str_replace_all(groupVar, "_", " ")))
+  plot(p)
+ 
+  tmp <- dentvarsPivot %>% filter(variable_group == groupVar) %>% 
+    select(value, wave, weighting_factor) %>% mutate(value=as.character(value))
+  
+  groupTab <- round(xtabs(weighting_factor ~., tmp), 0)
+  print(kable(groupTab))
+  # groupTabCTBF <- contingencyTableBF(groupTab, 
+  #                                 sampleType = "jointMulti")
+  # print(groupTabCTBF)
+  # chains <- posterior(dropOffCTBF, iterations = 10000)
+  # plot(chains)
+}
+
+```
+
+```{r}
+
+repo_dir <- conf$data_repositories$derived_data
+
+dentalVarsChildCohort <- list(
+  countFactors = countFactors,
+  dentvarsRecoded = dentvarsRecoded,
+  dentvarsPivot = dentvarsPivot,
+  countFactorsBefore = countFactorsBefore,
+  dentvars = dentvars
+)
+saveRDS(dentalVarsChildCohort, file.path(repo_dir, "dentalVarsChildCohort.RDS"))
+
+
+dentvarsRecoded <- dentvarsRecoded %>% select_if(is.factor)
+hmiscXguiDesc <- Hmisc::describe(dentvarsRecoded)
+
+variablesLabels <-
+  lapply(dentvarsRecoded, function(x) {
+    lvls <- seq(levels(x))
+    names(lvls) <- as.character(levels(x))
+    lvls
+  })
+
+hmiscXguiDescDf <- hmisc_gen_report(hmiscXguiDesc)
+hmiscXguiDescDf <- hmiscXguiDescDf %>% mutate(ratio = round(frequency / n, 3))
+hmiscXguiDesc <-
+  list('df' = hmiscXguiDescDf, 'levels' = variablesLabels)
+saveRDS(hmiscXguiDesc, file.path(repo_dir, "hmiscXgui1317Df.RDS"))
+
+```
+
+```{r}
+dentvarsRecoded$id <- seq(1, nrow(dentvarsRecoded))
+xguiDentalByGender <-
+  dentvarsRecoded  %>%
+  reshape2::melt(id = c("id", "Gender_yp")) %>% mutate(wave = as.integer(str_extract(variable, "[0-9]$")))
+
+kable(xguiDentalByGender[1:10,])
+
+demographicsByWave <-
+  xguiDentalByGender %>% filter(
+    variable %in% c(
+      "Family_social_class_9",
+      "Family_social_class_13",
+      "Family_social_class_17"
+    )
+  ) %>% mutate(sociodem_famsocial = value, gender=Gender_yp) %>% select(id, wave, sociodem_famsocial)
+
+```
+```{r}
+dentalVarGroups <- xguiDentalByGender %>% filter(!(
+  variable %in% c(
+    "Family_social_class_9",
+    "Family_social_class_13",
+    "Family_social_class_17"
+  )
+)) %>%
+  left_join(demographicsByWave,
+            by = c("id", "wave"),
+            suffix = c("", "_dem")) %>%
+  select(gender=Gender_yp, variable, sociodem_famsocial, value, wave) %>%
+  group_by(gender, variable, value, wave, sociodem_famsocial) %>%
+  count()
+
+kable(dentalVarGroups[1:10,])
+```
+
+
+```{r}
+countsAtEachWave <-
+  dentalVarGroups %>% filter(str_detect(variable, "Tbrush_freq_") &
+                               !is.na(value)) %>%
+  group_by(wave) %>%
+  summarise(total = sum(n), .groups='keep')
+```
+
+```{r}
+dentalVarGroupsRatios <-
+  dentalVarGroups %>% left_join(countsAtEachWave,
+                                by = c("wave"),
+                                suffix = c("", ".totals")) %>%
+  select(wave, sociodem_famsocial,variable, value, gender, n , total, ) %>%
+  mutate(ratio = n / total) %>%
+  mutate(value = forcats::fct_explicit_na(value, "(Wave dropouts)"))
+
+kable(dentalVarGroupsRatios[1:10, ])
+```
+
+
+```{r}
+dentalVarsLabels <-
+  hmiscXguiDescDf %>% distinct(variable, variableLabel)
+
+dentalVarGroupsRatios <-
+  dentalVarGroupsRatios %>% left_join(dentalVarsLabels, by = c("variable"))
+
+saveRDS(dentalVarGroupsRatios, file.path(repo_dir, "dentalVarGroupsRatios1317.RDS"))
+```
