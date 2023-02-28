@@ -16,9 +16,9 @@ More to too come…
 
 ## Dashboard
 
--   [Exploratory data analysis of aggregated
-    surveys](https://dduh.shinyapps.io/dduh/) includes Infant GUI, Child
-    GUI and NCFS 2.
+- [Exploratory data analysis of aggregated
+  surveys](https://dduh.shinyapps.io/dduh/) includes Infant GUI, Child
+  GUI and NCFS 2.
 
 ## ODK templates
 
@@ -26,4 +26,4 @@ More to too come…
 
 ## Growing up in Ireland mapping files
 
--   TBA
+- TBA
