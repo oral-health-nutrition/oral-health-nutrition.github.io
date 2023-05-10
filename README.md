@@ -20,6 +20,10 @@ More to too come…
     surveys](https://dduh.shinyapps.io/dduh/) includes Infant GUI, Child
     GUI and NCFS 2.
 
+## ODK templates
+
+- [Basic templates](odk/README.md)
+
 ## Growing up in Ireland mapping files
 
 -   TBA
