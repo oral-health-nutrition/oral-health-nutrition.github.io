@@ -1,0 +1,3471 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Elite athletes</h:title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <ahP9qxiHtZoJrVaKw8Pqte id="ahP9qxiHtZoJrVaKw8Pqte">
+          <start/>
+          <end/>
+          <today/>
+          <deviceid/>
+          <phonenumber/>
+          <subscriberid/>
+          <group_zl9yp08>
+            <Examiner_ID/>
+            <Participant_ID/>
+            <Examiner_reproducibility/>
+            <Enter_assessment_date/>
+          </group_zl9yp08>
+          <group_mp9wi37>
+            <Age_in_years/>
+            <Height/>
+            <Weight/>
+            <Sex/>
+            <Gender_other/>
+            <What_is_your_eircode/>
+            <What_is_your_occupation/>
+            <Occupation/>
+            <Years_in_full_time_education/>
+            <What_is_your_highest_tional_level_to_date/>
+            <What_ethnicity_are_you/>
+            <please_describe/>
+          </group_mp9wi37>
+          <group_ys4mr49>
+            <group_ICDAS_II/>
+            <group_ICDAS_descriptor_1/>
+            <group_ICDAS_descriptor_2/>
+            <group_lq3kc77_header>
+              <group_lq3kc77_header_note/>
+              <group_lq3kc77_header_column/>
+              <group_lq3kc77_header_column_1/>
+              <group_lq3kc77_header_column_2/>
+              <group_lq3kc77_header_column_3/>
+              <group_lq3kc77_header_column_4/>
+              <group_lq3kc77_header_column_5/>
+              <group_lq3kc77_header_column_6/>
+              <group_lq3kc77_header_column_7/>
+            </group_lq3kc77_header>
+            <group_lq3kc77_score_1>
+              <group_lq3kc77_score_1_note/>
+              <group_lq3kc77_score_1_column>0</group_lq3kc77_score_1_column>
+              <group_lq3kc77_score_1_column_1>0</group_lq3kc77_score_1_column_1>
+              <group_lq3kc77_score_1_column_2>0</group_lq3kc77_score_1_column_2>
+              <group_lq3kc77_score_1_column_3>0</group_lq3kc77_score_1_column_3>
+              <group_lq3kc77_score_1_column_4>0</group_lq3kc77_score_1_column_4>
+              <group_lq3kc77_score_1_column_5>0</group_lq3kc77_score_1_column_5>
+              <group_lq3kc77_score_1_column_6>0</group_lq3kc77_score_1_column_6>
+              <group_lq3kc77_score_1_column_7>0</group_lq3kc77_score_1_column_7>
+            </group_lq3kc77_score_1>
+            <group_lq3kc77_score_2>
+              <group_lq3kc77_score_2_note/>
+              <group_lq3kc77_score_2_column>0</group_lq3kc77_score_2_column>
+              <group_lq3kc77_score_2_column_1>0</group_lq3kc77_score_2_column_1>
+              <group_lq3kc77_score_2_column_2>0</group_lq3kc77_score_2_column_2>
+              <group_lq3kc77_score_2_column_3>0</group_lq3kc77_score_2_column_3>
+              <group_lq3kc77_score_2_column_4>0</group_lq3kc77_score_2_column_4>
+              <group_lq3kc77_score_2_column_5>0</group_lq3kc77_score_2_column_5>
+              <group_lq3kc77_score_2_column_6>0</group_lq3kc77_score_2_column_6>
+              <group_lq3kc77_score_2_column_7>0</group_lq3kc77_score_2_column_7>
+            </group_lq3kc77_score_2>
+            <group_lq3kc88_header>
+              <group_lq3kc88_header_note/>
+              <group_lq3kc88_header_column/>
+              <group_lq3kc88_header_column_1/>
+              <group_lq3kc88_header_column_2/>
+              <group_lq3kc88_header_column_3/>
+              <group_lq3kc88_header_column_4/>
+              <group_lq3kc88_header_column_5/>
+              <group_lq3kc88_header_column_6/>
+              <group_lq3kc88_header_column_7/>
+            </group_lq3kc88_header>
+            <group_lq3kc88_score_1>
+              <group_lq3kc88_score_1_note/>
+              <group_lq3kc88_score_1_column>0</group_lq3kc88_score_1_column>
+              <group_lq3kc88_score_1_column_1>0</group_lq3kc88_score_1_column_1>
+              <group_lq3kc88_score_1_column_2>0</group_lq3kc88_score_1_column_2>
+              <group_lq3kc88_score_1_column_3>0</group_lq3kc88_score_1_column_3>
+              <group_lq3kc88_score_1_column_4>0</group_lq3kc88_score_1_column_4>
+              <group_lq3kc88_score_1_column_5>0</group_lq3kc88_score_1_column_5>
+              <group_lq3kc88_score_1_column_6>0</group_lq3kc88_score_1_column_6>
+              <group_lq3kc88_score_1_column_7>0</group_lq3kc88_score_1_column_7>
+            </group_lq3kc88_score_1>
+            <group_lq3kc88_score_2>
+              <group_lq3kc88_score_2_note/>
+              <group_lq3kc88_score_2_column>0</group_lq3kc88_score_2_column>
+              <group_lq3kc88_score_2_column_1>0</group_lq3kc88_score_2_column_1>
+              <group_lq3kc88_score_2_column_2>0</group_lq3kc88_score_2_column_2>
+              <group_lq3kc88_score_2_column_3>0</group_lq3kc88_score_2_column_3>
+              <group_lq3kc88_score_2_column_4>0</group_lq3kc88_score_2_column_4>
+              <group_lq3kc88_score_2_column_5>0</group_lq3kc88_score_2_column_5>
+              <group_lq3kc88_score_2_column_6>0</group_lq3kc88_score_2_column_6>
+              <group_lq3kc88_score_2_column_7>0</group_lq3kc88_score_2_column_7>
+            </group_lq3kc88_score_2>
+            <group_lq3kc78_header>
+              <group_lq3kc78_header_note/>
+              <group_lq3kc78_header_column/>
+              <group_lq3kc78_header_column_1/>
+              <group_lq3kc78_header_column_2/>
+              <group_lq3kc78_header_column_3/>
+              <group_lq3kc78_header_column_4/>
+              <group_lq3kc78_header_column_5/>
+              <group_lq3kc78_header_column_6/>
+              <group_lq3kc78_header_column_7/>
+            </group_lq3kc78_header>
+            <group_lq3kc78_score_1>
+              <group_lq3kc78_score_1_note/>
+              <group_lq3kc78_score_1_column>0</group_lq3kc78_score_1_column>
+              <group_lq3kc78_score_1_column_1>0</group_lq3kc78_score_1_column_1>
+              <group_lq3kc78_score_1_column_2>0</group_lq3kc78_score_1_column_2>
+              <group_lq3kc78_score_1_column_3>0</group_lq3kc78_score_1_column_3>
+              <group_lq3kc78_score_1_column_4>0</group_lq3kc78_score_1_column_4>
+              <group_lq3kc78_score_1_column_5>0</group_lq3kc78_score_1_column_5>
+              <group_lq3kc78_score_1_column_6>0</group_lq3kc78_score_1_column_6>
+              <group_lq3kc78_score_1_column_7>0</group_lq3kc78_score_1_column_7>
+            </group_lq3kc78_score_1>
+            <group_lq3kc78_score_2>
+              <group_lq3kc78_score_2_note/>
+              <group_lq3kc78_score_2_column>0</group_lq3kc78_score_2_column>
+              <group_lq3kc78_score_2_column_1>0</group_lq3kc78_score_2_column_1>
+              <group_lq3kc78_score_2_column_2>0</group_lq3kc78_score_2_column_2>
+              <group_lq3kc78_score_2_column_3>0</group_lq3kc78_score_2_column_3>
+              <group_lq3kc78_score_2_column_4>0</group_lq3kc78_score_2_column_4>
+              <group_lq3kc78_score_2_column_5>0</group_lq3kc78_score_2_column_5>
+              <group_lq3kc78_score_2_column_6>0</group_lq3kc78_score_2_column_6>
+              <group_lq3kc78_score_2_column_7>0</group_lq3kc78_score_2_column_7>
+            </group_lq3kc78_score_2>
+            <group_lq3kc89_header>
+              <group_lq3kc89_header_note/>
+              <group_lq3kc89_header_column/>
+              <group_lq3kc89_header_column_1/>
+              <group_lq3kc89_header_column_2/>
+              <group_lq3kc89_header_column_3/>
+              <group_lq3kc89_header_column_4/>
+              <group_lq3kc89_header_column_5/>
+              <group_lq3kc89_header_column_6/>
+              <group_lq3kc89_header_column_7/>
+            </group_lq3kc89_header>
+            <group_lq3kc89_score_1>
+              <group_lq3kc89_score_1_note/>
+              <group_lq3kc89_score_1_column>0</group_lq3kc89_score_1_column>
+              <group_lq3kc89_score_1_column_1>0</group_lq3kc89_score_1_column_1>
+              <group_lq3kc89_score_1_column_2>0</group_lq3kc89_score_1_column_2>
+              <group_lq3kc89_score_1_column_3>0</group_lq3kc89_score_1_column_3>
+              <group_lq3kc89_score_1_column_4>0</group_lq3kc89_score_1_column_4>
+              <group_lq3kc89_score_1_column_5>0</group_lq3kc89_score_1_column_5>
+              <group_lq3kc89_score_1_column_6>0</group_lq3kc89_score_1_column_6>
+              <group_lq3kc89_score_1_column_7>0</group_lq3kc89_score_1_column_7>
+            </group_lq3kc89_score_1>
+            <group_lq3kc89_score_2>
+              <group_lq3kc89_score_2_note/>
+              <group_lq3kc89_score_2_column>0</group_lq3kc89_score_2_column>
+              <group_lq3kc89_score_2_column_1>0</group_lq3kc89_score_2_column_1>
+              <group_lq3kc89_score_2_column_2>0</group_lq3kc89_score_2_column_2>
+              <group_lq3kc89_score_2_column_3>0</group_lq3kc89_score_2_column_3>
+              <group_lq3kc89_score_2_column_4>0</group_lq3kc89_score_2_column_4>
+              <group_lq3kc89_score_2_column_5>0</group_lq3kc89_score_2_column_5>
+              <group_lq3kc89_score_2_column_6>0</group_lq3kc89_score_2_column_6>
+              <group_lq3kc89_score_2_column_7>0</group_lq3kc89_score_2_column_7>
+            </group_lq3kc89_score_2>
+            <group_lq3kc90_header>
+              <group_lq3kc90_header_wide/>
+              <group_lq3kc90_header_note/>
+              <group_lq3kc90_header_column/>
+              <group_lq3kc90_header_column_1/>
+              <group_lq3kc90_header_column_2/>
+            </group_lq3kc90_header>
+            <group_lq3kc90_score_1>
+              <group_lq3kc90_score_1_note/>
+              <group_lq3kc90_score_1_column/>
+              <group_lq3kc90_score_1_column_1/>
+              <group_lq3kc90_score_1_column_2/>
+            </group_lq3kc90_score_1>
+            <group_lq3kc90_score_2>
+              <group_lq3kc90_score_2_note/>
+              <group_lq3kc90_score_2_column/>
+              <group_lq3kc90_score_2_column_1/>
+              <group_lq3kc90_score_2_column_2/>
+            </group_lq3kc90_score_2>
+            <group_lq3kc90_header_001>
+              <group_lq3kc90_header_note_001/>
+              <group_lq3kc90_header_column_001/>
+              <group_lq3kc90_header_column_1_001/>
+              <group_lq3kc90_header_column_2_001/>
+            </group_lq3kc90_header_001>
+            <group_lq3kc91_header>
+              <group_lq3kc91_header_wide/>
+              <group_lq3kc91_header_note/>
+              <group_lq3kc91_header_column/>
+              <group_lq3kc91_header_column_1/>
+              <group_lq3kc91_header_column_2/>
+            </group_lq3kc91_header>
+            <group_lq3kc91_score_1>
+              <group_lq3kc91_score_1_note/>
+              <group_lq3kc91_score_1_column/>
+              <group_lq3kc91_score_1_column_1/>
+              <group_lq3kc91_score_1_column_2/>
+            </group_lq3kc91_score_1>
+            <group_lq3kc91_score_2>
+              <group_lq3kc91_score_2_note/>
+              <group_lq3kc91_score_2_column/>
+              <group_lq3kc91_score_2_column_1/>
+              <group_lq3kc91_score_2_column_2/>
+            </group_lq3kc91_score_2>
+            <group_lq3kc91_header_001>
+              <group_lq3kc91_header_note_001/>
+              <group_lq3kc91_header_column_001/>
+              <group_lq3kc91_header_column_1_001/>
+              <group_lq3kc91_header_column_2_001/>
+            </group_lq3kc91_header_001>
+            <group_lk1ro14_header>
+              <group_lk1ro14_header_note/>
+              <group_lk1ro14_header_who_trauma_status/>
+              <group_lk1ro14_header_who_trauma_count/>
+            </group_lk1ro14_header>
+            <group_lk1ro14_row>
+              <group_lk1ro14_row_who_trauma_status/>
+              <group_lk1ro14_row_who_trauma_count/>
+            </group_lk1ro14_row>
+            <group_lk2ro15_header>
+              <group_lk2ro15_header_note/>
+              <group_lk2ro15_header_pufa/>
+              <group_lk2ro15_header_pufa_code/>
+            </group_lk2ro15_header>
+            <group_lk1ro15_1_row>
+              <group_lk1ro15_1_row_label/>
+              <group_lk1ro15_1_row_code/>
+            </group_lk1ro15_1_row>
+            <group_lk1ro15_2_row>
+              <group_lk1ro15_2_row_label/>
+              <group_lk1ro15_2_row_code/>
+            </group_lk1ro15_2_row>
+            <group_lk1ro15_3_row>
+              <group_lk1ro15_3_row_label/>
+              <group_lk1ro15_3_row_code/>
+            </group_lk1ro15_3_row>
+            <group_lk1ro15_4_row>
+              <group_lk1ro15_4_row_label/>
+              <group_lk1ro15_4_row_code/>
+            </group_lk1ro15_4_row>
+            <group_lk2ro16_header>
+              <group_lk2ro16_header_note/>
+              <group_lk2ro16_header_pufa/>
+              <group_lk2ro16_header_pufa_code/>
+            </group_lk2ro16_header>
+            <group_lk1ro16_1_row>
+              <group_lk1ro16_1_row_label/>
+              <group_lk1ro16_1_row_code/>
+            </group_lk1ro16_1_row>
+            <group_lk1ro16_2_row>
+              <group_lk1ro16_2_row_label/>
+              <group_lk1ro16_2_row_code/>
+            </group_lk1ro16_2_row>
+            <group_lk1ro16_3_row>
+              <group_lk1ro16_3_row_label/>
+              <group_lk1ro16_3_row_code/>
+            </group_lk1ro16_3_row>
+            <group_lk2ro17_header>
+              <group_lk2ro17_header_note/>
+              <group_lk2ro17_header_pufa/>
+              <group_lk2ro17_header_pufa_code/>
+            </group_lk2ro17_header>
+            <group_lk1ro17_1_row>
+              <group_lk1ro17_1_row_label/>
+              <group_lk1ro17_1_row_code/>
+            </group_lk1ro17_1_row>
+            <group_lk1ro17_2_row>
+              <group_lk1ro17_2_row_label/>
+              <group_lk1ro17_2_row_code/>
+            </group_lk1ro17_2_row>
+          </group_ys4mr49>
+          <group_ps7sn02>
+            <What_is_your_competition_sport/>
+            <What_other_sport/>
+            <How_long_have_you_be_rt_at_an_elite_level/>
+          </group_ps7sn02>
+          <group_ao15q54>
+            <How_would_you_descri_ur_health_at_present>
+              <How_would_you_descri_ur_health_at_present_header/>
+              <General_Health/>
+              <Oral_Health_mouth_teeth_and_gums/>
+            </How_would_you_descri_ur_health_at_present>
+            <How_have_your_teeth_n_the_last_12_months>
+              <How_have_your_teeth_n_the_last_12_months_header/>
+              <Have_you_had_any_dif_ecause_of_your_teeth/>
+              <Have_you_had_any_dif_n_the_past_12_months/>
+              <Have_you_had_any_dif_ithout_embarrassment/>
+              <Have_you_had_any_dif_mouth_teeth_or_gums/>
+            </How_have_your_teeth_n_the_last_12_months>
+            <How_has_your_mouth_affected_your_sport>
+              <How_has_your_mouth_affected_your_sport_header/>
+              <Training/>
+              <Competition/>
+              <Performance/>
+            </How_has_your_mouth_affected_your_sport>
+            <To_what_extent_have_r_the_past_12_months/>
+          </group_ao15q54>
+          <group_le1ch48>
+            <Do_you_use_tobacco_or_e_cigarettes>
+              <Do_you_use_tobacco_or_e_cigarettes_header/>
+              <tobacco/>
+              <smokeless_tobacco/>
+              <E_cigarette_with_nicotine/>
+              <E_cigarette_without_nicotine/>
+            </Do_you_use_tobacco_or_e_cigarettes>
+            <How_often_do_you_consume>
+              <How_often_do_you_consume_header/>
+              <cakes_biscuits_puddings_pastries/>
+              <sweets_and_or_chocolate/>
+              <drink_non_diet_fizzy_inks_in_this_section/>
+              <diet_fizzy_drinks_or_inks_in_this_section/>
+            </How_often_do_you_consume>
+            <When_do_you_consume_energy_bars>
+              <When_do_you_consume_energy_bars_header/>
+              <Before_training/>
+              <During_training/>
+              <After_training/>
+              <Before_competitions/>
+              <During_competitions/>
+              <After_competitions/>
+            </When_do_you_consume_energy_bars>
+            <What_brand_of_energy_bar_do_you_use/>
+            <When_do_you_consume_energy_gels>
+              <When_do_you_consume_energy_gels_header/>
+              <Before_training_001/>
+              <During_training_001/>
+              <After_training_001/>
+              <Before_competitions_001/>
+              <During_competitions_001/>
+              <After_competitions_001/>
+            </When_do_you_consume_energy_gels>
+            <What_brand_of_energy_gel_do_you_use/>
+            <When_do_you_consume_sports_drinks>
+              <When_do_you_consume_sports_drinks_header/>
+              <Before_training_002/>
+              <During_training_002/>
+              <After_training_002/>
+              <Before_competitions_002/>
+              <During_competitions_002/>
+              <After_competitions_002/>
+            </When_do_you_consume_sports_drinks>
+            <What_brand_of_sports_drink_do_you_use/>
+            <Do_you_think_the_fol_mouth_teeth_or_gums>
+              <Do_you_think_the_fol_mouth_teeth_or_gums_header/>
+              <cakes_biscuits_puddings_and_pastries/>
+              <Sweets_chocolate/>
+              <Fizzy_drinks_and_or_squash/>
+              <Sports_drinks/>
+              <Energy_bars/>
+              <Energy_gels/>
+              <Smoking_tobacco/>
+              <Smokeless_chewing_tobacco/>
+              <E_cigarettes_with_nicotine/>
+              <E_cigarettes_without_nicotine/>
+            </Do_you_think_the_fol_mouth_teeth_or_gums>
+          </group_le1ch48>
+          <group_if5uc22>
+            <Have_you_ever_been_g_r_a_dental_hygienist>
+              <Have_you_ever_been_g_r_a_dental_hygienist_header/>
+              <about_how_to_look_af_outh_teeth_and_gums/>
+              <about_what_to_eat_and_drink/>
+            </Have_you_ever_been_g_r_a_dental_hygienist>
+            <When_do_you_clean_your_teeth>
+              <When_do_you_clean_your_teeth_header/>
+              <Morning/>
+              <Nightime/>
+              <Before_sleeping_during_the_day/>
+              <After_sleeping_during_the_day/>
+              <Any_other_time_during_the_day/>
+            </When_do_you_clean_your_teeth>
+            <Oral_health_aids>
+              <Oral_health_aids_header/>
+              <Manual_toothbrush/>
+              <Powered_toothbrush/>
+              <Interdental_aids_fl_interdental_brushes/>
+              <Toothpaste_non_fluo_dated_e_g_euthymol/>
+              <Toothpaste_fluoridated/>
+              <Mouthwash/>
+              <Sugar_free_chewing_gum/>
+              <Gum_shield/>
+            </Oral_health_aids>
+            <How_long_ago_was_you_visit_to_the_dentist/>
+            <If_you_thought_it_wo_you_think_you_could>
+              <If_you_thought_it_wo_you_think_you_could_header/>
+              <reduce_snacking_between_meals/>
+              <reduce_sugary_drinks_between_meals/>
+              <brush_teeth_before_sleeping/>
+              <spit_out_toothpaste_not_rinse_with_water/>
+              <use_fluoride_mouthwa_ent_time_to_brushing/>
+              <use_dental_floss_int_al_brushes_every_day/>
+              <use_sugar_free_chewing_gum/>
+              <have_regular_visits_dvice_and_monitoring/>
+            </If_you_thought_it_wo_you_think_you_could>
+          </group_if5uc22>
+          <meta>
+            <audit/>
+            <instanceID/>
+          </meta>
+        </ahP9qxiHtZoJrVaKw8Pqte>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/phonenumber" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/subscriberid" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Examiner_ID" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Participant_ID" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Examiner_reproducibility" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Enter_assessment_date" required="true()" type="date"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37" required="false()"/>
+      <bind constraint=". &gt; 15 and . &lt; 65" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Age_in_years" required="true()" type="int"/>
+      <bind constraint=". &gt; 100 and . &lt; 250" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Height" required="true()" type="int"/>
+      <bind constraint=". &gt; 10 and . &lt; 300" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Weight" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Sex" required="true()" type="string"/>
+      <bind constraint=". != ''" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Gender_other" relevant=" /ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Sex  = 'other'" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_eircode" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_occupation" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Occupation" required="true()" type="string"/>
+      <bind constraint=". &gt; 8 and . &lt; 30" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Years_in_full_time_education" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_highest_tional_level_to_date" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_ethnicity_are_you" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/please_describe" relevant=" /ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_ethnicity_are_you  = 'any_other_white_background_please_descri' or  /ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_ethnicity_are_you  = 'other__including_mixed_background_please'" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_II" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_descriptor_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_descriptor_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_3" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_4" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_5" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_6" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_7" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_1" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_2" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_3" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_4" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_5" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_6" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_1" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_2" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_3" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_4" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_5" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_6" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_3" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_4" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_5" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_6" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_7" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_1" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_2" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_3" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_4" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_5" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_6" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_1" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_2" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_3" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_4" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_5" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_6" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_3" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_4" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_5" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_6" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_7" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_1" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_2" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_3" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_4" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_5" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_6" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_1" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_2" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_3" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_4" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_5" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_6" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_3" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_4" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_5" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_6" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_7" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_1" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_2" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_3" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_4" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_5" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_6" required="true()" type="int"/>
+      <bind constraint="(. &gt; -1 and . &lt; 9 ) or ( . &gt;95 and . &lt; 100)" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_1" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_2" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_3" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_4" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_5" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_6" required="true()" type="int"/>
+      <bind constraint=". &gt; -1 and . &lt; 7" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_7" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_wide" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column_1" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column_2" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column_1" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column_2" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_note_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_1_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_2_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_wide" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column_2" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column_1" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column_2" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column_1" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column_2" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_note_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_1_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_2_001" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_who_trauma_status" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_who_trauma_count" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row/group_lk1ro14_row_who_trauma_status" required="true()" type="string"/>
+      <bind constraint=". &gt; -1 and . &lt; 33" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row/group_lk1ro14_row_who_trauma_count" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_pufa" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_pufa_code" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row/group_lk1ro15_1_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row/group_lk1ro15_1_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row/group_lk1ro15_2_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row/group_lk1ro15_2_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row/group_lk1ro15_3_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row/group_lk1ro15_3_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row/group_lk1ro15_4_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row/group_lk1ro15_4_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_pufa" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_pufa_code" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row/group_lk1ro16_1_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row/group_lk1ro16_1_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row/group_lk1ro16_2_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row/group_lk1ro16_2_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row/group_lk1ro16_3_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row/group_lk1ro16_3_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_pufa" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_pufa_code" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row/group_lk1ro17_1_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row/group_lk1ro17_1_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row/group_lk1ro17_2_row_label" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row/group_lk1ro17_2_row_code" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/What_is_your_competition_sport" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/What_other_sport" relevant=" /ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/What_is_your_competition_sport  = 'other_1'" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/How_long_have_you_be_rt_at_an_elite_level" required="true()" type="int"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/How_would_you_descri_ur_health_at_present_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/General_Health" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/Oral_Health_mouth_teeth_and_gums" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/How_have_your_teeth_n_the_last_12_months_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_ecause_of_your_teeth" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_n_the_past_12_months" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_ithout_embarrassment" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_mouth_teeth_or_gums" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/How_has_your_mouth_affected_your_sport_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Training" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Competition" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Performance" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/To_what_extent_have_r_the_past_12_months" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/Do_you_use_tobacco_or_e_cigarettes_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/tobacco" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/smokeless_tobacco" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/E_cigarette_with_nicotine" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/E_cigarette_without_nicotine" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/How_often_do_you_consume_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/cakes_biscuits_puddings_pastries" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/sweets_and_or_chocolate" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/drink_non_diet_fizzy_inks_in_this_section" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/diet_fizzy_drinks_or_inks_in_this_section" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/When_do_you_consume_energy_bars_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/Before_training" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/During_training" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/After_training" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/Before_competitions" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/During_competitions" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/After_competitions" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_energy_bar_do_you_use" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/When_do_you_consume_energy_gels_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/Before_training_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/During_training_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/After_training_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/Before_competitions_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/During_competitions_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/After_competitions_001" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_energy_gel_do_you_use" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/When_do_you_consume_sports_drinks_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/Before_training_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/During_training_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/After_training_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/Before_competitions_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/During_competitions_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/After_competitions_002" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_sports_drink_do_you_use" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Do_you_think_the_fol_mouth_teeth_or_gums_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/cakes_biscuits_puddings_and_pastries" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Sweets_chocolate" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Fizzy_drinks_and_or_squash" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Sports_drinks" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Energy_bars" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Energy_gels" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Smoking_tobacco" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Smokeless_chewing_tobacco" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/E_cigarettes_with_nicotine" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/E_cigarettes_without_nicotine" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/Have_you_ever_been_g_r_a_dental_hygienist_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/about_how_to_look_af_outh_teeth_and_gums" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/about_what_to_eat_and_drink" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/When_do_you_clean_your_teeth_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Morning" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Nightime" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Before_sleeping_during_the_day" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/After_sleeping_during_the_day" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Any_other_time_during_the_day" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Oral_health_aids_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Manual_toothbrush" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Powered_toothbrush" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Interdental_aids_fl_interdental_brushes" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Toothpaste_non_fluo_dated_e_g_euthymol" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Toothpaste_fluoridated" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Mouthwash" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Sugar_free_chewing_gum" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Gum_shield" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/How_long_ago_was_you_visit_to_the_dentist" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could" required="false()"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/If_you_thought_it_wo_you_think_you_could_header" required="false()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/reduce_snacking_between_meals" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/reduce_sugary_drinks_between_meals" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/brush_teeth_before_sleeping" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/spit_out_toothpaste_not_rinse_with_water" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_fluoride_mouthwa_ent_time_to_brushing" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_dental_floss_int_al_brushes_every_day" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_sugar_free_chewing_gum" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/have_regular_visits_dvice_and_monitoring" required="true()" type="string"/>
+      <bind nodeset="/ahP9qxiHtZoJrVaKw8Pqte/meta/audit" type="binary"/>
+      <bind jr:preload="uid" nodeset="/ahP9qxiHtZoJrVaKw8Pqte/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08">
+      <label>Form and examiner details</label>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Examiner_ID">
+        <label>Examiner ID</label>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Participant_ID">
+        <label>Participant ID</label>
+      </input>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Examiner_reproducibility">
+        <label>Examiner reproducibility</label>
+        <item>
+          <label>Original</label>
+          <value>original</value>
+        </item>
+        <item>
+          <label>Duplicate</label>
+          <value>duplicate</value>
+        </item>
+      </select1>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_zl9yp08/Enter_assessment_date">
+        <label>Enter assessment date</label>
+      </input>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37">
+      <label>Athletes details</label>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Age_in_years">
+        <label>What is your age?</label>
+        <hint>In years</hint>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Height">
+        <label>Measured height</label>
+        <hint>In cm</hint>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Weight">
+        <label>Measured weight</label>
+        <hint>In kg</hint>
+      </input>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Sex">
+        <label>Sex</label>
+        <item>
+          <label>Male</label>
+          <value>male</value>
+        </item>
+        <item>
+          <label>Female</label>
+          <value>female</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Gender_other">
+        <label>Please give details if you wish</label>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_eircode">
+        <label>What is your eircode</label>
+        <hint>e.g. D04 H529, if eircode unavailable please provide street name and town, N/A if outside of Ireland</hint>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_occupation">
+        <label>What is your occupation</label>
+        <hint>Please provide your job role/title</hint>
+      </input>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Occupation">
+        <label>Occupation</label>
+        <item>
+          <label>Professional managers</label>
+          <value>professional_managers</value>
+        </item>
+        <item>
+          <label>Other non manual / skilled manual</label>
+          <value>other_non_manual___skilled_manaual</value>
+        </item>
+        <item>
+          <label>Semi-skilled / unskilled manual</label>
+          <value>semi_skilled___unskilled_manual</value>
+        </item>
+        <item>
+          <label>All other gainfully occupied and unknown</label>
+          <value>all_other_gainfully_occupied_and_unknown</value>
+        </item>
+      </select1>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/Years_in_full_time_education">
+        <label>Years in full-time education</label>
+        <hint>Primary school = 8 years, Junior Cert = 11 years, Leaving Cert = 13/14 years (14 with transition year)</hint>
+      </input>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_is_your_highest_tional_level_to_date">
+        <label>What is your highest educational level to date?</label>
+        <item>
+          <label>Junior Certificate</label>
+          <value>junior_certificate</value>
+        </item>
+        <item>
+          <label>Leaving Certificate</label>
+          <value>leaving_certificate</value>
+        </item>
+        <item>
+          <label>FE College (or equivalent)</label>
+          <value>fe_college__or_equivalent</value>
+        </item>
+        <item>
+          <label>University undergraduate degree</label>
+          <value>university_undergraduate_degree</value>
+        </item>
+        <item>
+          <label>University postgraduate degree</label>
+          <value>university_postgraduate_degree</value>
+        </item>
+      </select1>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/What_ethnicity_are_you">
+        <label>What ethnicity are you?</label>
+        <item>
+          <label>Irish White</label>
+          <value>irish_white</value>
+        </item>
+        <item>
+          <label>Irish Traveller</label>
+          <value>irish_traveller</value>
+        </item>
+        <item>
+          <label>Northern Irish/English/Welsh/Scotish</label>
+          <value>northern_irish_english_welsh_scotish</value>
+        </item>
+        <item>
+          <label>Any other white background-please describe</label>
+          <value>any_other_white_background_please_descri</value>
+        </item>
+        <item>
+          <label>Black or Black Irish</label>
+          <value>black_or_black_irish</value>
+        </item>
+        <item>
+          <label>Black African</label>
+          <value>black_african</value>
+        </item>
+        <item>
+          <label>Any other Black background</label>
+          <value>any_other_black_background</value>
+        </item>
+        <item>
+          <label>Asian or Asian Irish</label>
+          <value>asian_or_asian_irish</value>
+        </item>
+        <item>
+          <label>Chinese</label>
+          <value>chinese</value>
+        </item>
+        <item>
+          <label>Any other Asian background</label>
+          <value>any_other_asian_background</value>
+        </item>
+        <item>
+          <label>Other, including mixed background-please describe</label>
+          <value>other__including_mixed_background_please</value>
+        </item>
+      </select1>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_mp9wi37/please_describe">
+        <label>please describe</label>
+      </input>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49">
+      <label>Dental examination (for dentist only)</label>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_II">
+        <label>### ICDAS II</label>
+      </input>
+      <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_descriptor_1">
+        <label>**Coronal ICDAS SCORE-1**0 = surface not restored or sealed1 = Sealant, partial2 = Sealant, full3 = Tooth colored restoration4 = Amalgam restoration5 = Stainless steel crown6 = Porcelain or gold or PFM crown or veneer7 = Lost or broken restoration8 = Temporary restoration96= Tooth surface cannot be examined97: Tooth missing because of caries98: Tooth missing for reasons other than caries99: Unerupted</label>
+      </input>
+      <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_ICDAS_descriptor_2">
+        <label>**Coronal ICDAS SCORE-2**0 = Sound1 = First visual change in enamel2 = Distinct visual change in enamel3 = Localised enamel breakdown (without clinical visual signs of dentinal involvement)4 = Underlying dark shadow from dentine5 = Distinct cavity with visible dentine6 = Extensive distinct cavity with visible dentine</label>
+      </input>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_note">
+          <label>**Dentition status upper right**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column">
+          <label>**18**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_1">
+          <label>**17**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_2">
+          <label>**16**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_3">
+          <label>**15**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_4">
+          <label>**14**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_5">
+          <label>**13**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_6">
+          <label>**12**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_header/group_lq3kc77_header_column_7">
+          <label>**11**</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-18&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-17&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-16&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_3">
+          <label>&lt;span style="display:none"&gt;score_1-15&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_4">
+          <label>&lt;span style="display:none"&gt;score_1-14&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_5">
+          <label>&lt;span style="display:none"&gt;score_1-13&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_6">
+          <label>&lt;span style="display:none"&gt;score_1-12&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_1/group_lq3kc77_score_1_column_7">
+          <label>&lt;span style="display:none"&gt;score_1-11&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-18&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-17&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-16&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_3">
+          <label>&lt;span style="display:none"&gt;score_2-15&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_4">
+          <label>&lt;span style="display:none"&gt;score_2-14&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_5">
+          <label>&lt;span style="display:none"&gt;score_2-13&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_6">
+          <label>&lt;span style="display:none"&gt;score_2-12&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc77_score_2/group_lq3kc77_score_2_column_7">
+          <label>&lt;span style="display:none"&gt;score_2-11&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_note">
+          <label>**Dentition status upper left**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column">
+          <label>**21**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_1">
+          <label>**22**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_2">
+          <label>**23**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_3">
+          <label>**24**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_4">
+          <label>**25**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_5">
+          <label>**26**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_6">
+          <label>**27**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_header/group_lq3kc88_header_column_7">
+          <label>**28**</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-21&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-22&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-23&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_3">
+          <label>&lt;span style="display:none"&gt;score_1-24&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_4">
+          <label>&lt;span style="display:none"&gt;score_1-25&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_5">
+          <label>&lt;span style="display:none"&gt;score_1-26&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_6">
+          <label>&lt;span style="display:none"&gt;score_1-27&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_1/group_lq3kc88_score_1_column_7">
+          <label>&lt;span style="display:none"&gt;score_1-28&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-21&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-22&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-23&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_3">
+          <label>&lt;span style="display:none"&gt;score_2-24&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_4">
+          <label>&lt;span style="display:none"&gt;score_2-25&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_5">
+          <label>&lt;span style="display:none"&gt;score_2-26&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_6">
+          <label>&lt;span style="display:none"&gt;score_2-27&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc88_score_2/group_lq3kc88_score_2_column_7">
+          <label>&lt;span style="display:none"&gt;score_2-28&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_note">
+          <label>**Dentition status lower left**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column">
+          <label>**38**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_1">
+          <label>**37**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_2">
+          <label>**36**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_3">
+          <label>**35**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_4">
+          <label>**34**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_5">
+          <label>**33**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_6">
+          <label>**32**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_header/group_lq3kc78_header_column_7">
+          <label>**31**</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-38&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-37&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-36&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_3">
+          <label>&lt;span style="display:none"&gt;score_1-35&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_4">
+          <label>&lt;span style="display:none"&gt;score_1-34&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_5">
+          <label>&lt;span style="display:none"&gt;score_1-33&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_6">
+          <label>&lt;span style="display:none"&gt;score_1-32&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_1/group_lq3kc78_score_1_column_7">
+          <label>&lt;span style="display:none"&gt;score_1-31&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-38&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-37&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-36&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_3">
+          <label>&lt;span style="display:none"&gt;score_2-35&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_4">
+          <label>&lt;span style="display:none"&gt;score_2-34&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_5">
+          <label>&lt;span style="display:none"&gt;score_2-33&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_6">
+          <label>&lt;span style="display:none"&gt;score_2-32&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc78_score_2/group_lq3kc78_score_2_column_7">
+          <label>&lt;span style="display:none"&gt;score_2-31&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_note">
+          <label>**Dentition status lower right**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column">
+          <label>**41**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_1">
+          <label>**42**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_2">
+          <label>**43**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_3">
+          <label>**44**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_4">
+          <label>**45**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_5">
+          <label>**46**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_6">
+          <label>**47**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_header/group_lq3kc89_header_column_7">
+          <label>**48**</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-41&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-42&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-43&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_3">
+          <label>&lt;span style="display:none"&gt;score_1-44&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_4">
+          <label>&lt;span style="display:none"&gt;score_1-45&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_5">
+          <label>&lt;span style="display:none"&gt;score_1-46&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_6">
+          <label>&lt;span style="display:none"&gt;score_1-47&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_1/group_lq3kc89_score_1_column_7">
+          <label>&lt;span style="display:none"&gt;score_1-48&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-41&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-42&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-43&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_3">
+          <label>&lt;span style="display:none"&gt;score_2-44&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_4">
+          <label>&lt;span style="display:none"&gt;score_2-45&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_5">
+          <label>&lt;span style="display:none"&gt;score_2-46&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_6">
+          <label>&lt;span style="display:none"&gt;score_2-47&lt;/span&gt;</label>
+        </input>
+        <input appearance="w1 no-label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc89_score_2/group_lq3kc89_score_2_column_7">
+          <label>&lt;span style="display:none"&gt;score_2-48&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_wide">
+          <label>### BEWE</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_note">
+          <label>**Basic erosive wear examination (BEWE)**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column">
+          <label>17-14</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column_1">
+          <label>13-23</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header/group_lq3kc90_header_column_2">
+          <label>24-27</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-17-14&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-13-23&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_1/group_lq3kc90_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-24-27&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-47-44&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-43-33&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_score_2/group_lq3kc90_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-34-37&lt;/span&gt;</label>
+          <item>
+            <label>[0]No erosive tooth wear</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] Initial loss of surface texture (enamel)</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] Distinct defect, hard tissue loss  &lt; 50% of surface area (dentine)</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] Hard tissue loss &gt;50% of the surface area</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[X] Sextant excluded</label>
+            <value>X</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_note_001">
+          <label>**Basic erosive wear examination (BEWE)**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_001">
+          <label>47-44</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_1_001">
+          <label>43-33</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc90_header_001/group_lq3kc90_header_column_2_001">
+          <label>34-37</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_wide">
+          <label>### BPE</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_note">
+          <label>**Basic periodontal examination**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column">
+          <label>17-14</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column_1">
+          <label>13-23</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header/group_lq3kc91_header_column_2">
+          <label>24-27</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_note">
+          <label>##### score-1</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column">
+          <label>&lt;span style="display:none"&gt;score_1-17-14&lt;/span&gt;</label>
+          <hint>&lt;span style="display:none"&gt;* for furcation &lt;/span&gt;</hint>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column_1">
+          <label>&lt;span style="display:none"&gt;score_1-13-23&lt;/span&gt;</label>
+          <hint>&lt;span style="display:none"&gt;* for furcation &lt;/span&gt;</hint>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_1/group_lq3kc91_score_1_column_2">
+          <label>&lt;span style="display:none"&gt;score_1-24-27&lt;/span&gt;</label>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_note">
+          <label>##### score-2</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column">
+          <label>&lt;span style="display:none"&gt;score_2-47-44&lt;/span&gt;</label>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column_1">
+          <label>&lt;span style="display:none"&gt;score_2-43-33&lt;/span&gt;</label>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_score_2/group_lq3kc91_score_2_column_2">
+          <label>&lt;span style="display:none"&gt;score_2-34-37&lt;/span&gt;</label>
+          <item>
+            <label>[0] p &lt; 3.5mm</label>
+            <value>0</value>
+          </item>
+          <item>
+            <label>[1] p &lt; 3.5mm bop</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>[2] p &lt; 3.5mm calc</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>[3] 3.5&lt;p&lt;5.5mm</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>[4] p &gt; 5.5m</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>[0*] p &lt; 3.5mm furcation</label>
+            <value>0*</value>
+          </item>
+          <item>
+            <label>[1*] p &lt; 3.5mm bop furcation</label>
+            <value>1*</value>
+          </item>
+          <item>
+            <label>[2*] p &lt; 3.5mm calc furcation</label>
+            <value>2*</value>
+          </item>
+          <item>
+            <label>[3*] 3.5&lt;p&lt;5.5mm furcation</label>
+            <value>3*</value>
+          </item>
+          <item>
+            <label>[4*] p &gt; 5.5m furcation</label>
+            <value>4*</value>
+          </item>
+          <item>
+            <label>X = sextant excluded</label>
+            <value>x___sextant_included</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_note_001">
+          <label>**Basic periodontal examination**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_001">
+          <label>47-44</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_1_001">
+          <label>43-33</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lq3kc91_header_001/group_lq3kc91_header_column_2_001">
+          <label>34-37</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_note">
+          <label>### WHO Trauma</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_who_trauma_status">
+          <label>**WHO Trauma Status**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_header/group_lk1ro14_header_who_trauma_count">
+          <label>**Number of teeth affected**</label>
+        </input>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row">
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row/group_lk1ro14_row_who_trauma_status">
+          <label>&lt;span style="display:none"&gt;WHO Trauma Status&lt;/span&gt;</label>
+          <item>
+            <label>No sign of injury</label>
+            <value>whotrauma0</value>
+          </item>
+          <item>
+            <label>Treated injury</label>
+            <value>whotrauma1</value>
+          </item>
+          <item>
+            <label>Enamel fracture only</label>
+            <value>whotrauma2</value>
+          </item>
+          <item>
+            <label>Enamel and dentine fracture</label>
+            <value>whotrauma3</value>
+          </item>
+          <item>
+            <label>Pulp involvement</label>
+            <value>whotrauma4</value>
+          </item>
+          <item>
+            <label>Missing tooth due to trauma</label>
+            <value>whotrauma5</value>
+          </item>
+          <item>
+            <label>Other damage</label>
+            <value>whotrauma6</value>
+          </item>
+          <item>
+            <label>Excluded tooth</label>
+            <value>whotrauma9</value>
+          </item>
+        </select1>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro14_row/group_lk1ro14_row_who_trauma_count">
+          <label>&lt;span style="display:none"&gt;Number of teeth affected&lt;/span&gt;</label>
+        </input>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_note">
+          <label>### PUFA index</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_pufa">
+          <label>**PUFA**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro15_header/group_lk2ro15_header_pufa_code">
+          <label>**Index**</label>
+        </input>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row/group_lk1ro15_1_row_label">
+          <label>##### Pulp</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_1_row/group_lk1ro15_1_row_code">
+          <label>&lt;span style="display:none"&gt;Pufa code&lt;/span&gt;</label>
+          <item>
+            <label>no lesions</label>
+            <value>pufa_code_0</value>
+          </item>
+          <item>
+            <label>single lesion</label>
+            <value>pufa_code_1</value>
+          </item>
+          <item>
+            <label>2 or more lesions</label>
+            <value>pufa_code_2</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row/group_lk1ro15_2_row_label">
+          <label>##### Ulcer</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_2_row/group_lk1ro15_2_row_code">
+          <label>&lt;span style="display:none"&gt;Pufa code&lt;/span&gt;</label>
+          <item>
+            <label>no lesions</label>
+            <value>pufa_code_0</value>
+          </item>
+          <item>
+            <label>single lesion</label>
+            <value>pufa_code_1</value>
+          </item>
+          <item>
+            <label>2 or more lesions</label>
+            <value>pufa_code_2</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row/group_lk1ro15_3_row_label">
+          <label>##### Fistula</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_3_row/group_lk1ro15_3_row_code">
+          <label>&lt;span style="display:none"&gt;Pufa code&lt;/span&gt;</label>
+          <item>
+            <label>no lesions</label>
+            <value>pufa_code_0</value>
+          </item>
+          <item>
+            <label>single lesion</label>
+            <value>pufa_code_1</value>
+          </item>
+          <item>
+            <label>2 or more lesions</label>
+            <value>pufa_code_2</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row/group_lk1ro15_4_row_label">
+          <label>##### Abscess</label>
+        </input>
+        <select1 appearance="w1 minimal" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro15_4_row/group_lk1ro15_4_row_code">
+          <label>&lt;span style="display:none"&gt;Pufa code&lt;/span&gt;</label>
+          <item>
+            <label>no lesions</label>
+            <value>pufa_code_0</value>
+          </item>
+          <item>
+            <label>single lesion</label>
+            <value>pufa_code_1</value>
+          </item>
+          <item>
+            <label>2 or more lesions</label>
+            <value>pufa_code_2</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_note">
+          <label>### Wisdom Teeth</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_pufa">
+          <label>**Status**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro16_header/group_lk2ro16_header_pufa_code">
+          <label>**Yes/No**</label>
+        </input>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row/group_lk1ro16_1_row_label">
+          <label>##### Removal?</label>
+        </input>
+        <select1 appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_1_row/group_lk1ro16_1_row_code">
+          <label>&lt;span style="display:none"&gt;Wisdom code&lt;/span&gt;</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row/group_lk1ro16_2_row_label">
+          <label>##### Pain?</label>
+        </input>
+        <select1 appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_2_row/group_lk1ro16_2_row_code">
+          <label>&lt;span style="display:none"&gt;Wisdom code&lt;/span&gt;</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row/group_lk1ro16_3_row_label">
+          <label>##### Infection?</label>
+        </input>
+        <select1 appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro16_3_row/group_lk1ro16_3_row_code">
+          <label>&lt;span style="display:none"&gt;Wisdom code&lt;/span&gt;</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header">
+        <input appearance="w9" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_note">
+          <label>### TMJ assessment</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_pufa">
+          <label>**Status**</label>
+        </input>
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk2ro17_header/group_lk2ro17_header_pufa_code">
+          <label>**Yes/No**</label>
+        </input>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row/group_lk1ro17_1_row_label">
+          <label>##### Pain?</label>
+        </input>
+        <select1 appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_1_row/group_lk1ro17_1_row_code">
+          <label>&lt;span style="display:none"&gt;TMJ code&lt;/span&gt;</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="w3" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row">
+        <input appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row/group_lk1ro17_2_row_label">
+          <label>##### Limited opening?</label>
+        </input>
+        <select1 appearance="w1" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ys4mr49/group_lk1ro17_2_row/group_lk1ro17_2_row_code">
+          <label>&lt;span style="display:none"&gt;TMJ code&lt;/span&gt;</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02">
+      <label>Sport</label>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/What_is_your_competition_sport">
+        <label>What is your competition sport?</label>
+        <item>
+          <label>Boxing</label>
+          <value>boxing</value>
+        </item>
+        <item>
+          <label>Rowing</label>
+          <value>cycling</value>
+        </item>
+        <item>
+          <label>Swimming</label>
+          <value>running</value>
+        </item>
+        <item>
+          <label>Gaelic football</label>
+          <value>other</value>
+        </item>
+        <item>
+          <label>Hurling</label>
+          <value>hurling</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other_1</value>
+        </item>
+      </select1>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/What_other_sport">
+        <label>What other sport?</label>
+      </input>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ps7sn02/How_long_have_you_be_rt_at_an_elite_level">
+        <label>How long have you been involved in this sport at an elite level?</label>
+        <hint>In years</hint>
+      </input>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54">
+      <label>Health</label>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/How_would_you_descri_ur_health_at_present_header">
+          <label>How would you describe your health at present?</label>
+          <hint>Select one for each</hint>
+          <item>
+            <label>Very good</label>
+            <value>very_good</value>
+          </item>
+          <item>
+            <label>Good</label>
+            <value>good</value>
+          </item>
+          <item>
+            <label>Fair</label>
+            <value>fair</value>
+          </item>
+          <item>
+            <label>Poor</label>
+            <value>poor</value>
+          </item>
+          <item>
+            <label>Very poor</label>
+            <value>very_poor</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/General_Health">
+          <label>General Health</label>
+          <item>
+            <label>Very good</label>
+            <value>very_good</value>
+          </item>
+          <item>
+            <label>Good</label>
+            <value>good</value>
+          </item>
+          <item>
+            <label>Fair</label>
+            <value>fair</value>
+          </item>
+          <item>
+            <label>Poor</label>
+            <value>poor</value>
+          </item>
+          <item>
+            <label>Very poor</label>
+            <value>very_poor</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_would_you_descri_ur_health_at_present/Oral_Health_mouth_teeth_and_gums">
+          <label>Oral Health (mouth, teeth and gums)</label>
+          <item>
+            <label>Very good</label>
+            <value>very_good</value>
+          </item>
+          <item>
+            <label>Good</label>
+            <value>good</value>
+          </item>
+          <item>
+            <label>Fair</label>
+            <value>fair</value>
+          </item>
+          <item>
+            <label>Poor</label>
+            <value>poor</value>
+          </item>
+          <item>
+            <label>Very poor</label>
+            <value>very_poor</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/How_have_your_teeth_n_the_last_12_months_header">
+          <label>How have your teeth affected you in the last 12 months?</label>
+          <hint>Select one answer for each question</hint>
+          <item>
+            <label>Not at all</label>
+            <value>not_at_all</value>
+          </item>
+          <item>
+            <label>A little</label>
+            <value>a_little</value>
+          </item>
+          <item>
+            <label>Somewhat</label>
+            <value>somewhat</value>
+          </item>
+          <item>
+            <label>A fair amount</label>
+            <value>a_fair_amount</value>
+          </item>
+          <item>
+            <label>A great deal</label>
+            <value>a_great_deal</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_ecause_of_your_teeth">
+          <label>Have you had any difficulty eating or drinking because of your teeth?</label>
+          <item>
+            <label>Not at all</label>
+            <value>not_at_all</value>
+          </item>
+          <item>
+            <label>A little</label>
+            <value>a_little</value>
+          </item>
+          <item>
+            <label>Somewhat</label>
+            <value>somewhat</value>
+          </item>
+          <item>
+            <label>A fair amount</label>
+            <value>a_fair_amount</value>
+          </item>
+          <item>
+            <label>A great deal</label>
+            <value>a_great_deal</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_n_the_past_12_months">
+          <label>Have you had any difficulty relaxing (including sleeping) because of your mouth, teeth or gums in the past 12 months?</label>
+          <item>
+            <label>Not at all</label>
+            <value>not_at_all</value>
+          </item>
+          <item>
+            <label>A little</label>
+            <value>a_little</value>
+          </item>
+          <item>
+            <label>Somewhat</label>
+            <value>somewhat</value>
+          </item>
+          <item>
+            <label>A fair amount</label>
+            <value>a_fair_amount</value>
+          </item>
+          <item>
+            <label>A great deal</label>
+            <value>a_great_deal</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_ithout_embarrassment">
+          <label>Have you had any difficulty smiling, laughing or showing your teeth without embarrassment?</label>
+          <item>
+            <label>Not at all</label>
+            <value>not_at_all</value>
+          </item>
+          <item>
+            <label>A little</label>
+            <value>a_little</value>
+          </item>
+          <item>
+            <label>Somewhat</label>
+            <value>somewhat</value>
+          </item>
+          <item>
+            <label>A fair amount</label>
+            <value>a_fair_amount</value>
+          </item>
+          <item>
+            <label>A great deal</label>
+            <value>a_great_deal</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_have_your_teeth_n_the_last_12_months/Have_you_had_any_dif_mouth_teeth_or_gums">
+          <label>Have you had any difficulties participating in normal training or competition due to your mouth, teeth or gums?</label>
+          <item>
+            <label>Not at all</label>
+            <value>not_at_all</value>
+          </item>
+          <item>
+            <label>A little</label>
+            <value>a_little</value>
+          </item>
+          <item>
+            <label>Somewhat</label>
+            <value>somewhat</value>
+          </item>
+          <item>
+            <label>A fair amount</label>
+            <value>a_fair_amount</value>
+          </item>
+          <item>
+            <label>A great deal</label>
+            <value>a_great_deal</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/How_has_your_mouth_affected_your_sport_header">
+          <label>How has your mouth, teeth or gums affected your sport?</label>
+          <hint>Please select one for each Q</hint>
+          <item>
+            <label>No reduction</label>
+            <value>no_reduction</value>
+          </item>
+          <item>
+            <label>Minor reduction</label>
+            <value>minor_reduction</value>
+          </item>
+          <item>
+            <label>Moderate reduction</label>
+            <value>moderate_reduction</value>
+          </item>
+          <item>
+            <label>Major reduction</label>
+            <value>major_reduction</value>
+          </item>
+          <item>
+            <label>Could not participate at all</label>
+            <value>could_not_participate_at_all</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Training">
+          <label>Training</label>
+          <item>
+            <label>No reduction</label>
+            <value>no_reduction</value>
+          </item>
+          <item>
+            <label>Minor reduction</label>
+            <value>minor_reduction</value>
+          </item>
+          <item>
+            <label>Moderate reduction</label>
+            <value>moderate_reduction</value>
+          </item>
+          <item>
+            <label>Major reduction</label>
+            <value>major_reduction</value>
+          </item>
+          <item>
+            <label>Could not participate at all</label>
+            <value>could_not_participate_at_all</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Competition">
+          <label>Competition</label>
+          <item>
+            <label>No reduction</label>
+            <value>no_reduction</value>
+          </item>
+          <item>
+            <label>Minor reduction</label>
+            <value>minor_reduction</value>
+          </item>
+          <item>
+            <label>Moderate reduction</label>
+            <value>moderate_reduction</value>
+          </item>
+          <item>
+            <label>Major reduction</label>
+            <value>major_reduction</value>
+          </item>
+          <item>
+            <label>Could not participate at all</label>
+            <value>could_not_participate_at_all</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/How_has_your_mouth_affected_your_sport/Performance">
+          <label>Performance</label>
+          <item>
+            <label>No reduction</label>
+            <value>no_reduction</value>
+          </item>
+          <item>
+            <label>Minor reduction</label>
+            <value>minor_reduction</value>
+          </item>
+          <item>
+            <label>Moderate reduction</label>
+            <value>moderate_reduction</value>
+          </item>
+          <item>
+            <label>Major reduction</label>
+            <value>major_reduction</value>
+          </item>
+          <item>
+            <label>Could not participate at all</label>
+            <value>could_not_participate_at_all</value>
+          </item>
+        </select1>
+      </group>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_ao15q54/To_what_extent_have_r_the_past_12_months">
+        <label>To what extent have you experienced pain from your mouth teeth or gums over the past 12 months?</label>
+        <item>
+          <label>No pain</label>
+          <value>no_pain</value>
+        </item>
+        <item>
+          <label>Mild pain</label>
+          <value>mild_pain</value>
+        </item>
+        <item>
+          <label>Moderate pain</label>
+          <value>moderate_pain</value>
+        </item>
+        <item>
+          <label>Severe pain</label>
+          <value>severe_pain</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48">
+      <label>Dietary/lifestyle habits</label>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/Do_you_use_tobacco_or_e_cigarettes_header">
+          <label>Do you use tobacco or e-cigarettes?</label>
+          <item>
+            <label>Previous use</label>
+            <value>previous_use</value>
+          </item>
+          <item>
+            <label>Current use</label>
+            <value>current_use</value>
+          </item>
+          <item>
+            <label>Never use</label>
+            <value>never_use</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/tobacco">
+          <label>Tobacco</label>
+          <item>
+            <label>Previous use</label>
+            <value>previous_use</value>
+          </item>
+          <item>
+            <label>Current use</label>
+            <value>current_use</value>
+          </item>
+          <item>
+            <label>Never use</label>
+            <value>never_use</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/smokeless_tobacco">
+          <label>Smokeless tobacco</label>
+          <item>
+            <label>Previous use</label>
+            <value>previous_use</value>
+          </item>
+          <item>
+            <label>Current use</label>
+            <value>current_use</value>
+          </item>
+          <item>
+            <label>Never use</label>
+            <value>never_use</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/E_cigarette_with_nicotine">
+          <label>E-cigarette (with nicotine)</label>
+          <item>
+            <label>Previous use</label>
+            <value>previous_use</value>
+          </item>
+          <item>
+            <label>Current use</label>
+            <value>current_use</value>
+          </item>
+          <item>
+            <label>Never use</label>
+            <value>never_use</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_use_tobacco_or_e_cigarettes/E_cigarette_without_nicotine">
+          <label>E-cigarette (without nicotine)</label>
+          <item>
+            <label>Previous use</label>
+            <value>previous_use</value>
+          </item>
+          <item>
+            <label>Current use</label>
+            <value>current_use</value>
+          </item>
+          <item>
+            <label>Never use</label>
+            <value>never_use</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/How_often_do_you_consume_header">
+          <label>How often do you consume?</label>
+          <hint>Select one answer for each question</hint>
+          <item>
+            <label>Rarely or never</label>
+            <value>rarely_or_never</value>
+          </item>
+          <item>
+            <label>Less than once a week</label>
+            <value>less_than_once_a_week</value>
+          </item>
+          <item>
+            <label>1-2 times per week</label>
+            <value>1_2_times_per_week</value>
+          </item>
+          <item>
+            <label>3-5 times per week</label>
+            <value>3_5_times_per_week</value>
+          </item>
+          <item>
+            <label>6+ times per week</label>
+            <value>6__times_per_week</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/cakes_biscuits_puddings_pastries">
+          <label>cakes, biscuits, puddings, pastries</label>
+          <item>
+            <label>Rarely or never</label>
+            <value>rarely_or_never</value>
+          </item>
+          <item>
+            <label>Less than once a week</label>
+            <value>less_than_once_a_week</value>
+          </item>
+          <item>
+            <label>1-2 times per week</label>
+            <value>1_2_times_per_week</value>
+          </item>
+          <item>
+            <label>3-5 times per week</label>
+            <value>3_5_times_per_week</value>
+          </item>
+          <item>
+            <label>6+ times per week</label>
+            <value>6__times_per_week</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/sweets_and_or_chocolate">
+          <label>sweets and/or chocolate</label>
+          <item>
+            <label>Rarely or never</label>
+            <value>rarely_or_never</value>
+          </item>
+          <item>
+            <label>Less than once a week</label>
+            <value>less_than_once_a_week</value>
+          </item>
+          <item>
+            <label>1-2 times per week</label>
+            <value>1_2_times_per_week</value>
+          </item>
+          <item>
+            <label>3-5 times per week</label>
+            <value>3_5_times_per_week</value>
+          </item>
+          <item>
+            <label>6+ times per week</label>
+            <value>6__times_per_week</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/drink_non_diet_fizzy_inks_in_this_section">
+          <label>drink non-diet fizzy drinks or soft drinks like squash? Note: please do not include sports drinks in this section</label>
+          <item>
+            <label>Rarely or never</label>
+            <value>rarely_or_never</value>
+          </item>
+          <item>
+            <label>Less than once a week</label>
+            <value>less_than_once_a_week</value>
+          </item>
+          <item>
+            <label>1-2 times per week</label>
+            <value>1_2_times_per_week</value>
+          </item>
+          <item>
+            <label>3-5 times per week</label>
+            <value>3_5_times_per_week</value>
+          </item>
+          <item>
+            <label>6+ times per week</label>
+            <value>6__times_per_week</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/How_often_do_you_consume/diet_fizzy_drinks_or_inks_in_this_section">
+          <label>diet fizzy drinks or or sugar-free soft drinks like squash? Note: please do not include sports drinks in this section</label>
+          <item>
+            <label>Rarely or never</label>
+            <value>rarely_or_never</value>
+          </item>
+          <item>
+            <label>Less than once a week</label>
+            <value>less_than_once_a_week</value>
+          </item>
+          <item>
+            <label>1-2 times per week</label>
+            <value>1_2_times_per_week</value>
+          </item>
+          <item>
+            <label>3-5 times per week</label>
+            <value>3_5_times_per_week</value>
+          </item>
+          <item>
+            <label>6+ times per week</label>
+            <value>6__times_per_week</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/When_do_you_consume_energy_bars_header">
+          <label>When do you consume energy bars?</label>
+          <hint>Select one for each</hint>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/Before_training">
+          <label>Before training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/During_training">
+          <label>During training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/After_training">
+          <label>After training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/Before_competitions">
+          <label>Before competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/During_competitions">
+          <label>During competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_bars/After_competitions">
+          <label>After competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+      </group>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_energy_bar_do_you_use">
+        <label>What brand of energy bar do you use?</label>
+        <hint>Type N/A if you don't use energy bars</hint>
+      </input>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/When_do_you_consume_energy_gels_header">
+          <label>When do you consume energy gels?</label>
+          <hint>Select one for each</hint>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/Before_training_001">
+          <label>Before training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/During_training_001">
+          <label>During training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/After_training_001">
+          <label>After training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/Before_competitions_001">
+          <label>Before competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/During_competitions_001">
+          <label>During competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_energy_gels/After_competitions_001">
+          <label>After competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+      </group>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_energy_gel_do_you_use">
+        <label>What brand of energy gel do you use?</label>
+        <hint>Type N/A if you don't use energy gels</hint>
+      </input>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/When_do_you_consume_sports_drinks_header">
+          <label>When do you consume sports drinks?</label>
+          <hint>Select one for each</hint>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/Before_training_002">
+          <label>Before training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/During_training_002">
+          <label>During training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/After_training_002">
+          <label>After training</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/Before_competitions_002">
+          <label>Before competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/During_competitions_002">
+          <label>During competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/When_do_you_consume_sports_drinks/After_competitions_002">
+          <label>After competitions</label>
+          <item>
+            <label>Never</label>
+            <value>never</value>
+          </item>
+          <item>
+            <label>Sometimes</label>
+            <value>sometimes</value>
+          </item>
+          <item>
+            <label>Always</label>
+            <value>always</value>
+          </item>
+        </select1>
+      </group>
+      <input ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/What_brand_of_sports_drink_do_you_use">
+        <label>What brand of sports drink do you use?</label>
+        <hint>Type N/A if you don't use sports drinks</hint>
+      </input>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Do_you_think_the_fol_mouth_teeth_or_gums_header">
+          <label>Do you think the following can cause damage to your mouth, teeth or gums?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/cakes_biscuits_puddings_and_pastries">
+          <label>cakes, biscuits, puddings and pastries</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Sweets_chocolate">
+          <label>Sweets / chocolate</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Fizzy_drinks_and_or_squash">
+          <label>Fizzy drinks and / or squash</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Sports_drinks">
+          <label>Sports drinks</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Energy_bars">
+          <label>Energy bars</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Energy_gels">
+          <label>Energy gels</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Smoking_tobacco">
+          <label>Smoking tobacco</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/Smokeless_chewing_tobacco">
+          <label>Smokeless/chewing tobacco</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/E_cigarettes_with_nicotine">
+          <label>E-cigarettes (with nicotine)</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_le1ch48/Do_you_think_the_fol_mouth_teeth_or_gums/E_cigarettes_without_nicotine">
+          <label>E-cigarettes (without nicotine)</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Don't know</label>
+            <value>don_t_know</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22">
+      <label>Dental health / habits</label>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/Have_you_ever_been_g_r_a_dental_hygienist_header">
+          <label>Have you ever been given advice by a dentist or a dental hygienist?</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/about_how_to_look_af_outh_teeth_and_gums">
+          <label>about how to look after your mouth, teeth and gums</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Have_you_ever_been_g_r_a_dental_hygienist/about_what_to_eat_and_drink">
+          <label>about what to eat and drink</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/When_do_you_clean_your_teeth_header">
+          <label>When do you clean your teeth?</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Morning">
+          <label>Morning</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Nightime">
+          <label>Nightime</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Before_sleeping_during_the_day">
+          <label>Before sleeping during the day</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/After_sleeping_during_the_day">
+          <label>After sleeping during the day</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/When_do_you_clean_your_teeth/Any_other_time_during_the_day">
+          <label>Any other time during the day</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Oral_health_aids_header">
+          <label>Oral health aids</label>
+          <hint>Click yes/no for each option</hint>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Manual_toothbrush">
+          <label>Manual toothbrush</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Powered_toothbrush">
+          <label>Powered toothbrush</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Interdental_aids_fl_interdental_brushes">
+          <label>Interdental aids (floss/interdental brushes)</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Toothpaste_non_fluo_dated_e_g_euthymol">
+          <label>Toothpaste (non-fluoridated) e.g. euthymol</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Toothpaste_fluoridated">
+          <label>Toothpaste (fluoridated)</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Mouthwash">
+          <label>Mouthwash</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Sugar_free_chewing_gum">
+          <label>Sugar-free chewing gum</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/Oral_health_aids/Gum_shield">
+          <label>Gum shield</label>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <select1 ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/How_long_ago_was_you_visit_to_the_dentist">
+        <label>How long ago was your last visit to the dentist?</label>
+        <item>
+          <label>Within the past 6 months</label>
+          <value>within_the_past_6_months</value>
+        </item>
+        <item>
+          <label>6-12 months ago</label>
+          <value>6_12_months_ago</value>
+        </item>
+        <item>
+          <label>1-2 years ago</label>
+          <value>1_2_years_ago</value>
+        </item>
+        <item>
+          <label>More than 2 years ago</label>
+          <value>more_than_2_years_ago</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could">
+        <select1 appearance="label" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/If_you_thought_it_wo_you_think_you_could_header">
+          <label>If you thought it would help keep your mouth, teeth and gums healthy; do you think you could:</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/reduce_snacking_between_meals">
+          <label>reduce snacking between meals?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/reduce_sugary_drinks_between_meals">
+          <label>reduce sugary drinks between meals?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/brush_teeth_before_sleeping">
+          <label>brush teeth before sleeping?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/spit_out_toothpaste_not_rinse_with_water">
+          <label>spit out toothpaste and not rinse with water?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_fluoride_mouthwa_ent_time_to_brushing">
+          <label>use fluoride mouthwash at a different time to brushing?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_dental_floss_int_al_brushes_every_day">
+          <label>use dental floss/interdental brushes every day?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/use_sugar_free_chewing_gum">
+          <label>use sugar free chewing gum?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+        <select1 appearance="list-nolabel" ref="/ahP9qxiHtZoJrVaKw8Pqte/group_if5uc22/If_you_thought_it_wo_you_think_you_could/have_regular_visits_dvice_and_monitoring">
+          <label>have regular visits to a dentist/hygienist for advice and monitoring?</label>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>With difficulty</label>
+            <value>with_difficulty</value>
+          </item>
+          <item>
+            <label>Probably</label>
+            <value>probably</value>
+          </item>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+  </h:body>
+</h:html>
