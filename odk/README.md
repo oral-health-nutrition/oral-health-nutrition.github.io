@@ -12,7 +12,7 @@ We mapped common templates for data collection such as  ![INTERNATIONAL CARIES D
 
 You can reuse the full template for your projects or just some of the questions you might need in your survey.
 
-## ODK Telplates
+## ODK Temlplates
 
 This contains the templates we used for the elite athletes survey.
 
