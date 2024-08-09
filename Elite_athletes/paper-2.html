@@ -1684,9 +1684,9 @@ summarised by subject, meal and food group level. Descriptive summaries
 of all nutrients was carried out for all completed recalls. Analysis of
 the distinct recalls indicated no substantial difference in food
 consumption across different recall, thus all recall data was retained.
-(THIS IS PROBABLY FOR RESULTS/DISC, appendix for regression lines) The
-FB24 data set was transformed and saved as RDS file for further
-analysis.</p>
+<em>(THIS IS PROBABLY FOR RESULTS/DISC, appendix for regression
+lines)</em> The FB24 data set was transformed and saved as RDS file for
+further analysis.</p>
 <div id="consumption-descriptions" class="section level3">
 <h3>Consumption descriptions</h3>
 <ul>
@@ -1707,13 +1707,13 @@ when the food was not consumed.</li>
 max(consumption), mean_intake = mean(intake), max_intake = max(intake),
 min_intake = min(intake), recalls = n_distinct(<code>Recall #</code>),
 sum_intake = sum(intake), avg_intake = sum(intake) /
-max(<code>Recall #</code>), (see FBgruping Rmd code and add this to
+max(<code>Recall #</code>), (see FBgrouping Rmd code and add this to
 APPEDIX)</p>
 <p>The ICDAS data from KBTB was collapsed into counts. ICDAS score I
 data was collapsed to include codes that show previous carious
 experience (ICDAS scores 3,8,97) while ICDAS II data was collapsed into
-‘caries’ (ICDAS scores ≥ 2) and ‘non-caries’. DEFINE COMBINED ICDAS
-SCORES here…..</p>
+‘caries’ (ICDAS scores 2-6) and ‘non-caries’(ICDAS scores 0-1). DEFINE
+COMBINED ICDAS SCORES here…..</p>
 <p>Both KBTB and FB24 RDS files were joined and data prepared for
 cluster analysis. Two athletes were removed (Gymnast and Triathlete) as
 there was only one from each sport and one athlete had incomplete
@@ -1725,17 +1725,33 @@ collapsed into one group and described as ‘non-cariogenic’ and water
 intake was categorised separately. For this analysis, nutrients were
 limited to carbohydrate, sugars, starch and energy intake. Meal types
 were collapsed to ‘snack’ or ‘main meal’.</p>
-<p>Profile cluster.</p>
 </div>
+</div>
+<div id="edadescriptives-of-groups-by-gender" class="section level2">
+<h2>EDA/descriptives of groups by gender</h2>
+</div>
+<div id="cluster-analysis" class="section level2">
+<h2>Cluster analysis</h2>
+</div>
+<div id="profile-clusters" class="section level2">
+<h2>Profile clusters</h2>
+</div>
+<div id="glm-based-on-cluster-group" class="section level2">
+<h2>GLM based on cluster group</h2>
+</div>
+</div>
+<div id="results" class="section level1">
+<h1>RESULTS</h1>
+<div id="dental-cariesicdas" class="section level2">
+<h2>Dental caries/ICDAS</h2>
 <div id="post-processings" class="section level3">
 <h3>Post-processings</h3>
 <ul>
-<li><p>Kobo data is post-processed and ICDAS categories are collapsed
-into counts.</p></li>
-<li><p>FoodBook24 data is summarised at subject, meal, food group level
-and for this analysis we only take in account subset of the food groups
-????You mean cluster/reg?</p></li>
-<li></li>
+<li>Kobo data is post-processed and ICDAS categories are collapsed into
+counts.</li>
+<li>FoodBook24 data is summarised at subject, meal, food group level and
+for this analysis we only take in account subset of the food groups
+????You mean cluster/reg?</li>
 </ul>
 <pre class="r"><code>library(dduh.ds)
 library(tidyverse)  # data manipulation</code></pre>
@@ -2195,31 +2211,86 @@ summary(model)</code></pre>
 ## AIC: 66.477
 ## 
 ## Number of Fisher Scoring iterations: 7</code></pre>
-<pre class="r"><code>model$residuals</code></pre>
-<pre><code>##          1          2          3          4          5          6          7 
-##   1.000331   1.029024   1.032765   1.015536   1.008920   1.012457   1.048600 
-##          8          9         10         11         12         13         14 
-##   1.008623   1.007495   1.008401  -1.020472   1.000704   1.003861  -1.793928 
-##         15         16         17         18         19         20         21 
-##   1.017724  -1.353065   2.549950   1.939182   1.010343   1.148339  -1.557042 
-##         22         23         24         25         26         27         28 
-##   1.099199   4.566647   1.007253   1.002129   1.009958   1.006921   1.000911 
-##         29         30         31         32         33         34         35 
-##  -1.271042  -1.342902   1.000278 -29.269376   1.000449   1.331628  -2.709516 
-##         36         37         38         39         40         41         42 
-##  -1.009402   1.018594   1.001065   1.190475   1.025707   1.001099   1.019276 
-##         43         44         45         46         47         48         49 
-##  -2.863295   1.492118   1.035034  -2.454173   1.004905   1.026308   1.028466 
-##         50         51         52         53         54         55         56 
-##  -1.109234   1.003275  -1.000014   1.285147  -1.197822   1.005986   1.865031 
-##         57         58         59         60         61         62         63 
-##  -1.000385   1.108521   1.156905  -1.098722  -1.324033  -1.001641  -1.712631 
-##         64         65         66         67         68         69         70 
-##  -2.317907   1.021990   1.523093   1.000316  11.207239   1.046449   1.038491 
-##         71         72         73         74         75         76         77 
-##   1.064442   1.006554   1.019039   1.470561   1.050003   1.031564   1.029543 
-##         78         79         80         81         82         83         84 
-##   1.018741   1.029511  -2.712728   1.001455   1.680806   1.160797   1.009861</code></pre>
+<pre class="r"><code>#model$residuals
+confint.default(model)</code></pre>
+<pre><code>##                                              2.5 %       97.5 %
+## (Intercept)                           -1.700530533 11.551805537
+## age                                   -0.204706358  0.245642070
+## genderMale                            -1.756989041  1.921016895
+## avg_intake_MEAL_STARCH_Cariogenic     -0.047306815  0.008441927
+## avg_intake_MEAL_STARCH_NonCariogenic  -0.008882272  0.023449769
+## avg_intake_MEAL_SUGARS_Cariogenic     -0.041237586  0.001627628
+## avg_intake_MEAL_SUGARS_NonCariogenic  -0.102574668 -0.001997393
+## avg_intake_SNACK_STARCH_Cariogenic    -0.090746292 -0.016402082
+## avg_intake_SNACK_STARCH_NonCariogenic -0.040687836  0.094899778
+## avg_intake_SNACK_SUGARS_Cariogenic    -0.030770731 -0.001107059
+## avg_intake_SNACK_SUGARS_NonCariogenic -0.080167159  0.007571230
+## count_icdas_score_2                    0.028744372  0.551694005</code></pre>
+<pre class="r"><code>exp(model$coefficients[-1])</code></pre>
+<pre><code>##                                   age                            genderMale 
+##                             1.0206788                             1.0854709 
+##     avg_intake_MEAL_STARCH_Cariogenic  avg_intake_MEAL_STARCH_NonCariogenic 
+##                             0.9807551                             1.0073103 
+##     avg_intake_MEAL_SUGARS_Cariogenic  avg_intake_MEAL_SUGARS_NonCariogenic 
+##                             0.9803899                             0.9490574 
+##    avg_intake_SNACK_STARCH_Cariogenic avg_intake_SNACK_STARCH_NonCariogenic 
+##                             0.9478356                             1.0274767 
+##    avg_intake_SNACK_SUGARS_Cariogenic avg_intake_SNACK_SUGARS_NonCariogenic 
+##                             0.9841875                             0.9643529 
+##                   count_icdas_score_2 
+##                             1.3367204</code></pre>
+<pre class="r"><code>library(broom)
+
+tidy(model, conf.int = TRUE, exponentiate = TRUE)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["term"],"name":[1],"type":["chr"],"align":["left"]},{"label":["estimate"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["std.error"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["statistic"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["p.value"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["conf.low"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["conf.high"],"name":[7],"type":["dbl"],"align":["right"]}],"data":[{"1":"(Intercept)","2":"137.7771469","3":"3.380760099","4":"1.45696156","5":"0.145126992","6":"0.2435062","7":"2.055269e+05"},{"1":"age","2":"1.0206788","3":"0.114886914","4":"0.17815655","5":"0.858600034","6":"0.8155705","7":"1.294578e+00"},{"1":"genderMale","2":"1.0854709","3":"0.938284062","4":"0.08740842","5":"0.930346877","6":"0.1603683","7":"7.324028e+00"},{"1":"avg_intake_MEAL_STARCH_Cariogenic","2":"0.9807551","3":"0.014221879","4":"-1.36637667","5":"0.171820767","6":"0.9517527","7":"1.007659e+00"},{"1":"avg_intake_MEAL_STARCH_NonCariogenic","2":"1.0073103","3":"0.008248121","4":"0.88307975","5":"0.377193183","6":"0.9916437","7":"1.025711e+00"},{"1":"avg_intake_MEAL_SUGARS_Cariogenic","2":"0.9803899","3":"0.010935204","4":"-1.81112107","5":"0.070122112","6":"0.9569885","7":"1.000613e+00"},{"1":"avg_intake_MEAL_SUGARS_NonCariogenic","2":"0.9490574","3":"0.025657939","4":"-2.03781096","5":"0.041568842","6":"0.8956563","7":"9.929296e-01"},{"1":"avg_intake_SNACK_STARCH_Cariogenic","2":"0.9478356","3":"0.018965708","4":"-2.82479235","5":"0.004731127","6":"0.9080539","7":"9.803044e-01"},{"1":"avg_intake_SNACK_STARCH_NonCariogenic","2":"1.0274767","3":"0.034589313","4":"0.78365163","5":"0.433244554","6":"0.9737513","7":"1.111493e+00"},{"1":"avg_intake_SNACK_SUGARS_Cariogenic","2":"0.9841875","3":"0.007567402","4":"-2.10625712","5":"0.035182024","6":"0.9680506","7":"9.985152e-01"},{"1":"avg_intake_SNACK_SUGARS_NonCariogenic","2":"0.9643529","3":"0.022382653","4":"-1.62170070","5":"0.104867449","6":"0.9196632","7":"1.006469e+00"},{"1":"count_icdas_score_2","2":"1.3367204","3":"0.133407970","4":"2.17542617","5":"0.029598195","6":"1.0527651","7":"1.800381e+00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>library(janitor)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;janitor&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     chisq.test, fisher.test</code></pre>
+<pre class="r"><code>combinedProfileClusterd &lt;- combinedProfilesNutrients |&gt; 
+  mutate(cluster=as.factor(k3$cluster)) |&gt;
+  mutate(
+  # count_icdas_score_1 = count_icdas_score_1_3 + count_icdas_score_1_8 + count_icdas_score_1_97,
+  count_icdas_score_2 = count_icdas_score_2_2 + count_icdas_score_2_3 + count_icdas_score_2_4 +
+    count_icdas_score_2_5 + count_icdas_score_2_6
+)
+
+combinedProfileClusterd |&gt;
+  tabyl(cluster, gender) |&gt;
+  adorn_percentages(&quot;row&quot;) |&gt;
+  adorn_pct_formatting(digits = 1) |&gt;
+  adorn_ns(&quot;front&quot;)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["cluster"],"name":[1],"type":["fct"],"align":["left"]},{"label":["Female"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Male"],"name":[3],"type":["chr"],"align":["left"]}],"data":[{"1":"1","2":"7 (33.3%)","3":"14 (66.7%)","_rn_":"1"},{"1":"2","2":"24 (38.1%)","3":"39 (61.9%)","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>combinedProfileClusterd |&gt;
+  tabyl(cluster, count_icdas_score_2_4) |&gt;
+  adorn_percentages(&quot;row&quot;) |&gt;
+  adorn_pct_formatting(digits = 1) |&gt;
+  adorn_ns(&quot;front&quot;)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["cluster"],"name":[1],"type":["fct"],"align":["left"]},{"label":["0"],"name":[2],"type":["chr"],"align":["left"]},{"label":["1"],"name":[3],"type":["chr"],"align":["left"]},{"label":["2"],"name":[4],"type":["chr"],"align":["left"]},{"label":["3"],"name":[5],"type":["chr"],"align":["left"]},{"label":["4"],"name":[6],"type":["chr"],"align":["left"]},{"label":["5"],"name":[7],"type":["chr"],"align":["left"]},{"label":["6"],"name":[8],"type":["chr"],"align":["left"]},{"label":["7"],"name":[9],"type":["chr"],"align":["left"]}],"data":[{"1":"1","2":"11 (52.4%)","3":"5 (23.8%)","4":"2  (9.5%)","5":"2 (9.5%)","6":"0 (0.0%)","7":"0 (0.0%)","8":"1 (4.8%)","9":"0 (0.0%)","_rn_":"1"},{"1":"2","2":"31 (49.2%)","3":"13 (20.6%)","4":"8 (12.7%)","5":"5 (7.9%)","6":"1 (1.6%)","7":"1 (1.6%)","8":"1 (1.6%)","9":"3 (4.8%)","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>combinedProfileClusterd |&gt;
+  tabyl(cluster, sport) |&gt;
+  adorn_percentages(&quot;row&quot;) |&gt;
+  adorn_pct_formatting(digits = 1) |&gt;
+  adorn_ns(&quot;front&quot;)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["cluster"],"name":[1],"type":["fct"],"align":["left"]},{"label":["Boxing"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Other"],"name":[3],"type":["chr"],"align":["left"]},{"label":["Rowing"],"name":[4],"type":["chr"],"align":["left"]},{"label":["Swimming"],"name":[5],"type":["chr"],"align":["left"]}],"data":[{"1":"1","2":"4 (19.0%)","3":"7 (33.3%)","4":"9 (42.9%)","5":"1 (4.8%)","_rn_":"1"},{"1":"2","2":"18 (28.6%)","3":"29 (46.0%)","4":"12 (19.0%)","5":"4 (6.3%)","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
 </div>
 
 
