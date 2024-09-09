@@ -410,6 +410,9 @@ inner_join(foodbookDailyIntakes,
            keep = TRUE) |&gt;
   filter(!is.na(User)) |&gt;
   select(-User)</code></pre>
+<p>Redoing this analysis for all recalls and overall descriptives food
+for paper 2, added Fat, protein. ALso had prev only had ‘dental
+nutrients’ so energy intake eg low, included all nutrients now</p>
 <pre class="r"><code>dentalNutStats &lt;- function(fb24Daily, groupCols){
   dentalFoodGroups &lt;- read_csv(&quot;food-group-dental-analysis.csv&quot;)
   dentalNutrients &lt;- c(&quot;ENERGY (KCAL)&quot;, &quot;FAT&quot;, &quot;PROTEIN&quot;, &quot;CHO&quot;, &quot;SUGARS&quot;, &quot;STARCH&quot;)
