@@ -1,7 +1,9 @@
 ---
 title: "Oral Health and Nutrition"
-output: github_document
----git status
+output:
+  pdf_document: default
+  github_document: default
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -10,7 +12,7 @@ options(tidyverse.quiet = TRUE)
 
 # About this space
 
-We are developing a blog to highlight the relationship between 
+This are developing a blog to highlight the relationship between 
 nutrition and oral heath.
 
 More to too come...
