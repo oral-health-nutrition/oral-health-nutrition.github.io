@@ -1,0 +1,459 @@
+---
+title: ' Dietary assessment with *Nutritics and Libro* '
+subtitle: 'Year 3 Dental'
+date: 'September 20, 2024'
+author: ' M. Crowe '
+output:
+ xaringan::moon_reader:
+    css: ["default", "fc-fonts", "slides.css"]
+    self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      beforeInit: "macros.js"
+---
+
+# Outline
+
+- Dietary assessment Nutritics-workflow
+- Nutrient report and interpretation
+- Dietary advice/intervention?
+- Libro app
+
+
+---
+# Workflow for dietary risk assessment and intervention
+
+- Overall risk assessment and workflow (as part of CRA)
+- Dietary Assessment
+- Nutrient report- interpretation (DRV's)
+- Record your findings in your clinical notes!
+- Dietary interventions required??
+- Repeat
+
+???
+QUERIES????
+---
+# How to use nutritics effectively
+
+- use regularly 
+- you have a user profile and 'activity' on Nutritics
+- use learning material https://www.nutritics.com/p/userguide&c=471_VIDEO
+- incorporate into your regular assessment
+
+
+
+???
+In gen this class vg ood users
+if u dotn use it at all then why are u here?
+
+stupid are cocksure while the intelligent are full of doubt (B Russel)
+
+NB useful for your exams to have half dozen facts at the tip of your tongue.
+eg reccomended 10% FS max per day pop guidleine by WHO (ideally 5%)
+400g of fruit n veg day  OR fibre/d = 24-34g/d
+
+
+
+NB useful for your exams to have half dozen facts at the tip of your tongue.
+eg reccomended 10% FS max per day pop guidleine by WHO (ideally 5%)
+400g of fruit n veg day  OR fibre/d = 24-34g/d
+???
+
+#   FSN3.4 Food Science and Nutrition schedule 
+.small[
+- **Lecture 2 Healthy eating guidelines and dietary reference values**
+- **Lecture 3 Measuring food intake- dietary assessment**
+- Lecture 6 Dietary patterns
+- Lecture 7 Nutrition and dental caries
+- Lecture 8 Nutrition and periodontal disease
+- Lecture 9 Dental erosion and eating disorders
+- **Lecture 10 Clinical Nutrition**
+- **Lecture 12 Dietary interventions to improve oral (and general) health**
+- Lecture 14 Clinical conditions and diseases: case-based assessment, diagnosis and intervention]
+???
+ Dental graduates are required to be able to carry out diet asssesssment and impart dietary advice -However, most studies report that a lack of confidence, knowledge and training are the biggest barriers for dentists in practice
+
+
+
+---
+
+![:scale 90%](assets/img/HEG.png)
+???
+We know that approx 
+60% eat HFSS snacks every day  (Healthy Ireland, 2015)
+  + 42% of these eat 6 or more portions daily. 
+- 14% consume sugar sweetened drinks daily, 
+  + rising to 22% of those aged 15 to 2
+  
+
+-  Less than 10% of daily energy from saturated fats
+-  Less than 1% of daily energy from trans fats
+-  Less than 10% of daily energy from added sugars progressively reducing to 5%*
+-  More than 400g fruits and vegetables a day
+-  Less than 5g a day of salt (6 g population recommendation FSAI 2016)
+
+
+END
+
+
+
+---
+# Dietary Reference Values (DRVs)
+ 
+ ![](assets/img/RDA_Vits_Mins.png)
+
+???
+SO then we introduce the basis for nutrient based guideliens and DRVs etc so that they understand how to interpet the nutrient report followiing a dietary assessment.
+Obviosuly, We highlight then utrients of particular relevance for oral health and explain their key functions and problems associated with deficiencies.
+
+
+END
+As you know its important to remember are that these HEG and DRVs are for a healthy population! AND they are age/growth dependant
+DRV’s are also known as NRV’s (Nutrient Reference Values –
+. If an individual is routinely consuming the RNI for a particular nutrient, it can be assumed that their diet provides adequate amounts (or more than adequate amounts) of that nutrient.
+
+2. If an individual is consuming less than the RNI, it cannot necessarily be assumed that the diet is inadequate, as the person may have a lower requirement than average for that particular nutrient.
+There are No DRVs for sick people!
+An Estimated Average Requirement (EAR): The average amount of nutrient or energy required. Approximately 50% of the population will require more and 50% will require less.
+
+A Reference Nutrient Intake (RNI): The amount of a nutrient sufficient to meet the needs of 97.5% of a population (calculated from the EAR + 2 SD)
+
+---
+
+## Caries risk Assessment- CRA form
+
+![:scale 60%](assets/img/CRA_existing_forms.JPG)
+
+---
+
+# CRA and Dietary Assessment (FSN3.4 Nutrition)
+
+- Dietary assessment, e.g., 24HR (multiple)
+- Estimate total/free sugar intake
+- Food groups/HEG's
+- Meal patterns-snacking
+- Dietary behaviours assessment* 
+
+???
+confusion- u mneed to understand and intrepet and integrate info. No  one simple solution, this is reality of patients
+CRA ADA includes
+Categorise a patient after
+Diet assessment - all patients but how often
+Use your knowledge, logic, supporting evidence, history
+
+See behaviours list queries also
+---
+
+# Dietary assessment
+
+- use digital tools
+- patient compliance
+- digital literacy
+- education-behaviour change
+
+.pull-right[![:scale 90%](assets/img/AI.png)]
+---
+
+![:scale 95%](assets/img/Slide1.png)
+---
+
+![:scale 95%](assets/img/Nutr_details1.jpg)
+
+---
+
+![](assets/img/Nutr_details2.jpg)
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rBCoRSXg_bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://youtu.be/rBCoRSXg_bM
+
+
+???
+create a diet log
+
+Once you have sewt up a patient on the system u enter their details, weight, height, PAL, any other spcefici energy requirements or adjustments and then creat a diet log. This cvan be in any format or tool you decide from 24HR to 5day food diary
+---
+
+![:scale 90%](assets/img/DIetlog.jpeg)
+
+
+https://youtu.be/rBCoRSXg_bM
+
+
+
+???
+
+
+END
+
+NB Absoprtion factors, digest etc, V actual intake
+The 2nd apsect is that the nutrient content of foods consumed need to be convereted using a food composition database.
+
+
+---
+# Nutrient profile
+
+![:scale 80%](assets/img/NR1.png)
+???
+once you have completed the diet log you then can generate a nutrient report and this is the initial part of a sample one.
+On the top row you can see the source for DRVs is the EU;EFSA database, the estimated energy requirement is a calculate value and then the period of assessment and age, height and weight of the patienbt. 
+YOu can see the energy intake and macrontrient profile here. The columns indicate the limits, actual intake and targets
+---
+![:scale 90%](assets/img/NR2.png)
+
+???
+And then you csan see the carbohydrates, fibre, sugars intake and so on
+SO inclusion of free sugar content ( which we are obviosuly intetrested in) is still not compulsory in the EU but is in the USA. So that is something they are compiling at the moment
+
+---
+![:scale 90%](assets/img/NR3.png)
+???
+
+This iindicates the minerals/Trace elements so we can see at a glance that this patinet is consuming less than the ref nutr intake (RNI) for Iron, Zn and selenium.
+SO thats useful but of course only a guide as its based on aveg population values, so only if an individual is consistently consuming less than the LRNI for a nutrient, can it be assumed that the person is deficient in that particular nutrient.
+
+---
+![:scale 90%](assets/img/NR4.png)
+???
+And finally, we can see the vitamin profile and compare to the RNI
+You can also click the tab on the RHS and add in recommended food sources for specific nutrients and teh actual food sources in the that indiviudal patients diet 
+
+---
+# Interpret RNI's-DRV's
+
+- If Less than RNI -> can't assume inadequate
+- If Less than LRNI -> assume person deficient 
+- DRVs apply to healthy people only!
+
+https://www.nutritics.com/en/support/dietary-reference-values-drvs
+
+![:scale 45%](assets/img/Fig_DRV.png)
+???
+Indivi ROUTINE consuming RNI for a nutrient then assume diet provides adequate amounts of that nutrient!
+< RNI- person might have lower than avge requirement for that nutrient!
+If Less than LRNI (meets needs of 2.5%) -> assume person deficient 
+NB healthy only -not sick or eg elite athlete
+
+---
+
+![:scale 90%](assets/img/macro.jpg)
+
+---
+# Dietary behaviours assessment*
+
+.small[1. Are you following a special diet?
+2. Do you take any form of vitamin, herbal or dietary supplement?
+2. What changes have you made to your diet in the last 6-12months?
+3. What food restrictions or allergies do you have?
+4. Do you avoid any food or drink because of condition of your mouth?
+5. Have you had any unintentional weight loss in last 6 months?
+6. How often and when do you brush your teeth?]
+
+* Combine: 
+  * Dietary behaviours assessment
+  * Dietary assessment- nutrient report (nutritics)
+  
+
+???
+These are the type of quesitons you sohuld be consdering when assessing the dietary behaviours of a patient
+
+NB this assumes you have already added to this data- wgt, hgt, BMI, med Hx, medication, prosthesis etc as part of your overall risk assessment
+Quantify any unintentional weight loss, >10% wegiht loss? Calc BMI class- underwegt, normal etc.
+
+Assess maasticatory ability, occluding pairs etc, saliva, taste/sensory impairments, 
+
+Add to Nutritics/CRA form
+---
+
+# Dietary advice or intervention??
+![:scale 60%](assets/img/AMB_1.png)
+![:scale 40%](assets/img/BF.jpg)]
+
+???
+- An ounce of information is worth a pound of data.
+- An ounce of knowledge is worth a pound of information. 
+- An ounce of understanding is worth a pound of knowledge.
+
+2 things here- 1 prevention  NB
+and Understadning what the best step to take is NB
+-Most time school tramsit info adn how to get it!
+-less time is devoted to the transmission of knowledge and ways of obtaining it (analytic thinking). 
+- Virtually no time is spent in transmitting understanding or ways of obtaining it (synthetic thinking).
+  "..the distinction between data, information, and so on up to wisdom are seldom made in the educational process, leaving students unaware of their ignorance.
+ -They not only don’t know, they don’t know what they don’t know". 
+
+An ounce of information is worth a pound of data. An ounce of knowledge is worth a pound of information. An ounce of understanding is worth a pound of knowledge.
+Most of the time spent in school is devoted to the transmission of information and ways of obtaining it. Less time is devoted to the transmission of knowledge and ways of obtaining it (analytic thinking). Virtually no time is spent in transmitting understanding or ways of obtaining it (synthetic thinking). Furthermore, the distinction between data, information, and so on up to wisdom are seldom made in the educational process, leaving students unaware of
+
+.pull-right[![:scale 90%](assets/img/BF.jpg)]
+
+---
+# Dietary intervention- behaviour change
+
+
+.pull-left[![:scale 65%](assets/img/TTM.png)]
+.pull-right[<iframe width="560" height="315" src="https://www.youtube.com/embed/JnH-bDhxS9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
+https://youtu.be/JnH-bDhxS9E
+
+???
+.pull-left[![:scale 30%](assets/img/consult.png)]
+Remember, all good to know what is wrong but how to achieve change is a different skill! Patients who receive 1 to 1 dietary advice are more likely to sustain a change than eg written info
+-eg open question, motivation interviewing, SMART goals
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-zEpwxJlRQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://youtu.be/-zEpwxJlRQI
+
+
+---
+
+![:scale 80%](assets/img/comp.png)
+
+???
+so what do you need to do your proficiencey?
+---
+
+![:scale 80%](assets/img/CRA_work.png)
+---
+
+![:scale 50%](assets/img/DIet_assessm_nutritics.drawio.png)
+
+---
+![:scale 80%](assets/img/salud.png)
+---
+
+# Do's and Don'ts
+
+- Do diet (and caries risk) assessment for all patients
+
+- DO NOT use a paper based diary!
+
+- How often? (depends on risk profile)
+
+- Iterative process (do, repeat, modify, re-do)
+
+- Remember caries is a life-long cumulative disease
+
+???
+
+confidentiality: DO NOT transfer the name of the patient AND only use the
+patient's hospital number as identifier in the Nutritics documents
+5. You must provide the patient with dietary analysis, estimation and education/intervention
+![:scale 95%](assets/img/internet-claims.jpg)
+
+---
+
+![:scale 95%](assets/img/AI_l.png)
+
+---
+![:scale 95%](assets/img/question.jpeg)
+???
+---
+
+
+
+
+
+
+  "..the distinction between data, information, and so on up to wisdom are seldom made in the educational process, leaving students unaware of their ignorance.
+ -They not only don’t know, they don’t know what they don’t know". 
+
+An ounce of information is worth a pound of data. An ounce of knowledge is worth a pound of information. An ounce of understanding is worth a pound of knowledge.
+Most of the time spent in school is devoted to the transmission of information and ways of obtaining it. Less time is devoted to the transmission of knowledge and ways of obtaining it (analytic thinking). Virtually no time is spent in transmitting understanding or ways of obtaining it (synthetic thinking). Furthermore, the distinction between data, information, and so on up to wisdom are seldom made in the educational process, leaving students unaware of
+
+.pull-right[![:scale 90%](assets/img/BF.jpg)]
+
+"The best lack all conviction, while the worst   
+Are full of passionate intensity". Yeats.
+
+
+![:scale 65%](assets/img/DK_effect.jpg)
+
+.pull-left[![:scale 105%](assets/img/DK.png)]
+.pull-right[![:scale 125%](assets/img/MedDK.png)]
+???
+- The Dunning-Kruger effect (DK effect) (cognitive bias) is a psychological phenomenon which implies that individuals with lack of knowledge and skills have an unrealistically optimistic image of their abilities compared to others. 
+- stupid are cocksure and the confident are full of doubt
+- so why start with this?
+- exam performance, failure to see the benefit to patinets of developing your assessment, counselling and preventive skills, "we've done it all before in pbl"!
+- the mechanics of how you do a dietary assessment should not be difficult if you apply yourself. The hardest part is developing the communication skills to be able to change the patieints dietary behaviours! 
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z7IQwnj0obk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://youtu.be/orzWOAxXcm8
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wvVPdyYeaQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+---
+## Tutorial on dietary assessment - Nutritics
+ 
+- ALL new patient assessments MUST have a dietary assessment done using Nutritics        
+- DO NOT use paper based sheets and then 'transfer' into Nutritics. 
+- Beginning treatment without a full risk assessment (including diet) is not good practice 
+- OSCE’s in 3rd and 4th year will be based on Nutritics and/or dietary assessment
+???
+3 people NOT registered or activated licences, I have to monitor and maintian all licences. 
+You have all been taught how to use Nutritics and been advised that you are to use it with the patient in the dental chair so they can see the foods/portion sized etc and provide you with an opportunity to learn how to develop your patient communication skills also. 
+3rd or 4th year (2022) as follows so that we can follow the users for the year as you progress 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4FGnb2lgPBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://youtu.be/4FGnb2lgPBA
+
+
+
+---
+
+# Methods and tools for dietary intake assessment
+
+![](assets/img/Diet_assessment_system.PNG)
+
+
+???
+
+
+-Nutritional assessment is the first step in addressing diet with patients.
+This flow chart gives the students a framework to understand the diff assem tools that can be used depdning on the desired focus and how that then translates into nutrient reports and interpetation of results.
+
+-Subsequent stages include planning and implementing interventions, and evaluating their effectiveness.
+
+-Most dietary assessment tools include questions about behaviors associated with food intake. And this is obviuosly essentiual for oral health
+
+-The clinical assessment typically begins with a well- structured history to identify conditions likely to be associated with nutritional deficiencies, and a dietary history to indicate unusual dietary patterns or major changes in dietary intake.
+
+---
+# OSCE 3rd years
+- Thursday 25th April
+- Nutritics based scenario
+- Read Personal details and Nutrient report
+- Answers are brief, no essays required!
+- Macronutrient analysis in report also
+- Note 'ranges' and 'targets' for RNI's
+
+???
+Know your free sugar guidelines and what they mean in terms of amount
+BMI calssification WHO obese range
+macronutrients cho, fat protein- kcals, can state re eg fat and which fat largest etc but main category 1st eg FAT
+RNI or recomended range (target), differs wrt nutrtient, eg range CHO
+If asked approximate estimation then its treble, double, etc NO calculator required, not 1 and 1/4 etc. !!!!
+
+---
+---
+# Qualtrics survey- dental humanities
+
+https://nursingandmidwifery.fra1.qualtrics.com/jfe/form/SV_07KAB41phGnBqtw
+
+![](assets/img/SV_07KAB41phGnBqtw-qrcode.jpg)
+
+https://tcd.blackboard.com/webapps/blackboard/execute/manageCourseItem?content_id=_2690170_1&course_id=_84934_1&do=add&dispatch=add#
+
+DE3002-202324: Nutritics Tutorial Year 3-2nd Term
