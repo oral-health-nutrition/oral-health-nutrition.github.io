@@ -1,4 +1,5 @@
-## Diet, Nutrition, and Oral Health Research
+![Oral Health, Diet and Nutrition Research Group](banner.svg)
+## Oral Health, Diet and Nutrition Research Group
 
 ### Dublin Dental University Hospital | Trinity College Dublin
 
