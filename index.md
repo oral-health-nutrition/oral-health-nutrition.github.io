@@ -12,12 +12,13 @@ Diet is a modifiable risk factor that has been neglected in dental education and
 
 ### 1. Education and Diet Assessment Methodology
 
-We developed and implemented a new nutrition curriculum at DDUH, training 180+ dental students per year (Years 2 to 5) in dietary assessment using digital tools. The programme progresses from peer diet workshops, through clinical 24-hour dietary recall using Nutritics software, to OSCE-assessed case portfolios and diet risk assessment.
+We developed and implemented a new nutrition curriculum at DDUH, training 140+ dental students per year (Years 2 to 5) in dietary assessment using digital tools. The programme progresses from peer diet workshops, through clinical 24-hour dietary recall using Nutritics software, to OSCE-assessed case portfolios and diet risk assessment.
 
 This work contributed to an international competency framework for diet and nutrition in oral health education (Marshall, Crowe & Touger-Decker, *J Dent Educ* 2025), and we have delivered workshops on digital dietary assessment at IADR Barcelona 2025 and IADR San Diego 2026. We also hosted an ADEE workshop on sustainable diets and oral health at TCD in 2025.
 
 A global survey of nutrition education in dental schools (COP) has been submitted to the *European Journal of Dental Education*.
 
+In collaboration with UCD (Aifric O'Sullivan, Emma Foster), we have helped establish the Intake24 digital 24-hour dietary recall tool in Ireland, providing validated, free-access infrastructure for dietary assessment in research populations.
 
 **Key publications:**
 - Crowe M, O'Sullivan M, Winning L, Cassetti O, et al. Implementation of a food science and nutrition module in a dental undergraduate curriculum. *Eur J Dent Educ* 2023; 27(2): 402-408.
@@ -79,23 +80,16 @@ Using individual-level geocoded lifetime fluoride exposure linked via residentia
 
 | Name | Role | Affiliation |
 |------|------|-------------|
-| Michael Crowe | DDUH / TCD |
-| Michael O'Sullivan | DDUH / TCD |
-| Lewis Winning | DDUH / TCD |
-| Brian O'Connell| DDUH / TCD 
-| Lina Zgaga | TCD
+| Michael Crowe | Associate Professor (PI) | DDUH / TCD |
 | Vinay Sharma | Postdoctoral Fellow | TCD |
 | Oscar Cassetti | Research Fellow | TCD |
-| Aifric O'Sullivan | UCD |
-| Jaime Knox Macleod (TCD, PhD candidate)
-| David McMahon | (TCD, DChDent candidate)
-| Aoife Caitriona Broderick | (TCD, DChDent candidate)
-
-
+| Michael O'Sullivan | Associate Professor | DDUH / TCD |
+| Lewis Winning | Assistant Professor | DDUH / TCD |
+| Aifric O'Sullivan | Assistant Professor | UCD |
 
 **Collaborators**
 
-Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael Cronin (UCC), Rose Anne Kenny (TILDA/TCD), Eithne O'Flaherty (TCD), Brendan Egan (DCU/SII), Sharon Madigan (SII), Michaela Goodwin (University of Manchester), Teresa Marshall (University of Iowa), Rena Touger-Decker (Rutgers University), Katie O'Farrell (CSO)
+Brian O'Connell (UCC), Lina Zgaga (TCD), Annie Hughes (SII/TCD), Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael Cronin (UCC), Rose Anne Kenny (TILDA/TCD), Eithne O'Flaherty (TCD), Brendan Egan (DCU/SII), Sharon Madigan (SII), Michaela Goodwin (University of Manchester), Teresa Marshall (University of Iowa), Rena Touger-Decker (Rutgers University), Jaime Knox Macleod (TCD, PhD candidate), Katie O'Farrell (TCD)
 
 ---
 
@@ -103,6 +97,7 @@ Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael C
 
 - Health Research Board (HRB)
 - Department of Agriculture, Food and the Marine (DAFM)
+- Sport Ireland Institute
 - Dublin Dental University Hospital
 
 ---
