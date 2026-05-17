@@ -1,7 +1,4 @@
 ![Oral Health, Diet and Nutrition Research Group](banner.svg)
-## Oral Health, Diet and Nutrition Research Group
-
-### Dublin Dental University Hospital | Trinity College Dublin
 
 We are a research group based at Dublin Dental University Hospital (DDUH) and Trinity College Dublin (TCD), building a national evidence base on the relationship between diet, nutrition, and oral health across the life course.
 
