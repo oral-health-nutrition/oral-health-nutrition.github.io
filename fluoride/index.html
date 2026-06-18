@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fluoride, Water and Cognitive Health Across the Life Course | HRB-Funded Research</title>
+<meta name="description" content="An HRB-funded research programme examining community water fluoridation and cognitive health across the life course, using Ireland's TILDA and Growing Up in Ireland cohorts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0b2e4f;
+    --teal:#1c7c8c;
+    --aqua:#eaf3f4;
+    --bone:#f8f6f1;
+    --slate:#4a5560;
+    --white:#ffffff;
+    --line:#d9e2e4;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Public Sans',-apple-system,Segoe UI,sans-serif;
+    color:var(--slate);
+    background:var(--white);
+    line-height:1.6;
+  }
+  h1,h2,h3{
+    font-family:'Source Serif 4',Georgia,serif;
+    color:var(--navy);
+    margin:0 0 .5em;
+    font-weight:600;
+  }
+  a{color:var(--teal);}
+  .wrap{max-width:980px;margin:0 auto;padding:0 28px;}
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:.72rem;
+    font-weight:700;
+    color:var(--teal);
+    margin-bottom:.9em;
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    border-bottom:1px solid var(--line);
+    background:var(--white);
+  }
+  .topbar .wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:16px;
+    padding-bottom:16px;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  .group-link{
+    font-size:.85rem;
+    font-weight:600;
+    color:var(--navy);
+    text-decoration:none;
+  }
+  .group-link span{color:var(--slate);font-weight:400;}
+  .topbar nav a{
+    color:var(--slate);
+    text-decoration:none;
+    font-size:.85rem;
+    font-weight:600;
+    margin-left:22px;
+  }
+  .topbar nav a:hover{color:var(--teal);}
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:var(--aqua);
+    padding:64px 0 0;
+    overflow:hidden;
+  }
+  .hero .wrap{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:36px;
+    align-items:center;
+  }
+  .hero h1{
+    font-size:2.3rem;
+    line-height:1.18;
+  }
+  .hero p.lead{
+    font-size:1.05rem;
+    max-width:46ch;
+  }
+  .badges{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:26px;
+  }
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:7px 14px;
+    font-size:.78rem;
+    font-weight:600;
+    color:var(--navy);
+  }
+  .badge .dot{width:7px;height:7px;border-radius:50%;background:var(--teal);}
+
+  .arc-figure{
+    width:100%;
+    max-width:420px;
+    height:auto;
+    display:block;
+  }
+  .arc-figure text{
+    font-family:'Public Sans',sans-serif;
+  }
+
+  /* ---------- logo strip ---------- */
+  .logostrip{
+    background:var(--white);
+    border-bottom:1px solid var(--line);
+  }
+  .logostrip .wrap{
+    display:flex;
+    align-items:center;
+    gap:36px;
+    padding:22px 28px;
+    flex-wrap:wrap;
+  }
+  .logo-slot{
+    min-height:42px;
+    display:block;
+    font-family:'Source Serif 4',serif;
+    font-weight:600;
+    color:var(--navy);
+    font-size:1.05rem;
+    border:1px dashed var(--line);
+    padding:8px 14px;
+    border-radius:6px;
+  }
+  .logo-slot small{
+    display:block;
+    font-family:'Public Sans',sans-serif;
+    font-weight:400;
+    font-size:.62rem;
+    color:var(--slate);
+    text-transform:uppercase;
+    letter-spacing:.06em;
+  }
+
+  /* ---------- generic section ---------- */
+  section.block{padding:60px 0;}
+  section.block.alt{background:var(--bone);}
+  section.block h2{font-size:1.5rem;}
+  .lead-col{max-width:64ch;}
+
+  /* ---------- cohorts ---------- */
+  .cohorts-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    margin-top:28px;
+  }
+  .cohort-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:26px;
+  }
+  .cohort-card .tag{
+    font-size:.7rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--teal);
+  }
+  .cohort-card h3{font-size:1.15rem;margin-top:6px;}
+  .cohort-card p{font-size:.92rem;margin-bottom:0;}
+
+  /* ---------- team ---------- */
+  .team-list{
+    list-style:none;
+    margin:24px 0 0;
+    padding:0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px 32px;
+  }
+  .team-list li{
+    border-top:1px solid var(--line);
+    padding-top:12px;
+    font-size:.92rem;
+  }
+  .team-list .name{font-weight:700;color:var(--navy);display:block;}
+  .team-list .role{font-size:.82rem;color:var(--slate);}
+  .editable-note{
+    font-size:.8rem;
+    color:var(--teal);
+    background:var(--aqua);
+    border-radius:6px;
+    padding:10px 14px;
+    margin-top:22px;
+    display:inline-block;
+  }
+
+  /* ---------- funding ---------- */
+  .funding-row{
+    display:flex;
+    align-items:flex-start;
+    gap:28px;
+    margin-top:22px;
+    flex-wrap:wrap;
+  }
+  .funding-row p{margin:0;max-width:56ch;font-size:.95rem;}
+
+  /* ---------- outputs ---------- */
+  .outputs-list{
+    margin-top:24px;
+    padding:0;
+    list-style:none;
+  }
+  .outputs-list li{
+    border-bottom:1px solid var(--line);
+    padding:14px 0;
+    font-size:.92rem;
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .outputs-list .placeholder{color:var(--slate);font-style:italic;}
+
+  /* ---------- footer ---------- */
+  footer{
+    background:var(--navy);
+    color:var(--aqua);
+    padding:40px 0;
+    font-size:.85rem;
+  }
+  footer a{color:#bfe3e8;}
+  footer .wrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+
+  @media (max-width:760px){
+    .hero .wrap{grid-template-columns:1fr;}
+    .cohorts-grid{grid-template-columns:1fr;}
+    .team-list{grid-template-columns:1fr;}
+    .hero h1{font-size:1.8rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <a class="group-link" href="https://oral-health-nutrition.github.io/">
+      Oral Health &amp; Nutrition Research Group <span>— Dublin Dental University Hospital, TCD</span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#cohorts">Cohorts</a>
+      <a href="#team">Team</a>
+      <a href="#funding">Funding</a>
+      <a href="#outputs">Outputs</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">HRB-funded research programme</div>
+      <h1>Fluoride, water and cognitive health across the life course</h1>
+      <p class="lead">Examining whether exposure to community water fluoridation across the life course relates to cognitive outcomes in childhood and later life, using two of Ireland's major longitudinal cohorts.</p>
+      <div class="badges">
+        <span class="badge"><span class="dot"></span>Health Research Board (HRB) funded</span>
+        <span class="badge"><span class="dot"></span>TILDA &amp; Growing Up in Ireland data</span>
+      </div>
+    </div>
+    <div>
+      <!-- Signature graphic: a life-course arc linking the two cohorts -->
+      <svg class="arc-figure" width="420" height="280" viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="A line connecting childhood and later life, representing exposure to fluoride across the life course">
+        <defs>
+          <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0b2e4f"/>
+            <stop offset="100%" stop-color="#1c7c8c"/>
+          </linearGradient>
+        </defs>
+        <!-- age axis baseline -->
+        <line x1="55" y1="232" x2="380" y2="232" stroke="#d9e2e4" stroke-width="1.5"/>
+        <line x1="55" y1="227" x2="55" y2="237" stroke="#d9e2e4" stroke-width="1.5"/>
+        <line x1="217" y1="227" x2="217" y2="237" stroke="#d9e2e4" stroke-width="1.5"/>
+        <line x1="380" y1="227" x2="380" y2="237" stroke="#d9e2e4" stroke-width="1.5"/>
+        <text x="217" y="252" text-anchor="middle" font-size="9.5" fill="#7e8b93" letter-spacing="1">DECADES OF EXPOSURE</text>
+
+        <!-- the arc itself -->
+        <path d="M55,190 C150,55 280,55 380,130" fill="none" stroke="url(#arcGrad)" stroke-width="3.5" stroke-linecap="round"/>
+
+        <!-- central fluoride droplet motif -->
+        <g transform="translate(217,98)">
+          <path d="M0,-26 C14,-8 22,6 22,16 A22,22 0 1 1 -22,16 C-22,6 -14,-8 0,-26 Z" fill="#ffffff" stroke="#1c7c8c" stroke-width="2.5"/>
+          <text x="0" y="9" text-anchor="middle" font-size="15" font-weight="700" fill="#1c7c8c">F&#8315;</text>
+        </g>
+
+        <!-- endpoint: childhood -->
+        <circle cx="55" cy="190" r="11" fill="#0b2e4f"/>
+        <text x="55" y="220" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0b2e4f">Childhood</text>
+
+        <!-- endpoint: later life -->
+        <circle cx="380" cy="130" r="11" fill="#1c7c8c"/>
+        <text x="380" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0b2e4f">Later life</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ============ LOGO STRIP ============ -->
+  <div class="logostrip">
+    <div class="wrap">
+      <!-- TODO: replace this placeholder with the actual TCD logo file, e.g. <img src="assets/tcd-logo.png" alt="Trinity College Dublin" height="42"> -->
+      <div class="logo-slot">Trinity College Dublin<small>logo file goes here</small></div>
+      <!-- TODO: replace this placeholder with the actual HRB logo file, e.g. <img src="assets/hrb-logo.png" alt="Health Research Board" height="42"> -->
+      <div class="logo-slot">Health Research Board<small>logo file goes here</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="eyebrow">About the programme</div>
+    <h2>Why fluoride, water and cognition</h2>
+    <div class="lead-col">
+      <p>Community water fluoridation has been part of Ireland's public health infrastructure for decades, with a strong and consistent evidence base for its role in reducing dental decay. Far less is known about whether lifetime exposure to fluoridated water has any relationship with cognitive outcomes, in either direction, across childhood and into older age.</p>
+      <p>This programme uses two of Ireland's national longitudinal studies, <strong>Growing Up in Ireland</strong> and <strong>TILDA</strong>, to examine this question using population-representative data collected over many years, rather than a single cross-sectional snapshot.</p>
+      <p style="font-size:.85rem;color:var(--teal);">[Edit this section with the specific aims, hypotheses and study design once finalised — keep the cohort and funder facts, replace the framing text.]</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COHORTS ============ -->
+<section class="block alt" id="cohorts">
+  <div class="wrap">
+    <div class="eyebrow">Data sources</div>
+    <h2>The two cohorts</h2>
+    <div class="cohorts-grid">
+      <div class="cohort-card">
+        <div class="tag">Childhood</div>
+        <h3>Growing Up in Ireland (GUI)</h3>
+        <p>Ireland's national longitudinal study of children, following two cohorts of children and young people over time to track development, health and wellbeing.</p>
+      </div>
+      <div class="cohort-card">
+        <div class="tag">Later life</div>
+        <h3>TILDA</h3>
+        <p>The Irish Longitudinal Study on Ageing, based at Trinity College Dublin, is a nationally representative study of the over-50s, tracking health, economic and social circumstances over time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="block" id="team">
+  <div class="wrap">
+    <div class="eyebrow">Team</div>
+    <h2>Who's involved</h2>
+    <ul class="team-list">
+      <li>
+        <span class="name">Michael Crowe BDentSc, PhD</span>
+        <span class="role">Principal Investigator — Associate Professor, Food Science, Nutrition and Oral Health, Dublin Dental University Hospital / Trinity College Dublin</span>
+      </li>
+      <li>
+        <span class="name">[Co-investigator name]</span>
+        <span class="role">[Role / affiliation]</span>
+      </li>
+      <li>
+        <span class="name">[Co-investigator name]</span>
+        <span class="role">[Role / affiliation]</span>
+      </li>
+      <li>
+        <span class="name">[Researcher / student name]</span>
+        <span class="role">[Role / affiliation]</span>
+      </li>
+    </ul>
+    <span class="editable-note">Replace the bracketed entries with the rest of the project team.</span>
+  </div>
+</section>
+
+<!-- ============ FUNDING ============ -->
+<section class="block alt" id="funding">
+  <div class="wrap">
+    <div class="eyebrow">Funding</div>
+    <h2>Supported by the Health Research Board</h2>
+    <div class="funding-row">
+      <p>This research is funded by the Health Research Board (HRB), Ireland's lead agency supporting health research. <span style="color:var(--teal);">[Add grant title and reference number here, e.g. HRB Grant No. XXX-2026.]</span></p>
+    </div>
+    <div class="funding-row" style="margin-top:18px;">
+      <p style="font-size:.85rem;color:var(--slate);"><strong>Data acknowledgement:</strong> <span style="color:var(--teal);">[Insert the exact required citation wording from TILDA's and Growing Up in Ireland's data access agreements here — check their published guidance, the wording is usually mandated rather than optional.]</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTPUTS ============ -->
+<section class="block" id="outputs">
+  <div class="wrap">
+    <div class="eyebrow">Publications &amp; outputs</div>
+    <h2>Outputs</h2>
+    <ul class="outputs-list">
+      <li><span class="placeholder">Publications and outputs will be listed here as the programme progresses.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div>Part of the <a href="https://oral-health-nutrition.github.io/">Oral Health &amp; Nutrition Research Group</a>, Dublin Dental University Hospital, Trinity College Dublin.</div>
+    <div><a href="mailto:michael.crowe@dental.tcd.ie">michael.crowe@dental.tcd.ie</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
