@@ -53,10 +53,15 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding-top:16px;
-    padding-bottom:16px;
+    padding-top:14px;
+    padding-bottom:14px;
     flex-wrap:wrap;
     gap:10px;
+  }
+  .topbar-logos{
+    display:flex;
+    align-items:center;
+    gap:26px;
   }
   .group-link{
     font-size:.85rem;
@@ -77,7 +82,7 @@
   /* ---------- hero ---------- */
   .hero{
     background:var(--aqua);
-    padding:64px 0 0;
+    padding:64px 0 48px;
     overflow:hidden;
   }
   .hero .wrap{
@@ -122,39 +127,6 @@
   }
   .arc-figure text{
     font-family:'Public Sans',sans-serif;
-  }
-
-  /* ---------- logo strip ---------- */
-  .logostrip{
-    background:var(--white);
-    border-bottom:1px solid var(--line);
-  }
-  .logostrip .wrap{
-    display:flex;
-    align-items:center;
-    gap:36px;
-    padding:22px 28px;
-    flex-wrap:wrap;
-  }
-  .logo-slot{
-    min-height:42px;
-    display:block;
-    font-family:'Source Serif 4',serif;
-    font-weight:600;
-    color:var(--navy);
-    font-size:1.05rem;
-    border:1px dashed var(--line);
-    padding:8px 14px;
-    border-radius:6px;
-  }
-  .logo-slot small{
-    display:block;
-    font-family:'Public Sans',sans-serif;
-    font-weight:400;
-    font-size:.62rem;
-    color:var(--slate);
-    text-transform:uppercase;
-    letter-spacing:.06em;
   }
 
   /* ---------- generic section ---------- */
@@ -267,9 +239,10 @@
 <!-- ============ TOP BAR ============ -->
 <div class="topbar">
   <div class="wrap">
-    <a class="group-link" href="https://oral-health-nutrition.github.io/">
-      Oral Health &amp; Nutrition Research Group <span>— Dublin Dental University Hospital, TCD</span>
-    </a>
+    <div class="topbar-logos">
+      <img src="tcd-logo.png" alt="Trinity College Dublin" height="52">
+      <img src="hrb-logo.png" alt="Health Research Board" height="52">
+    </div>
     <nav>
       <a href="#about">About</a>
       <a href="#cohorts">Cohorts</a>
@@ -325,14 +298,6 @@
         <circle cx="380" cy="130" r="11" fill="#1c7c8c"/>
         <text x="380" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0b2e4f">Later life</text>
       </svg>
-    </div>
-  </div>
-
-  <!-- ============ LOGO STRIP ============ -->
-  <div class="logostrip">
-    <div class="wrap">
-      <img src="tcd-logo.png" alt="Trinity College Dublin" height="42">
-<img src="hrb-logo.png" alt="Health Research Board" height="42">
     </div>
   </div>
 </section>
