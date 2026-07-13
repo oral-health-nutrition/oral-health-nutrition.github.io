@@ -67,9 +67,11 @@ Funded by the Health Research Board, this is our largest research strand, examin
 Using individual-level geocoded lifetime fluoride exposure linked via residential histories to water supply records in the TILDA cohort, we found no association between CWF exposure and cognitive function in older Irish adults (IRR = 1.00, fully adjusted). Paper under review.
 
 **Resources:**
+
 - [GUI Oral Health Dashboard](https://dduh.shinyapps.io/dduh/) (interactive cohort analysis tool)
 - [ODK Templates](https://oral-health-nutrition.github.io/odk/) (basic data collection templates)
 - [HRB Fluoride Programme](https://oral-health-nutrition.github.io/fluoride/#team-)
+
 ---
 
 ## Team
