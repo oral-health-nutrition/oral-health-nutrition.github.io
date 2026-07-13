@@ -28,7 +28,7 @@ Our global survey of nutrition education in dental schools (COP) has been recent
 
 In collaboration with the Sport Ireland Institute (SII), we collected the first national data on diet and oral health in Irish elite athletes. Despite high nutritional awareness, athletes showed a high caries burden, with snack foods and sugar-sweetened beverages identified as major contributors. 90% of elite Irish athletes surveyed had tooth decay.
 
-Ongoing work includes pre-event oral health screening before major international competitions and development of an oral health guide for sports staff with SII and the National Dental Clinic.
+Ongoing work includes pre-event oral health screening before major international competitions and development of an oral health guide for sports staff with SII.
 
 **Key publications:**
 - Hughes A, et al. Digital data collection protocols and template design for an oral health survey. *Discover Public Health* 2024.
@@ -66,6 +66,15 @@ Funded by the Health Research Board, this is our largest research strand, examin
 **Fluoride and cognition:**
 Using individual-level geocoded lifetime fluoride exposure linked via residential histories to water supply records in the TILDA cohort, we found no association between CWF exposure and cognitive function in older Irish adults (IRR = 1.00, fully adjusted). Paper under review.
 
+---
+
+### 6: Oral Health Trajectories in Childhood and Adolescence
+
+Using longitudinal data from the Growing Up in Ireland (GUI) study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence in Ireland. Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, the research identifies critical periods for prevention and the sociodemographic and dietary drivers of oral health inequality. Subject to feasibility and ethical approval, a nested cohort component will link clinical assessment to existing GUI self-report data.
+Team: Professor Michael O'Sullivan (PI), Dr Michael Crowe, Professor Lewis Winning, Dr Vinay Sharma (DDUH/TCD). PhD candidate Sept 2026
+Funding: Trinity Research Doctorate Award 2026, School of Dental Science, Trinity College Dublin.
+
+---
 **Resources:**
 
 - [GUI Oral Health Dashboard](https://dduh.shinyapps.io/dduh/) (interactive cohort analysis tool)
