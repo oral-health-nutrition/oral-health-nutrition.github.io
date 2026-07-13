@@ -21,6 +21,7 @@ Our global survey of nutrition education in dental schools (COP) has been recent
 - Crowe M, O'Sullivan M, Winning L, Cassetti O, et al. Implementation of a food science and nutrition module in a dental undergraduate curriculum. *Eur J Dent Educ* 2023; 27(2): 402-408.
 - Marshall TA, Crowe M, Touger-Decker R. A Framework to Establish Diet and Nutrition Competencies for Oral Health Care Education. *J Dent Educ* 2025.
 - Crowe, M. et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. *European Journal of Dental Education*, 2026. https://doi.org/10.1111/eje.70230
+
 ---
 
 ### 2. Oral Health in Irish Elite Athletes
@@ -67,7 +68,8 @@ Using individual-level geocoded lifetime fluoride exposure linked via residentia
 
 **Resources:**
 - [GUI Oral Health Dashboard](https://dduh.shinyapps.io/dduh/) (interactive cohort analysis tool)
-
+- [ODK Templates](https://oral-health-nutrition.github.io/odk/) (basic data collection templates)
+- [HRB Fluoride Programme](https://oral-health-nutrition.github.io/fluoride/#team-)
 ---
 
 ## Team
