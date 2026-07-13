@@ -70,11 +70,11 @@ Using individual-level geocoded lifetime fluoride exposure linked via residentia
 
 ### 6: Oral Health Trajectories in Childhood and Adolescence
 
-Using longitudinal data from the Growing Up in Ireland (GUI) study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence in Ireland. Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, the research identifies critical periods for prevention and the sociodemographic and dietary drivers of oral health inequality. Subject to feasibility and ethical approval, a nested cohort component will link clinical assessment to existing GUI self-report data.
-Team: Professor Michael O'Sullivan (PI), Dr Michael Crowe, Professor Lewis Winning, Dr Vinay Sharma (DDUH/TCD). PhD candidate Sept 2026
-Funding: Trinity Research Doctorate Award 2026, School of Dental Science, Trinity College Dublin.
+-  Using longitudinal data from the Growing Up in Ireland (GUI) study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence in Ireland. Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, the research identifies critical periods for prevention and the sociodemographic and dietary drivers of oral health inequality. Subject to feasibility and ethical approval, a nested cohort component will link clinical assessment to existing GUI self-report data.
+-  Team: Professor Michael O'Sullivan (PI), Dr Michael Crowe, Professor Lewis Winning, Dr Vinay Sharma (DDUH/TCD). PhD candidate Sept 2026
+-  Funding: Trinity Research Doctorate Award 2026, School of Dental Science, Trinity College Dublin.
 
----
+
 **Resources:**
 
 - [GUI Oral Health Dashboard](https://dduh.shinyapps.io/dduh/) (interactive cohort analysis tool)
