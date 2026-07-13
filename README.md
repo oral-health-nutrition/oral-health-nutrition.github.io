@@ -14,14 +14,13 @@ We developed and implemented a new nutrition curriculum at DDUH, training 180+ d
 
 This work contributed to an international competency framework for diet and nutrition in oral health education (Marshall, Crowe & Touger-Decker, *J Dent Educ* 2025), and we have delivered workshops on digital dietary assessment at IADR Barcelona 2025 and IADR San Diego 2026. We also hosted an ADEE workshop on sustainable diets and oral health at TCD in 2025.
 
-A global survey of nutrition education in dental schools (COP) has been submitted to the *European Journal of Dental Education*.
+Our global survey of nutrition education in dental schools (COP) has been recently published in the *European Journal of Dental Education*.
 
 
 **Key publications:**
 - Crowe M, O'Sullivan M, Winning L, Cassetti O, et al. Implementation of a food science and nutrition module in a dental undergraduate curriculum. *Eur J Dent Educ* 2023; 27(2): 402-408.
 - Marshall TA, Crowe M, Touger-Decker R. A Framework to Establish Diet and Nutrition Competencies for Oral Health Care Education. *J Dent Educ* 2025.
-- Crowe M et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. *(submitted to EJDE)*
-
+- Crowe, M. et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. *European Journal of Dental Education*, 2026. https://doi.org/10.1111/eje.70230
 ---
 
 ### 2. Oral Health in Irish Elite Athletes
@@ -81,6 +80,7 @@ Using individual-level geocoded lifetime fluoride exposure linked via residentia
 | Michael O'Sullivan | DDUH / TCD |
 | Lewis Winning | DDUH / TCD |
 | Brian O'Connell| DDUH / TCD 
+| Gary Moran | DDUH / TCD
 | Lina Zgaga | TCD
 | Vinay Sharma | Postdoctoral Fellow | TCD |
 | Oscar Cassetti | Research Fellow | TCD |
@@ -111,6 +111,7 @@ Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael C
 - Hughes A, et al. Diet and Dental Caries in Elite Athletes in Ireland. *J Hum Nutr Diet* 2026.
 - Sharma V, et al. Longitudinal Analysis of Fluoride Levels in Irish Water Supplies: A 52-Year Review. *Community Dent Oral Epidemiol* 2026.
 - Sharma V, et al. Socio-Economic Differences in the Oral Health of Irish Adolescents. *Community Dent Oral Epidemiol* 2025/2026.
+- Crowe, M. et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. European Journal of Dental Education, 2026. https://doi.org/10.1111/eje.70230
 
 ### 2025
 - Marshall TA, Crowe M, Touger-Decker R. A Framework to Establish Diet and Nutrition Competencies for Oral Health Care Education. *J Dent Educ* 2025.
@@ -134,8 +135,7 @@ Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael C
 - Crowe M. Sugar tax and obesity. 2021.
 
 ### Under Review / In Preparation
-- Crowe M, et al. CWF and cognitive outcomes in older Irish adults. *(under review)*
-- Crowe M, et al. Global Survey of Nutrition Education in Dental Schools. *(submitted to EJDE)*
+- Sharma V et al. CWF and cognitive outcomes in older Irish adults. *(under review)*
 - Intestinal failure and oral health (2 papers in preparation)
 
 ---
@@ -144,6 +144,7 @@ Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael C
 
 - [GUI Oral Health Dashboard](https://dduh.shinyapps.io/dduh/) - interactive exploratory data analysis of aggregated surveys (Infant GUI, Child GUI, NCFS 2)
 - [ODK Templates](https://oral-health-nutrition.github.io/odk/) - basic data collection templates
+- https://oral-health-nutrition.github.io/fluoride/#team- - HRB funded project 
 
 ---
 
@@ -154,3 +155,14 @@ Associate Professor, Food Science, Nutrition and Oral Health
 Dublin Dental University Hospital, Trinity College Dublin
 
 michael.crowe@dental.tcd.ie
+
+Or
+
+Michael O'Sullivan
+Professor/ Consultant in Restorative Dentistry (Special Needs)
+Dublin Dental University Hospital, Trinity College Dublin
+
+michael.o'sullivan@dental.tcd.ie
+
+
+Clinical Director
