@@ -98,7 +98,7 @@ Using individual-level geocoded lifetime fluoride exposure linked via residentia
 | Vinay Sharma | Postdoctoral Fellow | TCD |
 | Oscar Cassetti | Research Fellow | TCD |
 | Aifric O'Sullivan | UCD |
-| Jaime Knox Macleod (TCD, PhD candidate)
+| Jaime Knox Macleod | (TCD, PhD candidate)
 | David McMahon | (TCD, DChDent candidate)
 | Aoife Caitriona Broderick | (TCD, DChDent candidate)
 
