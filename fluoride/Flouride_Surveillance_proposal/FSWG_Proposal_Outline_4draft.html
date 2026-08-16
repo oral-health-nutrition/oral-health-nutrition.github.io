@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Fluoridation Surveillance Framework Proposal</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="FSWG_Proposal_Outline_4draft_files/libs/clipboard/clipboard.min.js"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/popper.min.js"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/anchor.min.js"></script>
+<link href="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="FSWG_Proposal_Outline_4draft_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="FSWG_Proposal_Outline_4draft_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="FSWG_Proposal_Outline_4draft_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="FSWG_Proposal_Outline_4draft_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="FSWG_Proposal_Outline_4draft_files/libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="FSWG_Proposal_Outline_4draft_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="FSWG_Proposal_Outline_4draft_files/libs/viz-1.8.2/viz.js"></script>
+<link href="FSWG_Proposal_Outline_4draft_files/libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="FSWG_Proposal_Outline_4draft_files/libs/grViz-binding-1.0.11/grViz.js"></script>
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="FSWG_Proposal_Outline_4draft.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Fluoridation Surveillance Framework Proposal</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="fluoridation-surveillance-project-specification-response-outline-md.updated-with-edits-from-word-doc-draft-3" class="level1">
+<h1>Fluoridation Surveillance Project Specification: Response Outline (md.UPDATED WITH EDITS FROM WORD DOC draft 3)</h1>
+<p>*Structured against the letter’s three evaluation criteria: methodology (40%), timeframe (20%), cost (40%).</p>
+<section id="introduction-scope-and-track-record" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-scope-and-track-record">1. Introduction, Scope and Track Record</h2>
+<p>Short statement acknowledging the invitation, confirming the response addresses methodology, timeframe and cost as requested.</p>
+<p><strong>A note on naming/scope, to state explicitly up front:</strong> the letter’s title refers to a “fluoridation surveillance” model, but Pillar 1 (fluoride concentration in public water supplies) is explicitly excluded from this call. What’s actually being specified is a model for Pillars 2 and 3, oral and systemic health surveillance in a population exposed to community water fluoridation, not a system for measuring fluoride itself. We should probably frame the specification accordingly: a national oral and general health surveillance system, stratified by CWF exposure status, rather than a fluoride monitoring system in the literal sense. This affects what the minimum exposure variable needs to be (see 2.4).</p>
+<p><strong>Confirmed by the Department (reply from Anne Murphy):</strong></p>
+<ul>
+<li><strong>Budget confirmed</strong>: as we discussed this morning, the €5,000 is “the Department’s budget for engaging services to carry out the necessary overview project to develop and deliver the project specification itself.” This is a fee for producing the specification document, not for building or running the surveillance system it describes (see Section 4).</li>
+<li><strong>Primary data sources narrowed to three</strong>: the Department names only Uisce Éireann, TILDA and GUI as “primary.” HSE and NHES, both in the original letter’s list, aren’t repeated here. Worth reading as a signal of priority, not as dropping HSE/IUNA from the analysis entirely</li>
+<li><strong>Uisce Éireann now points to a public-facing tool</strong>: “Detailed drinking water quality results for your Water Supply Zone,” a consumer portal. Needs checking for what granularity and history it actually gives (current snapshot only, or a time series).we are pretty sure this is just the one monthly reading from UE which is then available on EPA-SAFER files. As we discussed, this is probably why they have omitted Pillar 1, but this is fairly coarse data, once/month consumer level, and we dont know anything about sampling/how representative etc.</li>
+<li><strong>National Oral Health Policy, “Smile agus Sláinte,” Chapter 10</strong> (“Oral health evaluation, policy evaluation and research development”) is flagged as the policy anchor for this work.</li>
+<li><strong>WHO reference is the <em>Global strategy and action plan on oral health 2023-2030</em>, specifically </strong>Strategic Objective 5, “Oral health information systems.”**</li>
+<li><strong>Healthy Ireland</strong>: the Department points specifically to the <strong>2022 Healthy Ireland Survey</strong>, which “most recently held a standalone module on dental and oral health.”I have added an outline doc to Onedrive which I was planning to look at HI data , might be useful to understadn what’s in it.</li>
+<li><strong>Prior FSWG evidence base named directly</strong>:
+<ul>
+<li>HRB 2023 Evidence Brief on water fluoridation surveillance in four case countries (international comparator models).</li>
+<li>HRB umbrella review, <em>Effect of artificial community water fluoridation on dental health</em> (May 2025).</li>
+<li>HRB umbrella review, <em>Health Effects of Water Fluoridation</em> (2015).</li>
+<li>HRB umbrella review, <em>Impact of community water fluoridation on systemic health excluding oral health</em>.</li>
+</ul>
+These three reviews plus the evidence brief are the actual evidence base the FSWG has already commissioned.</li>
+</ul>
+<section id="existing-programme-and-data-assets" class="level3">
+<h3 class="anchored" data-anchor-id="existing-programme-and-data-assets">1.1 Existing Programme and Data Assets</h3>
+<p>This proposal is not written from a standing start. It draws on an active, HRB-funded research programme at TCD/DDUH that has already built and tested large parts of the infrastructure this specification is being asked to describe:</p>
+<ul>
+<li><strong>A 52-year national water fluoride dataset already exists and is held by the team.</strong> Sharma, O’Connell, O’Sullivan, Winning, Cassetti, O’Flaherty, Rigby, McLoughlin, Cronin, and Crowe (2026), “Longitudinal Analysis of Fluoride Levels in Irish Water Supplies: A 52-Year Review,” <em>Community Dentistry and Oral Epidemiology</em> (DOI: 10.1111/cdoe.70055), compiled 129,831 fluoride test results (1964–2016) across 336 major public water supplies with complete records, plus a further 634 with sparser records, and extended the analysis to group and private supplies from 2000–2016. TCD has been recommended as primary custodian of this dataset, with Maynooth University’s Centre for Health Geoinformatics credited for the spatial/geocoding work. This directly answers the largest part of the Pillar 1 access barrier described in 2.2 and 2.4: the historical data has already been assembled, cleaned and analysed once, by this team.</li>
+<li><strong>The paper’s own conclusion is directly relevant to this tender</strong>: it recommends “an annually updated national fluoride database… managed by a public health body or an academic institution,” and a “community water fluoridation flagging system, similar to the UK model.” That is, in substance, what this specification has been commissioned to design. The team is proposing a mechanism it has already identified the need for in peer-reviewed print.</li>
+<li><strong>The exposure-linkage methodology has already been built and funded once before.</strong> HRB grant APA-2016-1882, “Lifetime exposure to community water fluoridation and associations with key indicators of health in community-dwelling adults aged 50 years and over in Ireland” (PI Brian O’Connell; co-applicants including Rose Anne Kenny, Jan Rigby, Michael Cronin, Orna Donoghue, Mairead Harding; Dr Dympna Kavanagh named as Knowledge User), geocoded TILDA Wave 3 residential address histories via Maynooth, and matched them to water supply fluoridation status using exposure-classification rules from the FACCT study. It explicitly grounds this work in the Department’s own statutory obligation under <strong>Section 6(1) of the Health (Fluoridation of Water Supplies) Act 1960</strong> to conduct such surveys, noting that “to date, no survey has been established in respect of health and water fluoridation in Ireland.” The WSZ-based linkage approach proposed in Section 2.6 below is not a new idea; it is a working method this exact team has already built, funded and applied.</li>
+<li><strong>The same architecture is already being extended to systemic outcomes.</strong> A related TILDA analysis examining fluoride exposure and cognitive function is currently under peer review for publication applying the same exposure-linkage pipeline to a Pillar 2 question. This is offered here as evidence of active methodological capability.</li>
+</ul>
+<p><strong>Feasibility at a glance</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Surveillance element</th>
+<th>Feasibility</th>
+<th>Key dependency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Water Supply Zone linkage (Pillar 1 exposure variable)</td>
+<td>High</td>
+<td>WSZ spatial-key methodology already proven via the TILDA/GUI work above; main task is extending the existing 1964–2016 archive to the present and formalising access to it.</td>
+</tr>
+<tr class="even">
+<td>Adult clinical surveillance (Pillar 2/3, TILDA)</td>
+<td>High</td>
+<td>TILDA already provides a longitudinal cohort with clinical oral exams, residential history and (via the above) fluoride exposure classification.</td>
+</tr>
+<tr class="odd">
+<td>Public/patient feedback loop</td>
+<td>High</td>
+<td>Healthy Ireland Survey already runs annually at population scale, including a 2022 dental/oral health module.</td>
+</tr>
+<tr class="even">
+<td>Dietary and toothpaste exposure modelling</td>
+<td>Medium</td>
+<td>IUNA consumption data is robust, but there is no maintained fluoride food/beverage content database (last updated 2014–2016), and toothpaste ingestion still needs Irish-specific behavioural data.</td>
+</tr>
+<tr class="odd">
+<td>Child oral health surveillance</td>
+<td>Low–Medium</td>
+<td>No national clinical exam round since 2002; HSE school screening data is fragmented across CHOs and not centrally digitised.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="proposed-methodology-40" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-methodology-40">2. Proposed Methodology (40%)</h2>
+<section id="review-of-existing-national-data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="review-of-existing-national-data-sources">2.1 Review of Existing National Data Sources</h3>
+<p>What each source currently holds, relevant to fluoride surveillance:</p>
+<ul>
+<li><strong>TILDA</strong>: clinical oral health examination data on an ageing adult cohort, plus residential history that supports linkage to water supply exposure. The only source with both clinical exam data and exposure-linkage potential in the same cohort, and the one already used for this purpose (see 1.1).</li>
+<li><strong>GUI (Growing Up in Ireland)</strong>: longitudinal child/adolescent cohort with geocoded addresses (supports WSZ linkage), but no clinical oral health examination, oral health is not part of its protocol. Some self/parent-reported items (e.g.&nbsp;toothbrushing, dental visits, fillings, extractions) exist in some survey waves.</li>
+<li><strong>National Survey of Children’s Oral Health (OHSRC, UCC)</strong>: the historic clinical dataset directly linking fluoridation status to dmft/DMFT and enamel fluorosis in 5, 8, 12 and 15 year olds. Confirmed: no national round since 2002. This is the most significant single gap in the current evidence base.</li>
+<li><strong>FACCT (Fluoride And Caring for Children’s Teeth, UCC/HSE, HRB-funded)</strong>: clinical exam data on children born either side of the 2007 CWF policy change and 2002 toothpaste policy change, ages 5 and 12, fieldwork in 2013/14. Directly designed to evaluate CWF policy impact, but regional (Dublin, Cork, Kerry), not national, and a one-off study. Its exposure-classification rules were reused in the 2016 HRB TILDA fluoridation grant (see 1.1) and remain a directly reusable methodological asset.</li>
+<li><strong>HBSC Ireland (Health Behaviour in School-aged Children, University of Galway/WHO)</strong>: self-report survey of school-going children aged 9-18, every 4 years since 1998 (most recent 2022). No clinical oral health data, but tracks toothbrushing frequency and sugar-sweetened drink consumption, useful exposure/behavioural covariates for the age band GUI and TILDA don’t cover.</li>
+<li><strong>HSE (PCRS)</strong>: administrative claims data on dental treatments (fillings, extractions) funded through the Dental Treatment Services Scheme, a proxy for disease burden rather than a direct exam, but useful as a systemic indicator.</li>
+<li><strong>HSE Salaried Dental Services</strong>: school dental screening records (where they occur, e.g.&nbsp;senior infants, 5th/6th class) are the closest thing to population-level child oral health exam data, but they’re generated locally by CHO area and not centrally aggregated for research use.</li>
+<li><strong>Uisce Éireann</strong>: daily operational dosing/testing logs at treatment plants, held internally, not published; the new public WSZ water-quality portal (see Section 1) may add a partial public-facing layer.(NB CONFRIM THIS IS SAME DATA AS EPA_SAFER DATA FILES)</li>
+<li><strong>NHES / HSE Public Analyst Laboratories</strong>: monthly statutory tap-water testing verifying the 0.6–0.8 mg/L target, aggregated into regional annual reports; raw monthly data held administratively. Note: a 52-year (1964–2016) compiled and cleaned version of this class of data already exists and is held by this team, see Section 1.1.</li>
+<li><strong>IUNA</strong>: national dietary surveys (adults, children, pre-school) with detailed food and beverage consumption data, the input needed to model dietary fluoride intake. This is primarily consumption data and isn’t paired with a maintained fluoride food-content database (the last Irish-specific fluoride food analysis was the standalone FSAI study, 2014-2016). However, two of the eight IUNA waves do carry oral-health-relevant items: <strong>NCFS II (2017-18)</strong> includes toothbrushing frequency, fluoridated toothpaste use and dental check-up attendance, and <strong>NTFS II (2019-20)</strong> includes sugar-sweetened beverage intake alongside self-reported oral hygiene behaviour. These are behavioural frequency items, not fluoride-dose data, so they support the toothpaste/behaviour side of exposure modelling (2.5) without closing the underlying food-composition gap.</li>
+<li><strong>Healthy Ireland (HI) Survey</strong>: annual population health behaviours survey; potential source for self-reported oral health behaviours and for the “public feedback” element the letter asks about, though it’s self-report, not clinical. The Department specifically flags the 2022 round, which carried a standalone dental and oral health module (~10 items: toothbrushing, dental visits, self-rated oral health, and others), stronger than the 2018 round’s ~4 general behaviour items. HI also covers general health, smoking, alcohol, weight management, HSU.(I ADDED OUR OWN SUMMARY pdf to Onedrive )</li>
+<li><strong>Irish Health Survey (CSO, modelled on the EU’s EHIS)</strong>: distinct from Healthy Ireland; self-report, includes dental consultation/visit questions and a general dental health rating, now has a children’s health module (2024). Regularly run, adult and child coverage, but self-report only.</li>
+<li><strong>Oral Health of Irish Adults (2000-2002)</strong>: older national adult oral health survey, predates TILDA’s oral health module; a possible historical comparator but not recurring.</li>
+</ul>
+</section>
+<section id="data-gaps-and-barriers-to-access" class="level3">
+<h3 class="anchored" data-anchor-id="data-gaps-and-barriers-to-access">2.2 Data Gaps and Barriers to Access</h3>
+<ul>
+<li><strong>No child oral health examination data exists at national level.</strong> GUI doesn’t collect it, and HSE school screening data, where it happens, isn’t centrally digitised or held in a form available for research linkage. This is arguably the single biggest gap in the current landscape for Pillar 3, and is consistent with the wider policy analysis of universal child oral health coverage in Ireland (McAuliffe, 2025).</li>
+<li><strong>CSO Research Microdata File (RMF) access for GUI</strong>: GUI microdata, including the geocodes needed for water supply linkage, sits behind CSO-controlled RMF access (Section 30, Statistics Act 1993). This is slow, restricts what can be exported, and each linkage use case likely needs its own approval, not a standing arrangement.(this is a big stumbling block at moment with HRB, they wont release any data untill all of the files are done and we can only submit ONE project application)</li>
+<li><strong>Water fluoride data (Pillar 1) is administratively fragmented across custodians for the current period, but a large part of the historical problem is already solved.</strong> Uisce Éireann, HSE Public Analyst Labs and EPA SAFER each hold pieces of the picture, and only the EPA’s annual aggregate is easily accessible. What changes this from a research problem to a data-sharing problem is that this team already holds a cleaned, linkable 1964–2016 national archive (Section 1.1). The genuine remaining gap is (a) extending that archive from 2016 to the present, and (b) formalising ongoing access to monthly/current data rather than reassembling history from scratch.</li>
+<li><strong>IUNA dietary data has no current fluoride-content linkage</strong>, the food composition database needed to convert consumption data into fluoride intake estimates would need to be rebuilt or sourced. Self-reported toothbrushing/toothpaste-use items in NCFS II and NTFS II help on the behavioural side but don’t resolve this.</li>
+<li><strong>No single legal/governance gateway</strong> currently exists to link across these sources (CSO, HSE, Uisce Éireann, IUNA, academic cohorts); each pairing needs its own agreement.</li>
+</ul>
+</section>
+<section id="barriers-to-developing-new-surveillance-mechanisms" class="level3">
+<h3 class="anchored" data-anchor-id="barriers-to-developing-new-surveillance-mechanisms">2.3 Barriers to Developing New Surveillance Mechanisms</h3>
+<p>(The letter specifically flags sentinel practices, non-target ages, and compliance with the WHO’s <em>Global strategy and action plan on oral health 2023-2030</em>, Strategic Objective 5, “Oral health information systems,” per the Department’s own citation.)</p>
+<ul>
+<li><p><strong>Sentinel practices</strong>: Ireland has no dental equivalent of the ICGP’s sentinel GP network for routine, standardised reporting. Setting one up faces three barriers: recruiting a representative spread of practices (private and HSE, urban and rural), the absence of a shared minimum oral health dataset or common coding standard across practice management software, and no existing funding/incentive model for practices to report routinely rather than on an ad hoc research basis. Leavy et al.’s 2025 health systems analysis of publicly funded contracted dental services in Ireland is the closest existing description of how the general dental practitioner workforce is currently organised, and is a useful starting point for assessing whether a sentinel subset of that network is feasible.</p></li>
+<li><p><strong>Non-target ages</strong>: current data collection (school screening, the OHSRC survey series) clusters around index ages, 5, 8, 12, 15, which is the WHO’s traditional caries-monitoring convention but leaves early years (0-4), young/mid adults (18-49) and the very old (85+, beyond TILDA’s core sample) largely uncovered. Extending coverage to these bands means new data collection, not just better linkage of what exists.</p></li>
+<li><p><strong>WHO Strategic Objective 5 compliance</strong>: the <em>Global strategy and action plan on oral health 2023-2030</em> sets specific indicators (untreated caries prevalence, severe periodontal disease, edentulism, oral cancer, UHC service coverage for oral health) under Strategic Objective 5 that Ireland would need to report against periodically. None of the current Irish data sources were designed around this indicator set, so alignment would require an explicit mapping exercise, and possibly new data items, rather than assuming existing surveys already produce WHO-comparable figures. (???? what was Ireland’s last submitted data point to WHO actually based on, the 2002 survey????)</p></li>
+<li><p><strong>Comparator systems worth citing</strong>: the US CDC’s National Oral Health Surveillance System (Malvitz, Barker &amp; Phipps, 2009) and Egypt’s DHIS2-based electronic surveillance system for preschoolers (Abdelrahman et al., 2024) are both recent, documented examples of building a new oral health surveillance mechanism largely from scratch, (MAY BE useful reference points since Ireland has no equivalent dental sentinel literature of its own???).</p></li>
+<li><p><strong>NOHSS/SOHSS as a template</strong>: NOHSS sits on top of a State Oral Health Surveillance System (SOHSS) structure, developed by CSTE and ASTDD (Council of State and Territorial Epidemiologists / Association of State and Territorial Dental Directors, 2013 white paper), built around three indicator domains: burden of oral disease, use of the oral health delivery system, and community-level preventive interventions. This is a genuinely useful template, but it’s indicator-driven rather than cohort-driven, it prescribes <em>what</em> to measure, not how to link individual-level exposure to outcome. An Irish adaptation could use SOHSS-style domains as the reporting layer, sitting on top of the WSZ/cohort-linkage infrastructure proposed in 2.6, rather than replacing it. A rough Irish mapping:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SOHSS/NOHSS domain</th>
+<th>US indicator example</th>
+<th>Plausible Irish equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Burden of oral disease</td>
+<td>Caries/sealants in 3rd-grade children; complete tooth loss in older adults</td>
+<td>Repeat national child oral health survey (OHSRC-style) if reinstated; TILDA tooth retention data</td>
+</tr>
+<tr class="even">
+<td>Delivery system utilisation</td>
+<td>Annual dentist visit rate; Medicaid dental care use</td>
+<td>Healthy Ireland dental module; DTSS claims via HSE PCRS</td>
+</tr>
+<tr class="odd">
+<td>Community-level prevention</td>
+<td>% population on optimally fluoridated water; school sealant programme reach</td>
+<td>Uisce Éireann/NHES fluoridation compliance data (Section 1.1 archive); HSE school sealant/screening programme reach where recorded</td>
+</tr>
+</tbody>
+</table>
+<p>This mapping is offered as a structuring device for Section 2.6’s integration model, not as a recommendation to adopt the US indicator set wholesale, several of the US indicators (e.g.&nbsp;Medicaid-specific utilisation) don’t have a clean Irish equivalent and would need local adaptation.</p></li>
+</ul>
+</section>
+<section id="pillar-1-and-the-exposure-variable" class="level3">
+<h3 class="anchored" data-anchor-id="pillar-1-and-the-exposure-variable">2.4 Pillar 1 and the Exposure Variable</h3>
+<p>The letter excludes Pillar 1 as a piece of <em>work</em>: this specification isn’t being asked to design, operate or redesign fluoride monitoring at treatment plants and taps, that’s a separate, already-functioning statutory system (Uisce Éireann daily operational testing, HSE Public Analyst monthly statutory testing, EPA SAFER annual compliance archive). It does not mean the continuous concentration data that system already produces is unavailable as an input to this framework.</p>
+<p>So rather than falling back to a simple fluoridated/non-fluoridated categorical flag, the proposal should specify that the model ingests fluoride concentration data as a continuous exposure variable at Water Supply Zone level, enabling a proper dose-level analysis rather than a binary comparison (which is what the 2002 OHSRC survey and FACCT were limited to). This respects the letter’s exclusion, we’re not proposing to build or alter Pillar 1 monitoring itself, while making full use of what it already produces. Two things de-risk this considerably beyond where the argument stood in earlier drafts:</p>
+<ol type="1">
+<li><strong>The historical half of the problem is already solved.</strong> This team’s own 52-year archive (1964–2016, Section 1.1) is exactly this continuous, WSZ-attributable concentration data, already cleaned and analysed once. The genuine remaining barrier isn’t data existence, it’s currency (extending 2016 to the present) and access/aggregation, a data-sharing and governance task, not a monitoring-design task.</li>
+<li>Section 6(1) of the Health (Fluoridation of Water Supplies) Act 1960 places a duty on the Minister to arrange for surveys relating to the health of persons supplied with fluoridated water. The 2016 HRB grant application (Section 1.1) notes explicitly that no such survey had, at that point, ever been established.</li>
+</ol>
+</section>
+<section id="total-fluoride-exposure-modelling-diet-and-toothpaste" class="level3">
+<h3 class="anchored" data-anchor-id="total-fluoride-exposure-modelling-diet-and-toothpaste">2.5 Total Fluoride Exposure Modelling (Diet and Toothpaste)</h3>
+<p>Water fluoride alone does not capture total exposure. The 2014 FSAI Total Diet Study remains the last Ireland-specific modelling of dietary fluoride, and toothpaste ingestion was flagged then as unmodelled. EFSA’s 2025 update does not close this gap: it uses aggregate EU dietary data (not Irish-specific) and a blanket 100% toothpaste ingestion assumption rather than Irish behavioural data. The IUNA NCFS II (2017-18) and NTFS II (2019-20) waves add self-reported toothbrushing frequency and fluoridated toothpaste use, which helps ground the behavioural side of a toothpaste exposure model in Irish data for the first time, but this is frequency/use data, not an ingested-dose estimate, and doesn’t touch the dietary food-composition gap. Modelling total Irish fluoride exposure (diet plus topical) should remain an explicit, separately scoped component of the framework, not assumed solved by either the IUNA items or the EFSA update.</p>
+</section>
+<section id="collation-and-integration-approach-and-suggestions-for-addressing-the-barriers" class="level3">
+<h3 class="anchored" data-anchor-id="collation-and-integration-approach-and-suggestions-for-addressing-the-barriers">2.6 Collation and Integration Approach, and Suggestions for Addressing the Barriers</h3>
+<ul>
+<li><strong>Common spatial key</strong>: use Water Supply Zone (WSZ) geocoding as the linking variable across sources. This is not a proposed approach requiring proof of concept, it is the method this team already used to link TILDA Wave 3 addresses to water supply fluoridation status under HRB grant APA-2016-1882 (Section 1.1), via Maynooth University’s Centre for Health Geoinformatics. The same pipeline extends naturally to GUI and to any other cohort or administrative dataset with a residential geocode.</li>
+<li><strong>Standing data-sharing framework</strong>: rather than ad hoc bilateral agreements, recommend the specification propose a single framework agreement between the relevant custodians (HSE, Uisce Éireann/NHES, EPA, CSO, academic cohort holders), similar in principle to the CSO’s Section 30 model, so future surveillance doesn’t need to renegotiate access each cycle. TCD (TLDA), as recommended custodian of the existing 1964–2016 archive, is a natural anchor point for the Pillar 1 side of this arrangement.</li>
+<li><strong>Phased approach to the child oral health gap</strong>: given no exam data currently exists nationally, a realistic first phase would use HSE PCRS treatment claims as an interim systemic proxy, while separately recommending that school dental screening data collection be standardised and centrally digitised, or that a future GUI wave incorporate an oral health module or linkage to screening records. Leavy et al.&nbsp;(2025) and the HSE oral health promotion service evaluation (Ramasubbu, Lewney &amp; Duane, 2026) both describe the current state of publicly funded service delivery in enough detail to ground this phasing.</li>
+<li><strong>Diet and toothpaste exposure layer</strong>: pair IUNA consumption data (including the NCFS II/NTFS II oral-health items) with a rebuilt fluoride food/beverage content reference (updating the 2014 FSAI work) to produce dietary intake estimates; toothpaste ingestion still needs Irish-specific behavioural modelling rather than the conservative 100% assumption used in EFSA’s 2025 model.</li>
+<li><strong>Feedback loop</strong>: use Healthy Ireland as the standing vehicle for the patient/public feedback element, rather than a new bespoke survey, since it already runs annually at population scale. Cosgrave et al.’s 2023 analysis of oral health service utilisation inequalities using Healthy Ireland Survey data is a direct precedent for this, and a source of comparator figures.</li>
+<li><strong>Spatial outputs</strong>: propose that the framework produce, as a standard reporting output rather than a one-off analytical step, (i) <strong>polygon (choropleth) maps</strong> of Water Supply Zones coloured by fluoride concentration band or fluoridation status, and (ii) <strong>line maps</strong> of the distribution network/trunk mains that determine zone boundaries and supply overlaps. These serve two purposes: a validation step (checking that WSZ boundary geometries used for cohort linkage match the network as currently operated) and a policy communication output the Department can reuse directly (e.g.&nbsp;in Smile agus Sláinte reporting or WHO Strategic Objective 5 submissions). This reuses GIS layers Uisce Éireann/EPA already hold and the geocoding workflow developed with Maynooth’s Centre for Health Geoinformatics for the 2016 HRB TILDA project (Section 1.1); it is not a new GIS capability the team would need to build. A schematic illustration is at Appendix A.3.</li>
+</ul>
+</section>
+<section id="public-and-patient-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="public-and-patient-feedback">2.7 Public and Patient Feedback</h3>
+<p>Brief note on incorporating a feedback channel, e.g.&nbsp;Healthy Ireland Survey or equivalent (see 2.6).</p>
+</section>
+</section>
+<section id="estimated-timeframe-20" class="level2">
+<h2 class="anchored" data-anchor-id="estimated-timeframe-20">3. Estimated Timeframe (20%)</h2>
+<p>This is a timeframe for delivering the specification document itself (Section 2’s methodology), not for building or running the surveillance system it describes. A realistic indicative timeline, assuming contract award in early September 2026 following the 27 August submission deadline, is <strong>6–8 weeks</strong>, structured in four phases that map directly onto Appendix A.2:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Weeks</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Evidence and data source audit</td>
+<td>1–2</td>
+<td>Review FSWG’s prior outputs (umbrella reviews, evidence brief) and reference documentation; confirm current status of each data source in Section 2.1, including the team’s existing 1964–2016 fluoride archive and its extension to the present.</td>
+</tr>
+<tr class="even">
+<td>2. Gap analysis and barrier identification</td>
+<td>3–4</td>
+<td>Governance barriers (CSO Section 30 RMF access, custodian-by-custodian access routes), sentinel network feasibility, WHO Strategic Objective 5 and SOHSS/NOHSS indicator alignment (Section 2.3).</td>
+</tr>
+<tr class="odd">
+<td>3. Integration model and exposure framework design</td>
+<td>5–6</td>
+<td>WSZ spatial linkage design (Section 2.6), Pillar 1 continuous exposure variable specification (Section 2.4), total fluoride exposure model scope (Section 2.5).</td>
+</tr>
+<tr class="even">
+<td>4. Draft, review and final delivery</td>
+<td>7–8</td>
+<td>Draft specification, internal FSWG/stakeholder review cycle, final costed specification delivered to the Chief Dental Officer.</td>
+</tr>
+</tbody>
+</table>
+<p>The existence of the assets in Section 1.1, a compiled historical fluoride archive and a proven WSZ linkage pipeline, materially reduces the risk of this timeline slipping, since the two most technically demanding components (spatial linkage methodology, historical Pillar 1 data assembly) do not need to be designed from first principles. This timeline should still be confirmed against the FSWG’s actual reference documentation once received, it’s built on the letter’s stated deadlines and typical desk-review project structure, not on materials specific to this project.</p>
+</section>
+<section id="total-cost-40" class="level2">
+<h2 class="anchored" data-anchor-id="total-cost-40">4. Total Cost (40%)</h2>
+<p>Two separate figures are relevant here and should not be conflated.</p>
+<section id="cost-to-deliver-this-specification-our-quoted-fee" class="level3">
+<h3 class="anchored" data-anchor-id="cost-to-deliver-this-specification-our-quoted-fee">4.1 Cost to deliver this specification (our quoted fee)</h3>
+<p>Confirmed by the Department: the €5,000 is the budget “for engaging services to carry out the necessary overview project to develop and deliver the project specification itself,” not a fee for the tender submission and not a budget for building or running the surveillance system described. This is the fee to be quoted against the scope in Section 2, once timeframe (Section 3) is finalised.</p>
+<p>Since cost carries 40% of the evaluation, an itemised breakdown against the four phases in Section 3 is likely to score better than a single lump figure. An illustrative structure, to be populated with real names and rates before submission:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Work package</th>
+<th>Phase</th>
+<th>Indicative hours</th>
+<th>Indicative cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Evidence review and data source synthesis (Section 2.1)</td>
+<td>1</td>
+<td>~30</td>
+<td>~€2,400</td>
+</tr>
+<tr class="even">
+<td>Governance and barrier analysis, incl.&nbsp;CSO RMF and WHO/SOHSS alignment (2.2–2.3)</td>
+<td>2</td>
+<td>~15</td>
+<td>~€1,350</td>
+</tr>
+<tr class="odd">
+<td>Exposure/integration model design (2.4–2.6) and final report writing (Phase 4)</td>
+<td>3–4</td>
+<td>~10</td>
+<td>~€750</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td></td>
+<td></td>
+<td><strong>~€4,500</strong></td>
+</tr>
+</tbody>
+</table>
+<p>These hours and rates are placeholders, not a costed commitment, and need to be replaced with the actual rates and division of labour across the team before submission. Whether the final figure should be quoted inclusive or exclusive of VAT needs confirming against the institution’s VAT status for this type of engagement; this hasn’t been checked and shouldn’t be assumed either way.</p>
+</section>
+<section id="indicative-cost-of-the-surveillance-framework-itself-a-specification-output-not-our-fee" class="level3">
+<h3 class="anchored" data-anchor-id="indicative-cost-of-the-surveillance-framework-itself-a-specification-output-not-our-fee">4.2 Indicative cost of the surveillance framework itself (a specification output, not our fee)</h3>
+<p>The letter asks for “a costed proposal for a new clinical health surveillance model” as part of the specification’s own content, distinct from what it costs to write the specification. This is a genuinely difficult figure to give at this stage, since the final design (which pillars, which age bands, sentinel network or not, extent of new data collection) is exactly what the specification work will determine. As a placeholder order of magnitude, pending detailed scoping, an indicative range of <strong>€50,000–€250,000</strong> is suggested, this is deliberately wide, reflects that the low end assumes largely a linkage/governance exercise over existing data (TILDA, GUI, the existing fluoride archive) and the high end assumes new data collection (e.g.&nbsp;a sentinel network or a repeat national child oral health survey). This figure should be treated as illustrative only and refined substantially once the specification’s methodology is agreed, not quoted to the Department as a firm estimate at this stage.</p>
+</section>
+</section>
+<section id="references-cited" class="level2">
+<h2 class="anchored" data-anchor-id="references-cited">References Cited</h2>
+<ul>
+<li>Abdelrahman, H.H., Hamza, M., Essam, W. et al.&nbsp;(2024). Electronic oral health surveillance system for Egyptian preschoolers using District Health Information System (DHIS2): design description and time motion study. <em>BMC Oral Health</em>. https://doi.org/10.1186/s12903-024-04550-w</li>
+<li>Council of State and Territorial Epidemiologists / Association of State and Territorial Dental Directors (2013). State-Based Oral Health Surveillance Systems (white paper). https://www.astdd.org/docs/state-based-oral-health-surveillance-systems-cste-whitepaper-oct-2013.pdf</li>
+<li>Cosgrave, E., Sheridan, A., Kavanagh, P. et al.&nbsp;(2023). Inequalities in oral health service utilisation in Ireland: results from the Healthy Ireland Survey. <em>European Journal of Public Health</em>. https://doi.org/10.1093/eurpub/ckad160.769</li>
+<li>Leavy, P., Fleming, P., Daly, B. et al.&nbsp;(2025). Primary oral healthcare in Ireland: a health systems analysis of publicly funded contracted services delivered by the general dental practitioner workforce. <em>BMC Health Services Research</em>. https://doi.org/10.1186/s12913-025-12884-6</li>
+<li>Malvitz, D.M., Barker, L.K., Phipps, K.R. (2009). Development and status of the National Oral Health Surveillance System.</li>
+<li>McAuliffe, Ú., Whelton, H., Harding, M. et al.&nbsp;(2022). ‘Toothless’: the absence of political priority for oral health, a case study of Ireland 1994-2021. <em>BMC Oral Health</em>. https://doi.org/10.1186/s12903-022-02125-1</li>
+<li>McAuliffe, Ú. (2025). A health systems and policy analysis to inform universal child oral health coverage and Irish oral health reform.</li>
+<li>Prado, I.M.S., Frazão, P. (2019). Qualidade dos dados de vigilância da fluoretação de sistemas de abastecimento de água: proposta de um protocolo de crítica dos dados. https://doi.org/10.22239/2317-269x.01297</li>
+<li>Ramasubbu, D., Lewney, J., Duane, B. (2026). Service Evaluation of HSE Oral Health Promotion and Improvement Programmes in Ireland (preprint). https://doi.org/10.21203/rs.3.rs-10041165/v1</li>
+<li>Sharma, V., O’Connell, B., O’Flaherty, E., Rigby, J., McLoughlin, J., Cronin, M., O’Sullivan, M., Winning, L., Cassetti, O., Crowe, M. (2026). Longitudinal Analysis of Fluoride Levels in Irish Water Supplies: A 52-Year Review. <em>Community Dentistry and Oral Epidemiology</em>. https://doi.org/10.1111/cdoe.70055</li>
+</ul>
+<p><em>The comparator/policy references above (Abdelrahman, Cosgrave, Leavy, Malvitz, McAuliffe x2, Prado, Ramasubbu) were located via the OpenAIRE Graph connector and screened by title/abstract only, worth a full read before the proposal goes out. The Sharma et al.&nbsp;(2026) entry is the team’s own published output and has been read in full. HRB grant APA-2016-1882 is cited in-text as an internal precedent (unpublished application) rather than listed here as a public reference.</em></p>
+</section>
+<section id="appendix-a-illustrative-flow-diagrams" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-illustrative-flow-diagrams">Appendix A: Illustrative Flow Diagrams</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-ae6b6f4df0d448cfd076" style="width:100%;height:487px;"></div>
+<script type="application/json" data-for="htmlwidget-ae6b6f4df0d448cfd076">{"x":{"diagram":"\ndigraph pipeline {\n  graph [layout = dot, rankdir = TB, nodesep = 0.5, ranksep = 0.6, margin = 0.2]\n  node [shape = rectangle, style = \"filled, rounded\", fillcolor = \"#FFFFFF\", color = \"#475569\", fontname = \"Helvetica\", fontsize = 10, height = 0.5]\n  \n  subgraph cluster_0 {\n    label = \"DATA SOURCES LAYER\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 20;\n    ds_clin [label = \"Clinical: HSE Public Clinics + Sentinel GDPs + Cohorts\"]\n    ds_env [label = \"Env: Uisce Éireann / EPA SAFER (WSZ) + 52-Yr Archive\"]\n  }\n  \n  subgraph cluster_1 {\n    label = \"PROCESSING & LINKAGE LAYER\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 20;\n    proc_harm [label = \"Data Harmonization & Pseudonymization\"]\n    proc_spat [label = \"Spatial-Temporal Ingestion (WSZ Geocoding)\"]\n  }\n\n  subgraph cluster_2 {\n    label = \"ANALYSIS & MODELING LAYER\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 20;\n    an_epi [label = \"Epidemiological Risk Analytics\"]\n    an_exp [label = \"Fluoride Exposure Modeling\"]\n  }\n\n  subgraph cluster_3 {\n    label = \"REPORTING & POLICY OUTPUTS\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 20;\n    out_dash [label = \"Surveillance Dashboard (GIS Map)\"]\n    out_rep [label = \"Policy Briefings & Risk Alerts\"]\n  }\n\n  ds_clin -> proc_harm -> an_epi -> out_rep\n  ds_env -> proc_spat -> an_exp -> out_dash\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Figure 1: End-to-End Surveillance &amp; Data Integration Pipeline</p>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-b94b7ffc59726200ffc2" style="width:100%;height:577px;"></div>
+<script type="application/json" data-for="htmlwidget-b94b7ffc59726200ffc2">{"x":{"diagram":"\ndigraph data_linkage {\n  graph [layout = dot, rankdir = TB, nodesep = 0.4, ranksep = 0.5]\n  node [shape = rectangle, style = \"filled, rounded\", fillcolor = \"#FFFFFF\", color = \"#64748B\", fontname = \"Helvetica\", fontsize = 10]\n  \n  subgraph cluster_0 {\n    label = \"Pillar 1 Inputs (Water Data)\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 15;\n    ue [label = \"Uisce Éireann operational testing\"]\n    hpa [label = \"HSE Public Analyst testing\"]\n    epa [label = \"EPA SAFER annual archive\"]\n    arch [label = \"1964–2016 archive (Sharma et al. 2026)\"]\n  }\n\n  subgraph cluster_1 {\n    label = \"Pillar 2/3 Cohorts & Admin Data\n \"; fontname = \"Helvetica-Bold\"; fontsize = 11; color = \"#94A3B8\"; style = \"dashed\"; margin = 15;\n    tilda [label = \"TILDA: clinical exam + history\"]\n    gui [label = \"GUI: geocoded child cohort\"]\n    pcrs [label = \"HSE PCRS treatment claims\"]\n    hi [label = \"Healthy Ireland (2022 module)\"]\n    iuna [label = \"IUNA dietary surveys\"]\n  }\n\n  wsz [label = \"Water Supply Zone (WSZ)\nGeocoding Key\", shape = diamond, fillcolor = \"#F0F9FF\", color = \"#0284C7\", fontname = \"Helvetica-Bold\"]\n  model [label = \"National Oral & Systemic Health\nSurveillance Model\", fillcolor = \"#EFF6FF\", color = \"#2563EB\", fontname = \"Helvetica-Bold\"]\n  \n  out1 [label = \"Departmental Policy Reporting\n(Smile agus Sláinte Ch.10)\", fillcolor = \"#F0FDF4\", color = \"#16A34A\"]\n  out2 [label = \"WHO Strategic Objective 5\nReporting\", fillcolor = \"#F0FDF4\", color = \"#16A34A\"]\n\n  ue -> wsz\n  hpa -> wsz\n  epa -> wsz\n  arch -> wsz\n  \n  tilda -> wsz\n  gui -> wsz\n  pcrs -> wsz\n  hi -> wsz\n  iuna -> wsz\n\n  wsz -> model\n  model -> out1\n  model -> out2\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Figure A.1: Data Linkage Architecture</p>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div id="fig-spec-process" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spec-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="grViz html-widget html-fill-item" id="htmlwidget-9a1e3bd38a0f578c9dae" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9a1e3bd38a0f578c9dae">{"x":{"diagram":"\ndigraph spec_process {\n  graph [layout = dot, rankdir = LR, nodesep = 0.4, ranksep = 0.5, margin = 0.2]\n  node [shape = rectangle, style = \"filled, rounded\", fillcolor = \"#FFFFFF\", color = \"#0284C7\", fontname = \"Helvetica\", fontsize = 10]\n  edge [color = \"#64748B\", penwidth = 1.5]\n\n  A [label = \"Evidence Review\n(FSWG Umbrella Reviews\n+ Evidence Brief)\", fillcolor = \"#F0F9FF\"]\n  B [label = \"Data Source Mapping\n(Section 2.1–2.2)\"]\n  C [label = \"Access & Governance\nNegotiation Design\n(Section 2.6)\"]\n  D [label = \"Exposure Model Design\n(WSZ Linkage & Pillar 1\nContinuous Variable)\"]\n  E [label = \"Costed Recommendations\nfor Full Framework\n(Section 4.2)\"]\n  F [label = \"Draft Specification\", fillcolor = \"#FEF3C7\", color = \"#D97706\", fontname = \"Helvetica-Bold\"]\n  G [label = \"Stakeholder &\nFSWG Review\"]\n  H [label = \"Final Specification\nSubmitted to Department\", fillcolor = \"#DCFCE7\", color = \"#16A34A\", fontname = \"Helvetica-Bold\"]\n\n  A -> B -> C -> D -> E -> F -> G -> H\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-spec-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Figure A.2: Specification Development Process
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

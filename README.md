@@ -141,7 +141,7 @@ Annie Hughes, Emma Feeney (UCD), Jan Rigby (Maynooth University, NCG), Michael C
 - Sharma V, et al. Protocol for developing a dashboard for interactive cohort analysis. *BMC Oral Health* 2023.
 - Sharma V, et al. Estimation and consumption pattern of free sugar intake in 3-year-olds. 2023.
 
-### Earlier
+### Previous
 - Crowe M, et al. Data Mapping From Food Diaries to Augment the Amount and Frequency of Foods Measured Using Short Food Questionnaires. *Front Nutr* 2018.
 - Crowe M, et al. Early Childhood Dental Problems Classification Tree Analyses. 2021.
 - Crowe M, et al. Weight Status and Dental Problems in Early Childhood. 2021.
@@ -178,4 +178,4 @@ Dublin Dental University Hospital, Trinity College Dublin
 michael.o'sullivan@dental.tcd.ie
 
 
-Clinical Director
+
