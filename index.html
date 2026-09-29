@@ -334,11 +334,27 @@
       background: var(--navy);
       color: rgba(255,255,255,0.6);
       text-align: center;
-      padding: 24px 16px;
+      padding: 32px 16px 24px;
       font-size: 0.78rem;
     }
     footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
     footer a:hover { color: var(--white); }
+    .footer-logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .footer-logos img {
+      height: 52px;
+      width: auto;
+      filter: brightness(0) invert(1);
+      opacity: 0.85;
+      transition: opacity 0.2s;
+    }
+    .footer-logos img:hover { opacity: 1; }
 
     /* EXPANDABLE CARDS */
     .strand-more {
@@ -662,6 +678,10 @@
 </section>
 
 <footer>
+  <div class="footer-logos">
+    <img src="tcd-logo.png" alt="Trinity College Dublin">
+    <img src="DDUH_logo.png" alt="Dublin Dental University Hospital">
+  </div>
   <p>Oral Health, Diet and Nutrition Research Group &mdash; Dublin Dental University Hospital / Trinity College Dublin &mdash; <a href="https://github.com/oral-health-nutrition">GitHub</a></p>
 </footer>
 
