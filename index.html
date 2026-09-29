@@ -71,7 +71,7 @@
       text-align: center;
     }
     .hero-banner {
-      max-width: 480px;
+      max-width: 680px;
       width: 100%;
       margin: 0 auto 28px;
       display: block;
@@ -315,6 +315,39 @@
     footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
     footer a:hover { color: var(--white); }
 
+    /* EXPANDABLE CARDS */
+    .strand-more {
+      display: none;
+      margin-top: 10px;
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+    .strand-more ul {
+      margin: 6px 0 0 16px;
+      font-size: 0.85rem;
+    }
+    .strand-more li { margin-bottom: 4px; }
+    .strand-more.open { display: block; }
+    .strand-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      color: var(--teal);
+      font-weight: 500;
+      padding: 6px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: inherit;
+    }
+    .strand-toggle:hover { color: var(--navy); }
+    .strand-toggle .arrow { transition: transform 0.2s; display: inline-block; }
+    .strand-toggle.open .arrow { transform: rotate(90deg); }
+
     @media (max-width: 640px) {
       nav { padding: 0 16px; }
       .nav-links { gap: 14px; }
@@ -357,44 +390,105 @@
       <div class="strand-card">
         <div class="strand-number">Strand 1</div>
         <h3>Education and Diet Assessment Methodology</h3>
-        <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios. This work contributed to an international competency framework for diet and nutrition in oral health education.</p>
+        <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios.</p>
         <span class="funder">DDUH funded</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>This work contributed to an international competency framework for diet and nutrition in oral health education, developed through the ADEE Community of Practice on Nutrition. Key outputs include:</p>
+          <ul>
+            <li>A validated food science and nutrition module embedded in the BDentSc curriculum</li>
+            <li>Digital diet history tools adapted for dental clinical settings</li>
+            <li>A global survey of nutrition education practices in dental schools</li>
+            <li>Co-authorship of a framework for diet and nutrition competencies in oral health care</li>
+          </ul>
+        </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 2</div>
         <h3>Oral Health in Irish Elite Athletes</h3>
-        <p>In collaboration with the Sport Ireland Institute, we collected the first national data on diet and oral health in Irish elite athletes. Despite high nutritional awareness, 90% of athletes surveyed had tooth decay. Ongoing work includes pre-competition screening and an oral health guide for sports staff.</p>
+        <p>In collaboration with the Sport Ireland Institute, we collected the first national data on diet and oral health in Irish elite athletes. Despite high nutritional awareness, 90% of athletes surveyed had tooth decay.</p>
         <span class="funder">Sport Ireland Institute</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>The Division II study examined athletes across Olympic sports, combining clinical oral health examination with detailed dietary assessment. Key findings:</p>
+          <ul>
+            <li>High caries prevalence despite awareness of sugar risk</li>
+            <li>Frequent use of sports nutrition products contributing to cariogenic acid exposure</li>
+            <li>Fluoride intake below recommended levels in a significant proportion of athletes</li>
+            <li>Ongoing work: pre-competition oral health screening protocol and a practical guide for sports nutrition staff</li>
+          </ul>
+        </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 3</div>
         <h3>Oral Health and Infection Risk in Intestinal Failure</h3>
-        <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%), raising the question of whether the oral cavity is an unrecognised reservoir for catheter-related bloodstream infections.</p>
+        <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%).</p>
         <span class="funder">DDUH funded</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>This study raises the question of whether the oral cavity is an unrecognised reservoir for catheter-related bloodstream infections in this vulnerable patient group. Key findings and next steps:</p>
+          <ul>
+            <li>72% of patients had untreated dental caries; 17% had oral MRSA colonisation</li>
+            <li>Oral health needs are largely unmet in this population due to systemic illness complexity</li>
+            <li>Two further papers in preparation examining infection pathways and clinical recommendations</li>
+            <li>Collaboration with the national intestinal failure and home parenteral nutrition service at St James's Hospital</li>
+          </ul>
+        </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 4</div>
         <h3>SWEETWISE: Reducing Sugar in Infant Foods</h3>
-        <p>A DAFM-funded consortium across TCD, UCD and TU Dublin addressing the high free sugar content of commercially available complementary foods for infants in Ireland. TCD/DDUH's role is developing a novel in vitro cariogenicity model to test whether reformulated infant foods reduce cariogenic potential.</p>
+        <p>A DAFM-funded consortium across TCD, UCD and TU Dublin addressing the high free sugar content of commercially available complementary foods for infants in Ireland.</p>
         <span class="funder">DAFM funded &mdash; €1.3M consortium</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>TCD/DDUH's role within the SWEETWISE consortium focuses on the oral health impact of infant foods and the development of a novel in vitro model:</p>
+          <ul>
+            <li>Systematic mapping of free sugar content in commercially available infant complementary foods in Ireland</li>
+            <li>Development of an in vitro cariogenicity model to test reformulated products</li>
+            <li>Assessment of feeding practices and sugar exposure in 3-year-olds from Growing Up in Ireland</li>
+            <li>Translation of findings into reformulation targets and public health messaging for parents</li>
+          </ul>
+        </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 5</div>
         <h3>HRB Fluoride Programme: Oral Health and Cognition</h3>
-        <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland. Our analysis of individual-level geocoded lifetime fluoride exposure found no association with cognitive function in older adults (IRR = 1.00, fully adjusted).</p>
+        <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland.</p>
         <span class="funder">Health Research Board &mdash; SDAP-2025-017</span>
-        <br><a class="strand-link" href="https://oral-health-nutrition.github.io/fluoride/">Visit the fluoride programme site &rarr;</a>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>Using individual-level geocoded lifetime fluoride exposure estimates linked to national cohort data, this programme provides the most comprehensive Irish evidence on fluoride, oral health and cognition to date:</p>
+          <ul>
+            <li>No association between lifetime CWF exposure and cognitive function in older adults (IRR = 1.00, fully adjusted)</li>
+            <li>52-year longitudinal analysis of fluoride levels across Irish water supply zones</li>
+            <li>Socioeconomic patterning of oral health in Irish adolescents (GUI '98)</li>
+            <li>Grant: HRB SDAP-2025-017 &mdash; €349,926 &mdash; commenced December 2025</li>
+          </ul>
+          <a class="strand-link" href="https://oral-health-nutrition.github.io/fluoride/">Visit the fluoride programme site &rarr;</a>
+        </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 6</div>
         <h3>Oral Health Trajectories in Children and Young People</h3>
-        <p>Using longitudinal data from the Growing Up in Ireland study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence. Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, the research identifies critical periods for prevention and the drivers of oral health inequality.</p>
+        <p>Using longitudinal data from the Growing Up in Ireland study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence.</p>
         <span class="funder">Trinity Research Doctorate Award 2026</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, this PhD programme identifies critical periods for prevention and the social determinants of oral health inequality in children and young people:</p>
+          <ul>
+            <li>Trajectories of dental caries and oral hygiene behaviours from infancy to young adulthood</li>
+            <li>Role of diet, fluoride exposure and socioeconomic factors in shaping oral health outcomes</li>
+            <li>Linkage across GUI cohort waves to examine intra- and inter-generational patterns</li>
+            <li>PhD candidate: Sudipta Saha, TCD (commenced September 2026)</li>
+            <li>Co-PI: Prof Michael O'Sullivan, DDUH/TCD</li>
+          </ul>
+        </div>
       </div>
 
     </div>
@@ -422,6 +516,7 @@
           <li>Jaime Knox Macleod <span>PhD candidate, TCD</span></li>
           <li>David McMahon <span>DChDent candidate, TCD</span></li>
           <li>Aoife Caitriona Broderick <span>DChDent candidate, TCD</span></li>
+          <li>Sudipta Saha <span>PhD candidate, TCD</span></li>
         </ul>
       </div>
       <div>
@@ -540,5 +635,15 @@
   <p>Oral Health, Diet and Nutrition Research Group &mdash; Dublin Dental University Hospital / Trinity College Dublin &mdash; <a href="https://github.com/oral-health-nutrition">GitHub</a></p>
 </footer>
 
+<script>
+  function toggleStrand(btn) {
+    const more = btn.nextElementSibling;
+    const open = more.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.innerHTML = open
+      ? '<span class="arrow" style="transform:rotate(90deg);display:inline-block">&#9658;</span> Read less'
+      : '<span class="arrow">&#9658;</span> Read more';
+  }
+</script>
 </body>
 </html>
