@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oral Health, Diet and Nutrition Research Group | DDUH / TCD</title>
+  <meta name="description" content="Research group at Dublin Dental University Hospital and Trinity College Dublin building a national evidence base on diet, nutrition and oral health across the life course.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Public+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:   #1e3a5f;
+      --teal:   #0d7377;
+      --aqua:   #14a085;
+      --light:  #f0f7f7;
+      --border: #d0e4e4;
+      --text:   #1a2b2b;
+      --muted:  #4a6060;
+      --white:  #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Public Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--navy);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 52px;
+    }
+    .nav-brand {
+      color: var(--white);
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      opacity: 0.9;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--white); }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #16496e 60%, var(--teal) 100%);
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+    .hero-banner {
+      max-width: 480px;
+      width: 100%;
+      margin: 0 auto 28px;
+      display: block;
+    }
+    .hero h1 {
+      font-family: 'Source Serif 4', serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.3;
+      max-width: 680px;
+      margin: 0 auto 16px;
+    }
+    .hero p {
+      color: rgba(255,255,255,0.8);
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto 28px;
+    }
+    .hero-badges {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.9);
+      font-size: 0.78rem;
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+
+    /* SECTIONS */
+    section { padding: 64px 24px; }
+    section:nth-child(even) { background: var(--light); }
+    .container { max-width: 960px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-family: 'Source Serif 4', serif;
+      font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+      font-weight: 400;
+      color: var(--navy);
+      margin-bottom: 32px;
+      line-height: 1.3;
+    }
+
+    /* STRAND CARDS */
+    .strands-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .strand-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      position: relative;
+    }
+    .strand-number {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      color: var(--teal);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .strand-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .strand-card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .strand-card .funder {
+      font-size: 0.75rem;
+      color: var(--teal);
+      font-weight: 500;
+    }
+    .strand-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: var(--teal);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .strand-link:hover { text-decoration: underline; }
+
+    /* TEAM */
+    .team-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    @media (max-width: 600px) { .team-grid { grid-template-columns: 1fr; } }
+    .team-grid h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--navy);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+      border-bottom: 2px solid var(--teal);
+      padding-bottom: 6px;
+    }
+    .team-grid ul {
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .team-grid ul li span {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* FUNDING */
+    .funding-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .funder-pill {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 20px;
+      font-size: 0.9rem;
+      color: var(--navy);
+      font-weight: 500;
+    }
+
+    /* PUBLICATIONS */
+    .pub-year {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--teal);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 24px 0 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+    }
+    .pub-year:first-child { margin-top: 0; }
+    .pub-list {
+      list-style: none;
+      margin-bottom: 8px;
+    }
+    .pub-list li {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.6;
+      padding: 6px 0;
+      border-bottom: 1px solid #eef4f4;
+    }
+    .pub-list li:last-child { border-bottom: none; }
+    .pub-list em { color: var(--muted); }
+    .pub-status {
+      font-size: 0.75rem;
+      color: var(--teal);
+      font-weight: 500;
+      margin-left: 4px;
+    }
+
+    /* RESOURCES */
+    .resource-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .resource-link {
+      display: inline-block;
+      background: var(--navy);
+      color: var(--white);
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .resource-link:hover { background: var(--teal); }
+
+    /* CONTACT */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    @media (max-width: 600px) { .contact-grid { grid-template-columns: 1fr; } }
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 24px;
+    }
+    .contact-card strong {
+      display: block;
+      color: var(--navy);
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+    .contact-card .role {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .contact-card a {
+      font-size: 0.85rem;
+      color: var(--teal);
+      text-decoration: none;
+    }
+    .contact-card a:hover { text-decoration: underline; }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.78rem;
+    }
+    footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+    footer a:hover { color: var(--white); }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 16px; }
+      .nav-links { gap: 14px; }
+      section { padding: 48px 16px; }
+      .strands-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="#">DDUH / TCD Oral Health Research</a>
+  <ul class="nav-links">
+    <li><a href="#research">Research</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <img class="hero-banner" src="banner.svg" alt="Oral Health, Diet and Nutrition Research Group">
+  <h1>Building a national evidence base on diet, nutrition and oral health across the life course</h1>
+  <p>Based at Dublin Dental University Hospital and Trinity College Dublin, our programme spans six interconnected research strands, from infant nutrition through to cognitive health in ageing.</p>
+  <div class="hero-badges">
+    <span class="badge">Dublin Dental University Hospital</span>
+    <span class="badge">Trinity College Dublin</span>
+    <span class="badge">HRB &bull; DAFM &bull; DDUH funded</span>
+  </div>
+</div>
+
+<!-- RESEARCH STRANDS -->
+<section id="research">
+  <div class="container">
+    <p class="section-label">Research programme</p>
+    <h2>Six interconnected strands</h2>
+    <div class="strands-grid">
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 1</div>
+        <h3>Education and Diet Assessment Methodology</h3>
+        <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios. This work contributed to an international competency framework for diet and nutrition in oral health education.</p>
+        <span class="funder">DDUH funded</span>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 2</div>
+        <h3>Oral Health in Irish Elite Athletes</h3>
+        <p>In collaboration with the Sport Ireland Institute, we collected the first national data on diet and oral health in Irish elite athletes. Despite high nutritional awareness, 90% of athletes surveyed had tooth decay. Ongoing work includes pre-competition screening and an oral health guide for sports staff.</p>
+        <span class="funder">Sport Ireland Institute</span>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 3</div>
+        <h3>Oral Health and Infection Risk in Intestinal Failure</h3>
+        <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%), raising the question of whether the oral cavity is an unrecognised reservoir for catheter-related bloodstream infections.</p>
+        <span class="funder">DDUH funded</span>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 4</div>
+        <h3>SWEETWISE: Reducing Sugar in Infant Foods</h3>
+        <p>A DAFM-funded consortium across TCD, UCD and TU Dublin addressing the high free sugar content of commercially available complementary foods for infants in Ireland. TCD/DDUH's role is developing a novel in vitro cariogenicity model to test whether reformulated infant foods reduce cariogenic potential.</p>
+        <span class="funder">DAFM funded &mdash; €1.3M consortium</span>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 5</div>
+        <h3>HRB Fluoride Programme: Oral Health and Cognition</h3>
+        <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland. Our analysis of individual-level geocoded lifetime fluoride exposure found no association with cognitive function in older adults (IRR = 1.00, fully adjusted).</p>
+        <span class="funder">Health Research Board &mdash; SDAP-2025-017</span>
+        <br><a class="strand-link" href="https://oral-health-nutrition.github.io/fluoride/">Visit the fluoride programme site &rarr;</a>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 6</div>
+        <h3>Oral Health Trajectories in Children and Young People</h3>
+        <p>Using longitudinal data from the Growing Up in Ireland study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence. Applying life-course epidemiological methods across GUI Cohorts '98, '08 and '24, the research identifies critical periods for prevention and the drivers of oral health inequality.</p>
+        <span class="funder">Trinity Research Doctorate Award 2026</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <div class="container">
+    <p class="section-label">People</p>
+    <h2>Team</h2>
+    <div class="team-grid">
+      <div>
+        <h3>Core Research Team</h3>
+        <ul>
+          <li>Michael Crowe <span>Associate Professor, DDUH / TCD</span></li>
+          <li>Michael O'Sullivan <span>Professor, DDUH / TCD</span></li>
+          <li>Lewis Winning <span>DDUH / TCD</span></li>
+          <li>Brian O'Connell <span>DDUH / TCD</span></li>
+          <li>Gary Moran <span>DDUH / TCD</span></li>
+          <li>Lina Zgaga <span>TCD</span></li>
+          <li>Vinay Sharma <span>Postdoctoral Fellow, TCD</span></li>
+          <li>Oscar Cassetti <span>Research Fellow, TCD</span></li>
+          <li>Aifric O'Sullivan <span>UCD</span></li>
+          <li>Jaime Knox Macleod <span>PhD candidate, TCD</span></li>
+          <li>David McMahon <span>DChDent candidate, TCD</span></li>
+          <li>Aoife Caitriona Broderick <span>DChDent candidate, TCD</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Collaborators</h3>
+        <ul>
+          <li>Annie Hughes <span>UCD</span></li>
+          <li>Emma Feeney <span>UCD</span></li>
+          <li>Jan Rigby <span>Maynooth University / NCG</span></li>
+          <li>Michael Cronin <span>UCC</span></li>
+          <li>Rose Anne Kenny <span>TILDA / TCD</span></li>
+          <li>Eithne O'Flaherty <span>TCD</span></li>
+          <li>Brendan Egan <span>DCU / Sport Ireland Institute</span></li>
+          <li>Sharon Madigan <span>Sport Ireland Institute</span></li>
+          <li>Michaela Goodwin <span>University of Manchester</span></li>
+          <li>Teresa Marshall <span>University of Iowa</span></li>
+          <li>Rena Touger-Decker <span>Rutgers University</span></li>
+          <li>Katie O'Farrell <span>CSO</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING -->
+<section id="funding">
+  <div class="container">
+    <p class="section-label">Support</p>
+    <h2>Funding</h2>
+    <div class="funding-list">
+      <div class="funder-pill">Health Research Board (HRB)</div>
+      <div class="funder-pill">Department of Agriculture, Food and the Marine (DAFM)</div>
+      <div class="funder-pill">Dublin Dental University Hospital</div>
+      <div class="funder-pill">Trinity Research Doctorate Award</div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications">
+  <div class="container">
+    <p class="section-label">Outputs</p>
+    <h2>Publications</h2>
+
+    <div class="pub-year">2026</div>
+    <ul class="pub-list">
+      <li>Hughes A, et al. Diet and Dental Caries in Elite Athletes in Ireland. <em>J Hum Nutr Diet</em> 2026.</li>
+      <li>Sharma V, et al. Longitudinal Analysis of Fluoride Levels in Irish Water Supplies: A 52-Year Review. <em>Community Dent Oral Epidemiol</em> 2026.</li>
+      <li>Sharma V, et al. Socio-Economic Differences in the Oral Health of Irish Adolescents. <em>Community Dent Oral Epidemiol</em> 2026.</li>
+      <li>Crowe M, et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. <em>European Journal of Dental Education</em> 2026. <a href="https://doi.org/10.1111/eje.70230">doi:10.1111/eje.70230</a></li>
+    </ul>
+
+    <div class="pub-year">2025</div>
+    <ul class="pub-list">
+      <li>Marshall TA, Crowe M, Touger-Decker R. A Framework to Establish Diet and Nutrition Competencies for Oral Health Care Education. <em>J Dent Educ</em> 2025.</li>
+      <li>Winning L, et al. Tooth Loss and 12-Year Mortality Risk in 8,494 Older Adults From Ireland. <em>J Am Geriatr Soc</em> 2025.</li>
+    </ul>
+
+    <div class="pub-year">2024</div>
+    <ul class="pub-list">
+      <li>Hughes A, et al. Digital data collection protocols and template design for an oral health survey. <em>Discover Public Health</em> 2024.</li>
+      <li>Sharma V, et al. Evaluating the harmonization potential of oral health-related questionnaires. <em>J Public Health Dent</em> 2024.</li>
+      <li>Sharma V, et al. Dental caries in children in Ireland: A systematic review. <em>Community Dent Oral Epidemiol</em> 2024.</li>
+      <li>Winning L, et al. Vitamin D, periodontitis and tooth loss in older Irish adults. 2024.</li>
+    </ul>
+
+    <div class="pub-year">2023</div>
+    <ul class="pub-list">
+      <li>Crowe M, et al. Implementation of a food science and nutrition module in a dental undergraduate curriculum. <em>Eur J Dent Educ</em> 2023; 27(2): 402-408.</li>
+      <li>Sharma V, et al. Protocol for developing a dashboard for interactive cohort analysis. <em>BMC Oral Health</em> 2023.</li>
+      <li>Sharma V, et al. Estimation and consumption pattern of free sugar intake in 3-year-olds. 2023.</li>
+    </ul>
+
+    <div class="pub-year">Under review / in preparation</div>
+    <ul class="pub-list">
+      <li>Sharma V, et al. CWF and cognitive outcomes in older Irish adults. <span class="pub-status">Under review</span></li>
+      <li>Intestinal failure and oral health (2 papers in preparation). <span class="pub-status">In preparation</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section id="resources">
+  <div class="container">
+    <p class="section-label">Tools</p>
+    <h2>Resources</h2>
+    <p style="color:var(--muted);margin-bottom:20px;font-size:0.92rem;">Interactive tools and data resources from the group.</p>
+    <div class="resource-links">
+      <a class="resource-link" href="https://dduh.shinyapps.io/dduh/" target="_blank">GUI Oral Health Dashboard</a>
+      <a class="resource-link" href="https://oral-health-nutrition.github.io/odk/" target="_blank">ODK Templates</a>
+      <a class="resource-link" href="https://oral-health-nutrition.github.io/fluoride/" target="_blank">HRB Fluoride Programme</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label">Get in touch</p>
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Dr Michael Crowe</strong>
+        <div class="role">Associate Professor, Food Science, Nutrition and Oral Health<br>Dublin Dental University Hospital, Trinity College Dublin</div>
+        <a href="mailto:michael.crowe@dental.tcd.ie">michael.crowe@dental.tcd.ie</a>
+      </div>
+      <div class="contact-card">
+        <strong>Professor Michael O'Sullivan</strong>
+        <div class="role">Professor / Consultant in Restorative Dentistry (Special Needs)<br>Dublin Dental University Hospital, Trinity College Dublin</div>
+        <a href="mailto:michael.osullivan@dental.tcd.ie">michael.osullivan@dental.tcd.ie</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Oral Health, Diet and Nutrition Research Group &mdash; Dublin Dental University Hospital / Trinity College Dublin &mdash; <a href="https://github.com/oral-health-nutrition">GitHub</a></p>
+</footer>
+
+</body>
+</html>
