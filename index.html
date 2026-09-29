@@ -177,22 +177,47 @@
     .strand-link:hover { text-decoration: underline; }
 
     /* TEAM */
+    .team-section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--teal);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 28px 0 12px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 5px;
+    }
+    .team-section-label:first-child { margin-top: 0; }
+    .pi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+    .pi-card {
+      background: var(--light);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .pi-card strong {
+      display: block;
+      font-size: 0.92rem;
+      color: var(--navy);
+      margin-bottom: 2px;
+    }
+    .pi-card span {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
     .team-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 32px;
+      margin-top: 8px;
     }
     @media (max-width: 600px) { .team-grid { grid-template-columns: 1fr; } }
-    .team-grid h3 {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--navy);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 14px;
-      border-bottom: 2px solid var(--teal);
-      padding-bottom: 6px;
-    }
     .team-grid ul {
       list-style: none;
       font-size: 0.9rem;
@@ -500,42 +525,47 @@
   <div class="container">
     <p class="section-label">People</p>
     <h2>Team</h2>
+    <div class="team-section-label">Principal Investigators</div>
+    <div class="pi-grid">
+      <div class="pi-card"><strong>Michael Crowe</strong><span>Associate Professor, Food Science, Nutrition and Oral Health<br>DDUH / TCD</span></div>
+      <div class="pi-card"><strong>Michael O'Sullivan</strong><span>Professor / Consultant in Restorative Dentistry<br>DDUH / TCD</span></div>
+      <div class="pi-card"><strong>Lewis Winning</strong><span>Associate Professor, Periodontology<br>DDUH / TCD</span></div>
+      <div class="pi-card"><strong>Brian O'Connell</strong><span>Professor / Consultant in Restorative Dentistry<br>DDUH / TCD</span></div>
+    </div>
+
+    <div class="team-section-label">Research Fellows &amp; Postdocs</div>
+    <div class="pi-grid">
+      <div class="pi-card"><strong>Vinay Sharma</strong><span>Postdoctoral Research Fellow<br>TCD</span></div>
+      <div class="pi-card"><strong>Oscar Cassetti</strong><span>Research Fellow<br>TCD</span></div>
+      <div class="pi-card"><strong>Gary Moran</strong><span>DDUH / TCD</span></div>
+      <div class="pi-card"><strong>Aifric O'Sullivan</strong><span>UCD</span></div>
+    </div>
+
+    <div class="team-section-label">PhD &amp; Clinical Doctorate Candidates</div>
+    <div class="pi-grid">
+      <div class="pi-card"><strong>Jaime Knox Macleod</strong><span>PhD candidate<br>TCD</span></div>
+      <div class="pi-card"><strong>Sudipta Saha</strong><span>PhD candidate<br>TCD</span></div>
+      <div class="pi-card"><strong>David McMahon</strong><span>DChDent candidate<br>TCD</span></div>
+      <div class="pi-card"><strong>Aoife Caitriona Broderick</strong><span>DChDent candidate<br>TCD</span></div>
+    </div>
+
+    <div class="team-section-label">Collaborators</div>
     <div class="team-grid">
-      <div>
-        <h3>Core Research Team</h3>
-        <ul>
-          <li>Michael Crowe <span>Associate Professor, DDUH / TCD</span></li>
-          <li>Michael O'Sullivan <span>Professor, DDUH / TCD</span></li>
-          <li>Lewis Winning <span>DDUH / TCD</span></li>
-          <li>Brian O'Connell <span>DDUH / TCD</span></li>
-          <li>Gary Moran <span>DDUH / TCD</span></li>
-          <li>Lina Zgaga <span>TCD</span></li>
-          <li>Vinay Sharma <span>Postdoctoral Fellow, TCD</span></li>
-          <li>Oscar Cassetti <span>Research Fellow, TCD</span></li>
-          <li>Aifric O'Sullivan <span>UCD</span></li>
-          <li>Jaime Knox Macleod <span>PhD candidate, TCD</span></li>
-          <li>David McMahon <span>DChDent candidate, TCD</span></li>
-          <li>Aoife Caitriona Broderick <span>DChDent candidate, TCD</span></li>
-          <li>Sudipta Saha <span>PhD candidate, TCD</span></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Collaborators</h3>
-        <ul>
-          <li>Annie Hughes <span>UCD</span></li>
-          <li>Emma Feeney <span>UCD</span></li>
-          <li>Jan Rigby <span>Maynooth University / NCG</span></li>
-          <li>Michael Cronin <span>UCC</span></li>
-          <li>Rose Anne Kenny <span>TILDA / TCD</span></li>
-          <li>Eithne O'Flaherty <span>TCD</span></li>
-          <li>Brendan Egan <span>DCU / Sport Ireland Institute</span></li>
-          <li>Sharon Madigan <span>Sport Ireland Institute</span></li>
-          <li>Michaela Goodwin <span>University of Manchester</span></li>
-          <li>Teresa Marshall <span>University of Iowa</span></li>
-          <li>Rena Touger-Decker <span>Rutgers University</span></li>
-          <li>Katie O'Farrell <span>CSO</span></li>
-        </ul>
-      </div>
+      <ul>
+        <li>Emma Feeney <span>UCD</span></li>
+        <li>Jan Rigby <span>Maynooth University / NCG</span></li>
+        <li>Michael Cronin <span>UCC</span></li>
+        <li>Rose Anne Kenny <span>TILDA / TCD</span></li>
+        <li>Eithne O'Flaherty <span>TCD</span></li>
+      </ul>
+      <ul>
+        <li>Brendan Egan <span>DCU / Sport Ireland Institute</span></li>
+        <li>Sharon Madigan <span>Sport Ireland Institute</span></li>
+        <li>Michaela Goodwin <span>University of Manchester</span></li>
+        <li>Teresa Marshall <span>University of Iowa</span></li>
+        <li>Riva Touger-Decker <span>Rutgers University</span></li>
+        <li>Katie O'Farrell <span>CSO</span></li>
+      </ul>
     </div>
   </div>
 </section>
