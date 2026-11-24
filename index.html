@@ -271,6 +271,19 @@
       margin-bottom: 4px;
     }
 
+    /* NEWS CARDS */
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+    .news-card { background: #fff; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+    .news-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 30%; display: block; }
+    .strand-logo { float: right; width: 76px; height: 76px; object-fit: contain; margin: 0 0 8px 12px; }
+    .news-card img.logo { object-fit: contain; background: #fff; padding: 16px; }
+    .news-body { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .news-card h3 { font-size: 1.05rem; line-height: 1.35; color: #003D7A; margin: 0; }
+    .news-card p { font-size: 0.95rem; margin: 0; }
+    .news-links { margin-top: auto; padding-top: 8px; display: flex; flex-wrap: wrap; gap: 16px; }
+    .news-links a { font-weight: 600; color: #0057A8; text-decoration: none; font-size: 0.9rem; }
+    .news-links a:hover { text-decoration: underline; }
+
     /* PUBLICATIONS */
     .pub-year {
       font-size: 0.85rem;
@@ -656,18 +669,19 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 1</div>
-        <h3>Education and Diet Assessment Methodology</h3>
-        <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios.</p>
-        <span class="funder">DDUH funded</span>
+        <h3>HRB Fluoride Programme: Oral Health and Cognition</h3>
+        <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland.</p>
+        <span class="funder">Health Research Board &mdash; SDAP-2025-017</span>
         <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
         <div class="strand-more">
-          <p>This work contributed to an international competency framework for diet and nutrition in oral health education, developed through the ADEE Community of Practice on Nutrition. Key outputs include:</p>
+          <p>Using individual-level geocoded lifetime fluoride exposure estimates linked to national cohort data, this programme provides the most comprehensive Irish evidence on fluoride, oral health and cognition to date:</p>
           <ul>
-            <li>A validated food science and nutrition module embedded in the BDentSc curriculum</li>
-            <li>Digital diet history tools adapted for dental clinical settings</li>
-            <li>A global survey of nutrition education practices in dental schools</li>
-            <li>Co-authorship of a framework for diet and nutrition competencies in oral health care</li>
+            <li>No association between lifetime CWF exposure and cognitive function in older adults (IRR = 1.00, fully adjusted)</li>
+            <li>52-year longitudinal analysis of fluoride levels across Irish water supply zones</li>
+            <li>Socioeconomic patterning of oral health in Irish adolescents (GUI '98)</li>
+            <li>Grant: HRB SDAP-2025-017 &mdash; €349,926 &mdash; commenced December 2025</li>
           </ul>
+          <a class="strand-link" href="https://oral-health-nutrition.github.io/fluoride/">Visit the fluoride programme site &rarr;</a>
         </div>
       </div>
 
@@ -690,23 +704,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 3</div>
-        <h3>Oral Health and Infection Risk in Intestinal Failure</h3>
-        <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%).</p>
-        <span class="funder">DDUH funded</span>
-        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
-        <div class="strand-more">
-          <p>This study raises the question of whether the oral cavity is an unrecognised reservoir for catheter-related bloodstream infections in this vulnerable patient group. Key findings and next steps:</p>
-          <ul>
-            <li>72% of patients had untreated dental caries; 17% had oral MRSA colonisation</li>
-            <li>Oral health needs are largely unmet in this population due to systemic illness complexity</li>
-            <li>Two further papers in preparation examining infection pathways and clinical recommendations</li>
-            <li>Collaboration with the national intestinal failure and home parenteral nutrition service at St James's Hospital</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="strand-card">
-        <div class="strand-number">Strand 4</div>
+        <img class="strand-logo" src="images/news/sweetwise-logo.png" alt="SWEETWISE project logo">
         <h3>SWEETWISE: Reducing Sugar in Infant Foods</h3>
         <p>A DAFM-funded consortium across TCD, UCD and TU Dublin addressing the high free sugar content of commercially available complementary foods for infants in Ireland.</p>
         <span class="funder">DAFM funded &mdash; €1.3M consortium</span>
@@ -723,25 +721,7 @@
       </div>
 
       <div class="strand-card">
-        <div class="strand-number">Strand 5</div>
-        <h3>HRB Fluoride Programme: Oral Health and Cognition</h3>
-        <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland.</p>
-        <span class="funder">Health Research Board &mdash; SDAP-2025-017</span>
-        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
-        <div class="strand-more">
-          <p>Using individual-level geocoded lifetime fluoride exposure estimates linked to national cohort data, this programme provides the most comprehensive Irish evidence on fluoride, oral health and cognition to date:</p>
-          <ul>
-            <li>No association between lifetime CWF exposure and cognitive function in older adults (IRR = 1.00, fully adjusted)</li>
-            <li>52-year longitudinal analysis of fluoride levels across Irish water supply zones</li>
-            <li>Socioeconomic patterning of oral health in Irish adolescents (GUI '98)</li>
-            <li>Grant: HRB SDAP-2025-017 &mdash; €349,926 &mdash; commenced December 2025</li>
-          </ul>
-          <a class="strand-link" href="https://oral-health-nutrition.github.io/fluoride/">Visit the fluoride programme site &rarr;</a>
-        </div>
-      </div>
-
-      <div class="strand-card">
-        <div class="strand-number">Strand 6</div>
+        <div class="strand-number">Strand 4</div>
         <h3>Oral Health Trajectories in Children and Young People</h3>
         <p>Using longitudinal data from the Growing Up in Ireland study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence.</p>
         <span class="funder">Trinity Research Doctorate Award 2026</span>
@@ -754,6 +734,40 @@
             <li>Linkage across GUI cohort waves to examine intra- and inter-generational patterns</li>
             <li>PhD candidate: Sudipta Saha, TCD (commenced September 2026)</li>
             <li>Co-PI: Prof Michael O'Sullivan, DDUH/TCD</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 5</div>
+        <h3>Oral Health and Infection Risk in Intestinal Failure</h3>
+        <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%).</p>
+        <span class="funder">DDUH funded</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>This study raises the question of whether the oral cavity is an unrecognised reservoir for catheter-related bloodstream infections in this vulnerable patient group. Key findings and next steps:</p>
+          <ul>
+            <li>72% of patients had untreated dental caries; 17% had oral MRSA colonisation</li>
+            <li>Oral health needs are largely unmet in this population due to systemic illness complexity</li>
+            <li>Two further papers in preparation examining infection pathways and clinical recommendations</li>
+            <li>Collaboration with the national intestinal failure and home parenteral nutrition service at St James's Hospital</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="strand-card">
+        <div class="strand-number">Strand 6</div>
+        <h3>Education and Diet Assessment Methodology</h3>
+        <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios.</p>
+        <span class="funder">DDUH funded</span>
+        <button class="strand-toggle" onclick="toggleStrand(this)"><span class="arrow">&#9658;</span> Read more</button>
+        <div class="strand-more">
+          <p>This work contributed to an international competency framework for diet and nutrition in oral health education, developed through the ADEE Community of Practice on Nutrition. Key outputs include:</p>
+          <ul>
+            <li>A validated food science and nutrition module embedded in the BDentSc curriculum</li>
+            <li>Digital diet history tools adapted for dental clinical settings</li>
+            <li>A global survey of nutrition education practices in dental schools</li>
+            <li>Co-authorship of a framework for diet and nutrition competencies in oral health care</li>
           </ul>
         </div>
       </div>
@@ -830,13 +844,78 @@
   <div class="container">
     <p class="section-label">Latest</p>
     <h2>News</h2>
-    <ul class="news-list">
-      <!-- Copy this <li> block for each new item, newest first -->
-      <li class="news-item">
-        <span class="news-date">October 2026</span>
-        Department of Health funding approved for a new project to specify a national fluoride surveillance framework.
-      </li>
-    </ul>
+    <!-- NEWS CARDS: copy one <article> block per item, newest first.
+         Photos go in images/news/ (about 1200px wide, JPG). If a photo is missing the card still shows, without the image. -->
+    <div class="news-grid">
+
+      <article class="news-card">
+        <img src="images/news/iadr-irish-division-2026.jpg" alt="PhD researcher Jaime Knox Macleod with colleagues at the IADR Irish Division meeting in Cork" loading="lazy" onerror="this.remove()" style="object-position: center 25%">
+        <div class="news-body">
+          <span class="news-date">November 2026</span>
+          <h3>SWEETWISE PhD research presented at IADR Irish Division</h3>
+          <p>Our SWEETWISE PhD researcher Jaime Knox Macleod presented her work at the Irish Division of the International Association for Dental Research meeting in Cork.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <img src="images/news/jdr-fluoride-cognition-2026.jpg" alt="Research team with members of the Water Fluoridation public and patient involvement (PPI) group" style="object-position: center 75%" loading="lazy" onerror="this.remove()">
+        <div class="news-body">
+          <span class="news-date">November 2026</span>
+          <h3>No link between water fluoridation and cognitive function in older adults</h3>
+          <p>Our study in the <em>Journal of Dental Research</em> used TILDA data to estimate lifetime exposure to fluoridated water for 2,495 adults aged 50 and over. Exposure was not associated with later-life cognitive function.</p>
+          <div class="news-links">
+            <a href="https://doi.org/10.1177/00220345261490925">Read the paper</a>
+            <a href="https://www.tcd.ie/news_events/articles/2026/trinity-research-shows-no-link-between-water-fluoridation-and-cognitive-decline-in-older-irish-adults/">TCD news story</a>
+            <a href="https://www.instagram.com/p/Dfh96DIBEBh/">Video on Instagram</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <img src="images/news/gui-teen-oral-health-2026.jpg" alt="Dr Vinay Sharma, Dr Michael Crowe and colleagues at the Growing Up in Ireland 20th anniversary conference" style="object-position: center 15%" loading="lazy" onerror="this.remove()">
+        <div class="news-body">
+          <span class="news-date">November 2026</span>
+          <h3>Neighbourhoods and gender linked to teenage oral health</h3>
+          <p>Dr Vinay Sharma presented our Growing Up in Ireland analysis of 6,216 17 and 18 year olds at the study's 20th anniversary conference. Neighbourhood satisfaction and gender were both linked to self-rated oral health.</p>
+          <div class="news-links">
+            <a href="https://www.tcd.ie/dental/news/latest-news-2026/growing-up-in-ireland-/">Read more</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-body">
+          <span class="news-date">October 2026</span>
+          <h3>Department of Health funding for fluoride surveillance</h3>
+          <p>Department of Health funding approved for a new project to specify a national fluoride surveillance framework.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <img class="logo" src="images/news/sweetwise-logo.png" alt="SWEETWISE project logo: Meet the team" loading="lazy" onerror="this.remove()">
+        <div class="news-body">
+          <span class="news-date">September 2026</span>
+          <h3>SWEETWISE: full research team in place</h3>
+          <p>The SWEETWISE team across UCD, Trinity and TU Dublin is now complete. At Trinity, Jaime Knox Macleod, Prof Gary Moran and Dr Michael Crowe are developing laboratory models of tooth decay to test infant foods that have been processed to contain less free sugar.</p>
+          <div class="news-links">
+            <a href="https://www.tcd.ie/dental/news/latest-news-2026/sweetwise/">About the project</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <img src="images/news/sweetwise-2026.jpg" alt="Dr Michael Crowe with SWEETWISE colleagues at the Department of Agriculture, Food and the Marine funding launch" loading="lazy" onerror="this.remove()">
+        <div class="news-body">
+          <span class="news-date">May 2026</span>
+          <h3>SWEETWISE: &euro;1.3 million to reduce sugar in infant foods</h3>
+          <p>We are partners in SWEETWISE, a four-year project led by UCD with TU Dublin, funded by the Department of Agriculture, Food and the Marine. Our DDUH work package (Dr Michael Crowe and Prof Gary Moran) is developing a laboratory model to test whether reformulated infant foods are less likely to cause tooth decay.</p>
+          <div class="news-links">
+            <a href="https://www.tcd.ie/dental/news/latest-news-2026/sweetwise/">Read more</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
   </div>
 </section>
 
@@ -847,6 +926,7 @@
 
     <div class="pub-year">2026</div>
     <ul class="pub-list">
+      <li>Sharma V, et al. Lifetime Fluoride Exposure and Cognition in Older Irish Adults. <em>J Dent Res</em> 2026. Online ahead of print. <a href="https://doi.org/10.1177/00220345261490925">doi:10.1177/00220345261490925</a></li>
       <li>Crowe M, et al. Global Survey of Nutrition Education in Dental Schools: Current Practices and Opportunities. <em>Eur J Dent Educ</em> 2026. Online ahead of print. <a href="https://doi.org/10.1111/eje.70230">doi:10.1111/eje.70230</a></li>
       <li>Hughes A, et al. Diet and Dental Caries in Elite Athletes in Ireland. <em>J Hum Nutr Diet</em> 2026;39(1):e70203. <a href="https://doi.org/10.1111/jhn.70203">doi:10.1111/jhn.70203</a></li>
       <li>Marshall TA, Crowe M, Touger-Decker R. A Framework to Establish Diet and Nutrition Competencies for Oral Health Care Education. <em>J Dent Educ</em> 2026;90(9):1350-62. <a href="https://doi.org/10.1002/jdd.70127">doi:10.1002/jdd.70127</a></li>
@@ -884,7 +964,6 @@
 
     <div class="pub-year">Under review / in preparation</div>
     <ul class="pub-list">
-      <li>Sharma V, et al. CWF and cognitive outcomes in older Irish adults. <span class="pub-status">Accepted for publication</span></li>
       <li>Intestinal failure and oral health (in preparation). <span class="pub-status">In preparation</span></li>
     </ul>
   </div>

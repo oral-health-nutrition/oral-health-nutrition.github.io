@@ -204,9 +204,6 @@
     border-bottom:1px solid var(--line);
     padding:14px 0;
     font-size:.92rem;
-    display:flex;
-    justify-content:space-between;
-    gap:16px;
   }
   .outputs-list .placeholder{color:var(--slate);font-style:italic;}
 
@@ -232,6 +229,17 @@
     .team-list{grid-template-columns:1fr;}
     .hero h1{font-size:1.8rem;}
   }
+  /* NEWS CARDS */
+  .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;}
+  .news-card{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;}
+  .news-card img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 30%;display:block;}
+  .news-body{padding:16px 20px 20px;display:flex;flex-direction:column;gap:8px;flex:1;}
+  .news-date{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--teal);}
+  .news-card h3{font-size:1.05rem;line-height:1.35;color:var(--navy);margin:0;}
+  .news-card p{font-size:.95rem;margin:0;color:var(--slate);}
+  .news-links{margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;gap:16px;}
+  .news-links a{font-weight:600;color:var(--teal);text-decoration:none;font-size:.9rem;}
+  .news-links a:hover{text-decoration:underline;}
 </style>
 </head>
 <body>
@@ -248,6 +256,7 @@
       <a href="#cohorts">Cohorts</a>
       <a href="#team">Team</a>
       <a href="#funding">Funding</a>
+      <a href="#news">News</a>
       <a href="#outputs">Outputs</a>
     </nav>
   </div>
@@ -310,7 +319,7 @@
     <div class="lead-col">
       <p>Community water fluoridation has been part of Ireland's public health infrastructure for decades, with a strong and consistent evidence base for its role in reducing dental decay. Far less is known about whether lifetime exposure to fluoridated water has any relationship with cognitive outcomes, in either direction, across childhood and into older age.</p>
       <p>This programme uses two of Ireland's national longitudinal studies, <strong>Growing Up in Ireland</strong> and <strong>TILDA</strong>, to examine this question using population-representative data collected over many years, rather than a single cross-sectional snapshot.</p>
-      <p style="font-size:.85rem;color:var(--teal);">[Edit this section with the specific aims, hypotheses and study design once finalised — keep the cohort and funder facts, replace the framing text.]</p>
+      <p style="font-size:.85rem;color:var(--teal);">[Edit]</p>
     </div>
   </div>
 </section>
@@ -358,7 +367,7 @@
         <span class="role">Post-doctoral fellow / Public Health and Primary Care</span>
       </li>
     </ul>
-    <span class="editable-note">Replace the bracketed entries with the rest of the project team.</span>
+    <span class="editable-note">ADD.</span>
   </div>
 </section>
 
@@ -371,7 +380,42 @@
       <p>This research is funded by the Health Research Board (HRB), Ireland's lead agency supporting health research. <span style="color:var(--teal);">[HRB Grant Number: Project 216826 Award 19373]</span></p>
     </div>
     <div class="funding-row" style="margin-top:18px;">
-      <p style="font-size:.85rem;color:var(--slate);"><strong>Data acknowledgement:</strong> <span style="color:var(--teal);">[Insert the exact required citation wording from TILDA's and Growing Up in Ireland's data access agreements here — check their published guidance, the wording is usually mandated rather than optional.]</span></p>
+      <p style="font-size:.85rem;color:var(--slate);"><strong>Data acknowledgement:</strong> <span style="color:var(--teal);">[Insert citation wording from TILDA's and Growing Up in Ireland's data access agreements.]</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS ============ -->
+<!-- Copy one <article> block per item, newest first. Photos live in ../images/news/ (shared with the main site). -->
+<section class="block alt" id="news">
+  <div class="wrap">
+    <div class="eyebrow">Latest</div>
+    <h2>News</h2>
+    <div class="news-grid">
+
+      <article class="news-card">
+        <img src="../images/news/ppi-meeting-2-2026.jpg" alt="Research team with members of the Water Fluoridation public and patient involvement (PPI) group" style="object-position: center 75%" loading="lazy" onerror="this.remove()">
+        <div class="news-body">
+          <span class="news-date">November 2026</span>
+          <h3>Second meeting of our public and patient involvement group</h3>
+          <p>Our PPI group met for the second time to discuss the project. Members asked searching questions about how we measure diet, cognition and socioeconomic circumstances, and about the international debate on fluoride. They also encouraged us to share our findings directly with the public, which we plan to do.</p>
+          <p>Thank you to everyone who took part: your insights are shaping this research.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-body">
+          <span class="news-date">November 2026</span>
+          <h3>First TILDA findings: no link between water fluoridation and cognition</h3>
+          <p>Using TILDA, we linked residential histories to national water fluoride records to estimate lifetime exposure for 2,495 adults aged 50 and over. Exposure was not associated with later-life cognitive function, and early-childhood exposure showed no association either.</p>
+          <div class="news-links">
+            <a href="https://doi.org/10.1177/00220345261490925">Read the paper</a>
+            <a href="https://www.tcd.ie/news_events/articles/2026/trinity-research-shows-no-link-between-water-fluoridation-and-cognitive-decline-in-older-irish-adults/">TCD news story</a>
+            <a href="https://www.instagram.com/p/Dfh96DIBEBh/">Video on Instagram</a>
+          </div>
+        </div>
+      </article>
+
     </div>
   </div>
 </section>
@@ -382,7 +426,7 @@
     <div class="eyebrow">Publications &amp; outputs</div>
     <h2>Outputs</h2>
     <ul class="outputs-list">
-      <li><span class="placeholder">Publications and outputs will be listed here as the programme progresses.</span></li>
+      <li>Sharma V, O’Connell B, Zgaga L, Cronin M, Winning L, Scarlett S, Hughes G, Crowe M. Lifetime Fluoride Exposure and Cognition in Older Irish Adults. <em>J Dent Res</em> 2026. Online ahead of print. <a href="https://doi.org/10.1177/00220345261490925">doi:10.1177/00220345261490925</a></li>
     </ul>
   </div>
 </section>
