@@ -276,6 +276,8 @@
     .news-card { background: #fff; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
     .news-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 30%; display: block; }
     .strand-logo { float: right; width: 76px; height: 76px; object-fit: contain; margin: 0 0 8px 12px; }
+    .strand-logo.wide { width: 120px; height: auto; max-height: 76px; }
+    .infographic-links a { font-weight: 600; }
     .news-card img.logo { object-fit: contain; background: #fff; padding: 16px; }
     .news-body { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
     .news-card h3 { font-size: 1.05rem; line-height: 1.35; color: #003D7A; margin: 0; }
@@ -669,6 +671,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 1</div>
+        <img class="strand-logo wide" src="images/strands/hrb-logo.png" alt="Funded by the Health Research Board">
         <h3>HRB Fluoride Programme: Oral Health and Cognition</h3>
         <p>Ireland's largest oral health research strand, examining community water fluoridation, oral health and cognitive outcomes using data from TILDA and Growing Up in Ireland.</p>
         <span class="funder">Health Research Board &mdash; SDAP-2025-017</span>
@@ -687,6 +690,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 2</div>
+        <img class="strand-logo wide" src="images/strands/sii-logo.png" alt="In partnership with the Sport Ireland Institute">
         <h3>Oral Health in Irish Elite Athletes</h3>
         <p>In collaboration with the Sport Ireland Institute, we collected the first national data on diet and oral health in Irish elite athletes. Despite high nutritional awareness, 90% of athletes surveyed had tooth decay.</p>
         <span class="funder">Sport Ireland Institute</span>
@@ -699,12 +703,16 @@
             <li>Fluoride intake below recommended levels in a significant proportion of athletes</li>
             <li>Ongoing work: pre-competition oral health screening protocol and a practical guide for sports nutrition staff</li>
           </ul>
+          <p class="infographic-links">Infographics produced with the Sport Ireland Institute (open full size):
+            <a href="images/athletes/athletes-key-findings.jpg" target="_blank" rel="noopener">Key findings</a> &middot;
+            <a href="images/athletes/athletes-why-dental-health.jpg" target="_blank" rel="noopener">Why dental health matters for athletes</a> &middot;
+            <a href="images/athletes/athletes-dental-tips.jpg" target="_blank" rel="noopener">Dental care tips</a></p>
         </div>
       </div>
 
       <div class="strand-card">
         <div class="strand-number">Strand 3</div>
-        <img class="strand-logo" src="images/news/sweetwise-logo.png" alt="SWEETWISE project logo">
+        <img class="strand-logo wide" src="images/strands/sweetwise-logo-full.png" alt="SWEETWISE: smarter sugar reduction">
         <h3>SWEETWISE: Reducing Sugar in Infant Foods</h3>
         <p>A DAFM-funded consortium across TCD, UCD and TU Dublin addressing the high free sugar content of commercially available complementary foods for infants in Ireland.</p>
         <span class="funder">DAFM funded &mdash; €1.3M consortium</span>
@@ -723,6 +731,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 4</div>
+        <img class="strand-logo" src="images/strands/strand-trajectories.svg" alt="">
         <h3>Oral Health Trajectories in Children and Young People</h3>
         <p>Using longitudinal data from the Growing Up in Ireland study, this strand examines how oral health behaviours and outcomes develop from early childhood through adolescence.</p>
         <span class="funder">Trinity Research Doctorate Award 2026</span>
@@ -741,6 +750,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 5</div>
+        <img class="strand-logo" src="images/strands/strand-intestinal-failure.svg" alt="">
         <h3>Oral Health and Infection Risk in Intestinal Failure</h3>
         <p>A cross-sectional study at the St James's Hospital national intestinal failure referral centre found untreated dental caries in 72% of patients and unexpectedly high oral MRSA colonisation (17%).</p>
         <span class="funder">DDUH funded</span>
@@ -758,6 +768,7 @@
 
       <div class="strand-card">
         <div class="strand-number">Strand 6</div>
+        <img class="strand-logo" src="images/strands/strand-education.svg" alt="">
         <h3>Education and Diet Assessment Methodology</h3>
         <p>A new nutrition curriculum at DDUH trains 180+ dental students per year in dietary assessment using digital tools, from peer diet workshops to OSCE-assessed case portfolios.</p>
         <span class="funder">DDUH funded</span>
